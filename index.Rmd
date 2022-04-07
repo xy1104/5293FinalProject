@@ -1,6 +1,6 @@
 --- 
 title: "Movie (IMDb and Douban)"
-author: "Long Lin & Shiang XuanYuan"
+author: "Long Lin (ll3340) & Shiang XuanYuan (sx2292）"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
