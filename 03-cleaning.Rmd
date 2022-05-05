@@ -10,3 +10,6 @@ we use the link to get the top 700 movies in the IMDB. First, we analyze the web
 For Douban (China movies website):
 we find a blogger that will update the list of movies timely, who divides the movies into three categories, high, median, low, the standard is the starring is greater than 8.0, and the number of viewers is at least 2000 people.
 First, we analyze the website to determine which data we want. And then we use python to retrieve data. Since we retrieve from a China website, during the loading, we also did the translation by `googltrans` package, even though it might not be accurate as we expected. Finally, we save data into three csv files, we will combine these three file in the analysis part.
+
+The codes for retrieving data from both websites and the relative csv files, you could find in the following link:
+https://github.com/LL07-bit/93-Projects
