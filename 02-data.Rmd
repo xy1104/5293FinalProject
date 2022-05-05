@@ -1,6 +1,6 @@
 # Data sources
 
-## Data source:
+## Data source
 We will retrieve data from websites IMDb (America)and douban (China). The data for this report comes from the film data resources.
 Grab and visual analysis of any movie short reviews (hits) as well as their scores from the websites IMDb (America)and douban (China). The data will contain movie IDs, genre, popularity, runtime, vote and other informations. We will do the Data Cleaning first.
 
@@ -43,7 +43,7 @@ str(movie_IMDB)
 summary(movie_IMDB)
 ```
 
-### douban high views
+### Douban high views
 *Top five rows for a brief view on douban high view dataset*
 ```{r}
 # douban high
@@ -71,7 +71,7 @@ str(movie_high)
 summary(movie_high)
 ```
 
-### douban median views
+### Douban median views
 *Top five rows for a brief view on douban median view dataset*
 ```{r}
 # douban median
@@ -99,7 +99,7 @@ str(movie_median)
 summary(movie_median)
 ```
 
-### douban low views
+### Douban low views
 *Top five rows for a brief view on douban low view dataset*
 ```{r}
 # douban low
@@ -127,7 +127,7 @@ str(movie_low)
 summary(movie_low)
 ```
 
-## Issues \
+## Issues 
 1. One movie would have several movie genres, it would cause over-estimating. \
 2. For China website, since we do the translation, there would cause some misunderstandings. \
 3. Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems. \

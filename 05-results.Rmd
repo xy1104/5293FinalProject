@@ -1,10 +1,13 @@
 # Results
 
+## The Question what We interested
+
 1. Does the rating of a movie correlate with the number of people watching or reviewing it? (The more people review and rate these movies, the more popular they are, the higher the rating they receive?) \
 
-2. How have film genres changed over time? \
+2. Do movie ratings differ significantly on different movie sites? \
 
-3. Do movie ratings differ significantly on different movie sites? \
+3. How have film genres changed over time? \
+
 
 ```{r}
 library(tidyverse)
@@ -76,6 +79,16 @@ movie_DB_genre <- movie_douban %>%
   separate(Type, c("genre_1", "genre_2", "genre_3")) %>%
   pivot_longer(genre_1:genre_3, names_to = "genre_order", values_to = "genre_i") %>%
   drop_na() %>%
+  filter(genre_i != "Fiction",
+         genre_i != "And",
+         genre_i != "Sex",
+         genre_i != "Fi") %>%
+  mutate(genre_i=ifelse(genre_i=="Gay","Same-Sex",genre_i),
+         genre_i=ifelse(genre_i=="Same","Same-Sex",genre_i),
+         genre_i=ifelse(genre_i=="Costumes","Costume",genre_i),
+         genre_i=ifelse(genre_i=="West","Western",genre_i),
+         genre_i=ifelse(genre_i=="Erotic","Erotica",genre_i),
+         genre_i=ifelse(genre_i=="Science","Sci",genre_i)) %>%
   group_by(genre_i) %>%
   summarise(total_counts = n()) %>%
   arrange(-total_counts) %>%
@@ -100,8 +113,138 @@ From this vertical histogram on Comparison of the Number of Films in Each Genre 
 **1. Drama is the most popular genre on both websites from 1920 to 2020.** \
 **2. Comedy, Crime, and Action are also popular and ranked in the top five.** \
 **3. Romance has higher quantities on Douban, while Adventure has higher quantities on IMDB. Therefore, users of Douban prefer Romance than  Adventure with high probabilities; users of IMDB prefer Adventure than  Romance more likely.** \
+**4. The genres in Douban are more than in IMDB, the reason might be the misunderstanding caused by translation.** \
+
+##  Genres and Duration (Cleveland dot plot)
+### IMDB
+*IMDB: the average length of movie for each genre*
+```{r}
+IMDB_duration_split <-movie_IMDB_split_mutirows%>%
+  separate(duration, c("duration", "min unit"))%>%
+  drop_na()
+
+IMDB_genre_duration <- IMDB_duration_split %>%
+  group_by(genre_i) %>%
+  drop_na() %>%
+  mutate(mean_duration = mean(as.numeric(duration))) %>%
+  select(genre_i,mean_duration) %>%
+  unique()
+```
+
+```{r}
+# make the Cleveland dot plot
+g4 <- IMDB_genre_duration %>%
+  ggplot(aes(x = mean_duration , y = fct_reorder(genre_i, mean_duration))) +
+  geom_point() +
+  #facet_grid(~ mean_duration)+
+  labs(
+    title="Mean Duration Density for Each Genre (IMDB)",
+    x = "Mean Duration",
+    y = "Genre"
+  )
+
+g4
+```
+
+As the above Cleveland dot plot shows, we derived that: \
+1. Duration and subject matter are somewhat correlated, and movies with short duration have both high and low scores. Movies with an average length of more than 140 minutes basically get a score of 7 or more to enter the top 700 categories. These movies are mainly classified as war movies and historical movies, and they need to add a longer time to narrate the politics, economy, culture, social customs, historical background, etc. of the time. \
+2. According to our 5.1.1 IMDB section, the top five most popular movies are Drama, Adventure, Action, Comedy, and Crime, and their lengths are basically in the range of 125-130 minutes, except for comedy which is 110 minutes on average, but also very close to the range of 125-130 minutes. 
+3. We can infer that this is due to a longer time is likely to lead to the loss of audience attention, the film makers in order to maximize the benefits and not affect the reputation will generally be set at about 120 minutes.
+
+### Douban
+*Douban: the average length of movie for each genre*
+```{r}
+movie_DB_G <- movie_douban %>%
+  separate(Type, c("genre_1", "genre_2", "genre_3")) %>%
+  pivot_longer(genre_1:genre_3, names_to = "genre_order", values_to = "genre_i") %>%
+  drop_na() %>%
+  filter(genre_i != "Fiction",
+         genre_i != "And",
+         genre_i != "Sex") %>%
+  filter(genre_i != "Fi") %>%
+  mutate(genre_i=ifelse(genre_i=="Gay","Same-Sex",genre_i),
+         genre_i=ifelse(genre_i=="Same","Same-Sex",genre_i),
+         genre_i=ifelse(genre_i=="Costumes","Costume",genre_i),
+         genre_i=ifelse(genre_i=="West","Western",genre_i),
+         genre_i=ifelse(genre_i=="Erotic","Erotica",genre_i),
+         genre_i=ifelse(genre_i=="Science","Sci",genre_i)) %>%
+  group_by(genre_i) %>%
+  mutate (mean_duration = mean(Duration)) %>%
+  unique()
+
+movie_DB_GD = movie_DB_G %>%
+  select(genre_i,mean_duration)
+movie_DB_GD
+```
+
+```{r}
+movie_DB_GD %>%
+  ggplot(aes(x = mean_duration, y = fct_reorder(genre_i, mean_duration))) +
+  geom_point()+
+  labs(
+    x = "The Average Length of each Genre of Movie",
+    y = "Genre",
+    title = "Mean Duration Density for Each Genre (Douban)"
+  )
+```
+
+From this Cleveland dot plot, we could observe that:
+1. Notice that there could exist miss-classification or over-classification due to the translation.
+2. The popular movie genres, like Drama, Comedy, Romance, Crime, and Action (top 5 genres in Douban, 5.1.2), would take the appropriate time length. This would be a reason why these genres would be popular for public.
+3. There does exist a relation between duration and genre. More documentary, the movies take more time, which is very intuition.
 
 
+From both websites, the plots have some similarities, such that war movies and historical movies, and they need to add a longer time to narrate the politics, economy, culture, social customs, historical background, etc.
+
+Then we are wondering whether there exists a relationship between score and duration.
+
+
+## Score With Duration
+### IMDB
+```{r}
+IMDB_rank_duration <-movie_IMDB_split_mutirows%>%
+  separate(duration, c("duration", "min unit"))%>%
+  drop_na()%>%
+  mutate(Duration = as.numeric(duration))
+
+
+IMDB_rank_duration%>%
+  ggplot(aes(x = Duration, y = rating)) +
+  geom_point(color="grey60") +
+  stat_smooth(method = "lm",color = "red",size =1, se=FALSE) + 
+  labs(
+    title="Correlation of Duration and Ratings (IMDB)",
+    x = "Duration",
+    y = "Ratings"
+  )
+```
+
+From the above scatter plot with a linear line, we can deduce that: \
+1. Duration and IMDB score are correlated. \
+2. Short movies (Duration less than 150 minutes) have both high and low scores. \
+3. Movies longer than 160 minutes basically get a score of 7 or more, and the two longest movies even get a high score of 7.5 to 8 nearly. \ 
+4. Most of the high scoring movies on IMDB are concentrated within 100-180 minutes. \  
+
+
+### Douban
+```{r}
+movie_DB_G%>%
+  ggplot(aes(x = Duration, y = Rank)) +
+  geom_point(color="grey60") +
+  stat_smooth(method = "lm",color = "red",size =1, se=FALSE)+
+  labs(
+    title="Correlation of Duration and Ratings (Douban)",
+    x = "Duration",
+    y = "Ratings"
+  )
+  
+```
+
+From the above scatter plot with a linear line, we can deduce that: \
+1. As scores are in the range [8,9], the duration of these movies is around 100 mins-140 mins.
+2. For these movies whose rating is greater than 7, the duration is very vary. The highest rating has length around 150 min. However, the time exceed 250 min would have average score around 9 points.
+
+Rich story lines and long stories may also be an easy way to affect the audience, with the properly duration.
 
 
 ## Score and Reviewers
@@ -180,9 +323,10 @@ The above two plots on Comparison of ratings and votes from 1920 to 2022 for bot
 1. From 1920s to early 1960s, the number of movie viewers was low, but the ratings were generally high. \
 2.From 1960s to 1990s, the number of viewers began to increase, but the ratings were slightly mediocre. \
 3. From 1990s to this year, the number of movie viewers continued to rise significantly, but at the same time the movie ratings also had a gradual upward trend. \
- 
 
-## Histogram of The Combination with IMDB and Douiban
+We also interested in the relationship between IMDB and Douban. Thus, we tried to explore the combination of these two datasets.
+ 
+## Histogram of The Combination with IMDB and Douban
 ```{r}
 #seq(0,10)
 ```
@@ -221,4 +365,91 @@ As plot the density histograms of these two datasets, we could observe that: \
 2. The size of high rating in Douban is large than IMDB, more movies are located in the range [8.5,10]. \
 
 **Remember, our dataset only contains the popular movies or the movies which have rating > 7, so if the dataset is large enough, the distribution of them could be more convictive.**  \
+
+## Significant difference: Scatter plot
+Since the size of datasets are not same, we find the same movies contained in both dataset. The scatter plot would give a more intuitional result. X-axis is rating from Douban (doubanR), Y-axis is rating from IMDB (imdbR), the short blue is the regression line between them and abline(black straight line). Above black line, doubanR < imdbR, and below black line, doubanR > imdbR. 
+```{r}
+set.seed(0)
+
+
+names = as.vector(intersect(movie_douban$Name,movie_IMDB$movie_title))
+#length(names)
+db=tibble(doubanR=movie_douban[which(movie_douban$Name %in% names, arr.ind=TRUE),]$Rank,
+            name=movie_douban[which(movie_douban$Name %in% names, arr.ind=TRUE),]$Name)
+#db
+imdb=tibble(imdbR=movie_IMDB[which(movie_IMDB$movie_title %in% names, arr.ind=TRUE),]$rating,
+            name=movie_IMDB[which(movie_IMDB$movie_title %in% names, arr.ind=TRUE),]$movie_title)
+#imdb
+
+combo =left_join(imdb,db) 
+#combo
+scatter <- ggplot( data=combo,
+              aes(x = doubanR, 
+                  y = imdbR,
+                  label = name))+
+  geom_point(color="firebrick", alpha=0.5) +
+  geom_abline() +
+  stat_smooth(method = "lm",se=FALSE)+
+  xlim(7,10) +
+  ylim(7,10)+
+  labs(
+    title = "Rating in IMDB and Douban"
+  )
+
+ggplotly(scatter)
+```
+
+**Interactive plot instructions** \
+*a. Move your mouse to each points will show out the name of movie, and its rating on both IMDB and Douban* \
+*b. Move your mouse on the blue line will tell you the position on the doubanR-imdbR coordinate within the range exists data points*
+
+**Infer** \
+From this interactive plot, you could see the details by moving mouse over the point, we could find that: \
+1. There exists a linear relationship between rating of Douban and rating of IMDB Usually, if one rating is high, the other would also have a high rating. Hence, even rating is a very personal thing, however, with the large amount users of Douban and IMDB, the popularity of rating is similar, no matter in CHina or in America. \
+2. Since our data only contain the rating > 7, thus, for these high rating movies, the Douban always has a higher score than IMDB. This is because the scoring mechanism is different，\
+  * IMDB: 10 stars \
+  * Douban: 5 stars \
+for a good movie, it is hard to give 10/10, 8/10 maybe already consider as a high score. On the other hand, 4/5, or 5/5 could be easy on Douban.
+
+## Significant difference: Percentile plot
+To reduce the effect of scoring mechanism, we use percentile rank (the below interactive plot), thus we rank movies by IMDB and Douban respectively, the highest rating is 100, and the lowest is 0, we redraw the plor. The points located between two grey lines (the rank difference is less than 20%) can be regarded as having a small score difference between IMDB and Douban.
+
+```{r}
+combo1 = combo %>%
+  arrange(imdbR) %>%
+  mutate(imdbP = row_number(),
+         imdbPR = round(imdbP/253 *100))%>%
+  arrange(doubanR) %>%
+  mutate(doubanP = row_number(),
+         doubanPR = round(doubanP/253*100))
+#combo1
+percentile <- ggplot( data=combo1,
+              aes(x = doubanPR, 
+                  y = imdbPR,
+                  label = name))+
+  geom_point(color="lightblue") +
+  geom_abline() +
+  geom_abline(intercept = 20, alpha = 0.5) +
+  geom_abline(intercept = -20,alpha = 0.5) +
+  stat_smooth(method = "lm",se=FALSE)+
+  xlim(0,100)+
+  ylim(0,100)+
+  labs(
+    title = "Rating in IMDB and Douban(percentile rank)"
+  )
+
+ggplotly(percentile)
+```
+
+**Interactive plot instructions** \
+*a. Move your mouse to each points will show out the name of movie, and its percentile rank on both IMDB and Douban* \
+*b. Move your mouse on the blue line will tell you the position on the doubanR-imdbR coordinate within the range exists data points* \
+*c. Move your mouse on the grey lines will tell you its slope and intercept.*
+
+
+**Infer** \
+We could observe that (you could see the details by moving mouse over the point): \
+1. The positive relation still exists, the regression line changes slightly. \
+2. However, from the regression lines, the rating on two website are similar, there still have some movies, above the top grey line and below the bottom grey line, which have a big difference between two websites, which may cause by the culture, regulations, or other reasons.
+
 

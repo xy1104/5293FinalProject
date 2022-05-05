@@ -1,6 +1,6 @@
 # Missing values
 
-## movie data from IMDB
+## Movie data from IMDB
 ```{r}
 library(tidyverse)
 library(redav)
