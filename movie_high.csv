@@ -1,0 +1,590 @@
+﻿,Name,Type,Duration,Year,Director,Actor,Language,Reviews,Rank,Country,Century
+0, The Shawshank Redemption,Crime / Drama,142,1994,Frank Darabont,Tim Robbins / Morgan Freeman / Bob Gunton,English,2610384,9.7,USA,20.9
+1,Farewell My Concubine,Drama / Romance / Gay,171,1993,Chen Kaige,Leslie Cheung / Zhang Fengyi / Gong Li,Mandarin,1938287,9.6,Mainland China/Hong Kong,20.9
+2, Witness for the Prosecution,Drama / Crime / Mystery,116,1957,Billy Wilder,Tyrone Power / Marlene Dietrich / Charles Laughton,English,456535,9.6,USA,20.5
+3, Forrest Gump,Drama / Romance,142,1994,Robert Zemeckis,Tom Hanks / Robin Wright / Gary Sinise,English,1962283,9.5,USA,20.9
+4, La vita è bella,Drama / Comedy / Romance / War,116,1997,Roberto Bernini,Roberto Benigni / Nicoletta Blaschi / Giorgio Cantarini,Italian,1205797,9.6,Italy,20.9
+5, Schindler's List,Drama / History / War,195,1993,Steven Spielberg,Liam Neeson / Ben Kingsley / Ralph Fiennes,English,1005746,9.6,USA,20.9
+6, Léon,Drama / Action / Crime,110,1994,Luc Besson,Jean Reno / Natalie Portman / Gary Oldman,English,2114681,9.4,France/USA,20.9
+7, 12 Angry Men,Drama,96,1957,Sidney Lumet,Henry Fonda / Martin Balsam / John Fiedler,English,431158,9.4,USA,20.5
+8, La meglio gioventù,Drama / Romance / Family,366,2003,Marco Tullio Giordana,Luigi Lo Cascio / Alessio Boni / Sonia Bergamasco,Italian,60949,9.4,Italy,21
+9, Inception,Drama / Science Fiction / Mystery / Adventure,148,2010,Christopher Nolan,Leonardo DiCaprio / Joseph Gordon-Levitt / Elliott Page,English,1881096,9.4,USA/UK,21.1
+10, The Godfather,Drama / Crime,175,1972,Francis Ford Coppola,Marlon Brando / Al Pacino / James Caan,English,865333,9.3,USA,20.7
+11, Gone with the Wind,Drama / History / Romance / War,238,1939,Victor Fleming / George Cook / Sam Wood,Vivien Leigh / Clark Gable / Olivia de Havilland,English,627259,9.3,USA,20.3
+12, City Lights,Comedy / Drama / Romance,87,1931,Charlie Chaplin,Charlie Chaplin / Virginia Cherry / Florence Lee,English,127810,9.3,USA,20.3
+13, The Last Emperor,Drama / Biography / History,163,1987,Bernardo Bertolucci,Zun Long / Chen Chong / Wu Junmei,English,773436,9.3,UK/Italy/Mainland China/France,20.8
+14, Underground,Drama / War,170,1995,Emile Kusturica,Mickey Manojlovic / Lazar Ristowski / Miriana Jokovic,Serbian,54771,9.2,Yugoslavia/France/Germany/Bulgaria/Czech/Hungary/UK/US,20.9
+15, Le trou,Crime / Drama / Thriller,132,1960,Jacques Baker,"Mark Michel, Gene Keeletti, Philippe Leroy",French,44894,9.2,France/Italy,20.6
+16, La leggenda del pianista sull'oceano,Drama / Music,165,1998,Giuseppe Tonadore,Tim Roth / Pruitt Taylor Vince / Bill Nunn,English,1529773,9.3,Italy,20.9
+17, 3 Idiots,Drama / Comedy / Romance / Song And Dance,171,2009,Rajkumar Hirani,Aamir Khan / Karina Kapoor / Madhavan,Hindi,1707246,9.2,India,21
+18, Les choristes,Drama / Comedy / Music,97,2004,Christopher Barrati,Jean-Baptiste Meunier / Gérard Junior / Francois Bellaion,French,1190153,9.3,France/Switzerland/Germany,21
+19, Fight Club,Drama / Action / Mystery / Thriller,139,1999,David Fincher,Edward Norton / Brad Pitt / Helena Bonham Carter,English,770637,9,USA/Germany/Italy,20.9
+20, Hachi: A Dog's Tale,Drama,93,2009,Lars Hallstrom,Richard Gere / Sarah Roemer / Joan Allen,English,1287289,9.4,USA/UK,21
+21, Nuovo Cinema Paradiso,Drama / Romance,155,1988,Giuseppe Tonadore,Philippe Noiret / Savatelli Casio / Jacques Behan,Italian,627076,9.2,Italy/France,20.8
+22," Lock, Stock and Two Smoking Barrels",Drama / Comedy / Crime,107,1998,Guy Ritchie,Jason Fleming / Dexter Fletcher / Nick Moran,English,545355,9.1,UK,20.9
+23,here comes the devil,Drama / Comedy,139,2000,Jiang Wen,Jiang Wen / Teruyuki Kagawa / Gocho,Mandarin,561460,9.3,Mainland China,21
+24, Children of Heaven,Drama / Children / Family,89,1997,Majid Majidi,Muhammad Amir Najib / Farah Amir Hashmian / Bahari Siddiqi,Persian,369790,9.2,Iran,20.9
+25, Seven samurai seven samurai,Action / Adventure / Drama,207,1954,Akira Kurosawa,Toshiro Mifune / Takashi Shimura / Keiko Tsushima,Japanese,175833,9.3,Japan,20.5
+26, Modern Times,Drama / Comedy / Romance,87,1936,Charlie Chaplin,Charlie Chaplin / Pauline Goldie / Henry Bergman,English,268203,9.3,USA,20.3
+27," Il buono, il brutto, il cattivo",Adventure / Western,162,1966,Sergio Leone,Clint Eastwood / Eli Wallach / Lee Van Cleef,Italian,108824,9.2,Italy/Spain/West Germany,20.6
+28, Tokyo Story,Drama / Family,136,1953,Yasujiro Ozu,Kasa Zhizhong / Hara Setsuko / Sugimura Haruko,Japanese,124894,9.1,Japan,20.5
+29, L'ours,Drama,94,1988,Jean-Jacques Arnault,Butter Bear / Youk the Bear / Cheki Kayo,English,25980,9.1,France/USA,20.8
+30, It's a Wonderful Life,Drama / Romance / Fantasy,130,1946,Frank Capra,James Stewart / Donna Reed / Lionel Barrymore,English,84211,9.3,USA,20.4
+31, teahouse,Drama / History,118,1982,Xie Tian,So it / Zheng Rong / Lantian Ye,Mandarin,99666,9.5,Mainland China,20.8
+32, The Kid,Drama / Comedy / Family,68,1921,Charlie Chaplin,Charlie Chaplin / Carl Miller / Edna Purviance,English,39348,9.2,USA,20.2
+33, Heaven Reply,Drama / Children,88,1992,Wang Junzheng,Shi Chen / Li Ding / Xiao Xiong,Mandarin,35026,9.1,Mainland China,20.9
+34, Heidi,Drama / Adventure / Family,111,2015,Alan Gaspenner,Anuk Steffen / Bruno Ganz / Quinlin Eggpie,Afrikaans,486022,9.3,Germany/Switzerland,21.1
+35, grief middle-aged grief middle-aged,Drama / Romance / Family,105,1949,mulberry arc,Shi Hui / Zhu Jiachen / Shen Yang,Mandarin,13040,9.3,Mainland China,20.4
+36, The silent hill The silent hill,Drama / History,176,1992,Wang Tong,Yang Guimei / Huang Pinyuan / Peng Chacha,Minnan Language,17022,9.2,China Taiwan,20.9
+37, Seppuku,Drama / Action / Mystery,133,1962,Kobayashi Masaki,Tatsuya Nakadai / Akira Ishihama / Shima Iwashita,Japanese,37248,9.4,Japan,20.6
+38, 3： The Lord of the Rings: The Return of the King,Drama / Action / Fantasy / Adventure,201,2003,Peter Jackson,Elijah Wood / Sean Astin / Viggo Mortensen,English,726175,9.3,USA/New Zealand,21
+39, One Flew Over the Cuckoo's Nest,Drama,133,1975,Milos Foreman,Jack Nicholson / Danny DeVito / Christopher Lloyd,English,506892,9.1,USA,20.7
+40, Intouchables,Drama / Comedy,112,2011,Olivier Nacash / Eric Toledano,"Francois Crucey, Omar Shee, Anna Leni",French,966814,9.3,France,21.1
+41, Das Leben der Anderen,Drama / Suspense,137,2006,Florian Henkel von Donnersmark,"Ulrich Mue, Martina Goldeck, Sebastian Koch",German,510761,9.2,Germany,21
+42, The Godfather: Part Ⅱ,Drama / Crime,202,1974,Francis Ford Coppola,Al Pacino / Robert Duvall / Diane Keaton,English,489768,9.2,USA,20.7
+43, Once Upon a Time in America,Crime / Drama,229,1984,Sergio Leone,Robert De Niro / James Woods / Elizabeth McGovern,English,374587,9.2,USA/Italy,20.8
+44, La grande vadrouille,Comedy / War,132,1966,Gerard Uri,Louis de Finays / Bouleville / Claudio Brook,French,226870,8.9,France/UK,20.6
+45, Following,Crime / Mystery / Thriller,69,1998,Christopher Nolan,Jeremy Theobald / Alex Ho / Lucy Russell,English,166366,8.9,UK,20.9
+46, love home,Drama / Family,80,2002,Li Tingxiang,Kim Yee-fun / Yoo Seung-ho / Tong Hyo-hee,Korean,81297,9.1,South Korea,21
+47, I love you,Drama / Romance,118,2011,Cho Changmin,Song Jae Ho / Lee Soon Jae / Yoon Soo Jung,Korean,150485,9.1,South Korea,21.1
+48, The Hachiko Story of the Faithful Dog,Drama,107,1987,Seijiro Kamiyama,Kei Yamamoto / Hisashi Igawa / Hairi Katagiri,Japanese,174532,9.2,Japan,20.8
+49, Babam ve Oğlum,Drama / Family,113,2005,Charn Ermark,Chedan Techendor / Fikret Cuskan / Humera,Turkish,18298,8.9,Turkey,21
+50, Le notti di Cabiria,Drama,110,1957,Federico Fellini,Julietta Massina / Francois Perrier / Franca Marchy,Italian,33511,9.1,Italy/France,20.5
+51, The Cure,Drama / Children,97,1995,Peter Horton,Brad Renfro / Joseph Mazzello / Annabella Sarah,English,17791,9.1,USA,20.9
+52, Titanic,Drama / Romance / Disaster,194,1997,James Cameron,Leonardo DiCaprio / Kate Winslet / Billy Zane,English,1922800,9.4,USA/Mexico/Australia/Canada,20.9
+53, Le fabuleux destin d'Amélie Poulain,Drama / Comedy / Romance,122,2001,Jean-Pierre Genet,Audrey Tautou / Matthew Cassowitz / Rufis,French,903157,8.7,France Germany,21
+54, Roman Holiday,Comedy / Drama / Romance,118,1953,William Wheeler,Audrey Hepburn / Gregory Peck / Eddie Albert,English,873961,9.1,USA,20.5
+55, The Truman Show,Drama / Science Fiction,103,1998,Peter Weir,Jim Carrey / Laura Linney / Ed Harris,English,1492773,9.3,USA,20.9
+56, The Sound of Music,Drama / Biography / Romance / Song And Dance,174,1965,Robert Wise,Julie Andrews / Christopher Plummer / Eleanor Parker,English,543656,9.1,USA,20.6
+57,The big sage of Journey to the West gets married,Comedy / Romance / Fantasy / Costume,95,1995,Liu Zhenwei,Stephen Chow / Wu Mengda / Zhu Yin,Cantonese,1396783,9.2,Hong Kong/Mainland China,20.9
+58, alive,Drama / History / Family,132,1994,Zhang Yimou,Ge You / Gong Li / Jiang Wu,Mandarin,746607,9.3,Mainland China/Hong Kong,20.9
+59, The Pianist,Drama / Biography / War / Music,150,2002,Roman Polanski,"Adrien Brody, Thomas Kretschmann, Emilia Fox",English,543239,9.2,UK/France/Poland/Germany,21
+60, Hated Matsuko's life hated Matsuko's life,Drama / Song And Dance,130,2006,Tetsuya Nakashima,Miki Nakatani / Eita Nagayama / Teruyuki Kagawa,Japanese,650656,8.9,Japan,21
+61, Cidade de Deus,Crime / Drama,130,2002,Fernando Merrills / Cadia Rand,Alessandre Rodriguez / Leandro Firmino / Philippe Hagensen,Portuguese,277124,9,Brazil/France,21
+62,YiYi,Drama / Romance / Family,173,2000,Yang Dechang,Wu Nianzhen / Li Kaili / Jin Yanling,Mandarin,332530,9.1,China Taiwan / Japan,21
+63, Singin' in the Rain,Comedy / Song And Dance / Romance,103,1952,Stanley Dornan / Gene Kelly,Gene Kelly / Donald O'Connor / Debbie Reynolds,English,194239,9.1,USA,20.5
+64, A Perfect World,Drama / Crime,138,1993,Clint Eastwood,Kevin Costner / Laura Dern / Clint Eastwood,English,276310,9.1,USA,20.9
+65, Stand by Me,Drama / Children / Adventure,89,1986,Rob Reiner,River Phoenix / Will Wheaton / Corey Feldman,English,100426,8.9,USA,20.8
+66, The Great Dictator,Comedy / Drama / War,125,1940,Charlie Chaplin,Charlie Chaplin / Pauline Goldie / Jack Oak,English,68541,9.2,USA,20.4
+67, Landscape in the fog,Drama,127,1988,Theo Angelopoulos,Michalis Chik / Tanya Paraiologo / Stratos Chutsoglu,Greek,37159,9,Greece/France/Italy,20.8
+68, Le silence de la mer,Drama / Romance / War,93,2004,Pierre Boutron,Julie Durham / Michel Galabrut / Thomas Jouart,French,78174,9.2,France/Belgium,21
+69, Rosso come il cielo,Drama,96,2006,Christino Burton,Francesco Campobasso / Luca Caporiti / Marco Cocci,Italian,32918,8.9,Italy,21
+70, La strada,Drama,108,1954,Federico Fellini,Anthony Quinn / Julietta Massina / Richard Basehardt,Italian,39298,8.9,Italy,20.5
+71, Krótki film o miłości,Drama / Romance,86,1988,Krzysztof Kieslowski,"Grazna Shapołowska, Olaf Lubashenko, Stefania Ivanska",Polish,24931,8.8,Poland,20.8
+72, Return,Drama / Family,105,2003,Andrei Sarkinsev,Vladimir Garin / Ivan Dublan Lavov / Konstantin Lavronenko,Russian,26106,8.6,Russia,21
+73, The Gold Rush,Comedy / Romance / Western / Adventure,95,1925,Charlie Chaplin,Charlie Chaplin / Mark Swan / Tom Murray,English,50078,9.2,USA,20.2
+74,English Nostalgia,Drama,125,1983,Andrei Tarkovsky,Oleg Jankowski / Erland Josephson / Domeziana Giordano,Italian,32258,9.1,USSR/Italy,20.8
+75, Das Boot,Drama / History / War / Adventure,149,1981,Wolfgang Petersen,Jurgen Prosnow / Herbert Grenemeier / Klaus Wennemann,German,37326,9.1,West Germany,20.8
+76, Mirror,Biography / Drama / History / War,108,1975,Andrei Tarkovsky,Margaret Terekhova / Inokenti Smoktunovsky / Oleg Jankovsky,Russian,29143,9,Soviet Union,20.7
+77,goddess,Drama,76,1934,Wu Yonggang,Ruan Lingyu / Li Keng / Zhang Zhizhi,No dialogue,27359,9.1,Mainland China,20.3
+78,Live greed,Drama,143,1952,Akira Kurosawa,Takashi Shimura / Shinichi Himori / Haruo Tanaka,Japanese,33334,9.2,Japan,20.5
+79,Let the bullets fly,Drama / Comedy / Action / Western,132,2010,Jiang Wen,Jiang Wen / Ge You / Chow Yun-Fat,Mandarin,1512658,8.9,Mainland China/Hong Kong,21.1
+80, The Pursuit of Happyness,Drama / Biography / Family,117,2006,Gabriele Muccino,Will Smith / Jaden Smith / Thandie Newton,English,1386506,9.2,USA,21
+81, Flipped,Drama / Comedy / Romance,90,2010,Rob Reiner,"Madeline Carroll, Callan McAuliffe, Rebecca De Mornay",English,1660991,9.1,USA,21.1
+82, Scent of a Woman,Drama,157,1992,Martin Brest,Al Pacino / Chris O'Donnell / James Rebhorn,English,789558,9.1,USA,20.9
+83,The Moonlight Treasure Box of Journey to the West The Moonlight Treasure Box of Journey to the West,Comedy / Romance / Fantasy / Costume,87,1995,Liu Zhenwei,Stephen Chow / Wu Mengda / Law Jiaying,Cantonese,1113797,9,Hong Kong/Mainland China,20.9
+84, Pulp Fiction,Drama / Comedy / Crime,154,1994,Quentin Tarantino,"John Travolta, Uma Thurman, Amanda Plummer",English,753566,8.9,USA,20.9
+85, A Beautiful Mind,Biography / Drama,135,2001,Ron Howard,Russell Crowe / Ed Harris / Jennifer Connelly,English,696441,9.1,USA,21
+86,1： The Lord of the Rings: The Fellowship of the Ring,Drama / Action / Fantasy / Adventure,179,2001,Peter Jackson,Elijah Wood / Sean Astin / Ian McLean,English,766341,9.1,New Zealand/USA,21
+87, Dead Poets Society,Drama,128,1989,Peter Weir,Robin Williams / Robert Sean Leonard / Ethan Hawke,English,637412,9.1,USA,20.8
+88,2： The Lord of the Rings: The Two Towers,Drama / Action / Fantasy / Adventure,180,2002,Peter Jackson,Elijah Wood / Sean Astin / Dominic Monaghan,English,677900,9.2,USA/New Zealand,21
+89,Sunshine Sisters Amoy 써니,Drama / Comedy,124,2011,Jiang Jiongzhe,Shim Eun Kyung / Min Hyo Rin / Kang So Ra,Korean,553319,8.8,South Korea,21.1
+90, Before Sunrise,Drama / Romance,101,1995,Richard Linklater,Ethan Hawke / Julie Delpy / Andrea Eckert,English,595737,8.8,USA/Austria/Switzerland,20.9
+91,Goodbye our Yochien,Drama,105,2011,Nobuo Mizuta,Ashida Aina / Mishima Hikaru / Hashimoto Tomoya,Japanese,109925,8.8,Japan,21.1
+92, Kikujiro's summer,Drama / Comedy,121,1999,Kitano Takeshi,Takeshi Kitano / Yusuke Sekiguchi / Kashiko Kishimoto,Japanese,532632,8.9,Japan,20.9
+93, Le grand bleu,Drama / Romance,132,1988,Luc Besson,Jean-Marc Barr / Jean Reno / Rosanne Arquette,French,137729,8.7,France/Italy,20.8
+94, Into the Wild,Adventure / Biography / Drama,148,2007,Sean Penn,Emile Hirsch / Marcia Gay Harden / William Hurt,English,203596,8.6,USA,21
+95, Warrior,Drama / Sports / Family,140,2011,Gavin O'Connor,Tom Hardy / Joel Edgerton / Nick Nolte,English,151269,8.9,USA,21.1
+96, Die Welle,Drama / Thriller,107,2008,Dennis Gansel,Jürgen Fogel / Frederick Law / Max Rehmet,German,251349,8.7,Germany,21
+97, Requiem for a Dream,Drama,102,2000,Darren Aronofsky,Ellen Burstyn / Jared Leto / Jennifer Connelly,English,182454,8.8,USA,21
+98, Temple Grandin,Drama / Biography,107,2010,Mick Jackson,Claire Danes / Julia Ormond / Catherine O'Hara,English,63133,8.9,USA,21.1
+99, Taare Zameen Par,Drama / Children / Family,165,2007,Aamir Khan,Dashiel Safari / Aamir Khan / Tanai Cheheda,Hindi,187700,8.9,India,21
+100, Dances with Wolves,Drama / Western / Adventure,181,1990,Kevin Costner,Kevin Costner / Mary MacDonald / Graham Greene,English,77024,8.9,USA / UK,20.9
+101, I Am Sam,Drama / Family,132,2001,Jessie Nelson,Sean Penn / Dakota Fanning / Michelle Pfeiffer,English,301524,9,USA,21
+102, Pink Floyd The Wall,Drama / Animation / Fantasy,95,1982,Alan Parker,Bob Geldof / Christine Hargreaves / James Laurenson,English,46736,8.8,UK,20.8
+103, my girlfriend,Children / Comedy,110,2003,Witcha Gojeu / Songyu Sumagonan / Nithiva Tharatun / Vithaya Tungyuyang / Edison Teslikarsen / Kongrit Chivimo,Charlie Renner / Hogarth Chihuagu / Charwin Jitsomboon,Thai,58217,8.6,Thailand,21
+104, Psycho,Mystery / Thriller / Horror,109,1960,Alfred Hitchcock,Anthony Perkins / Vera Miles / John Gavin,English,247869,9,USA,20.6
+105, Les quatre cents coups,Crime / Drama,99,1959,Francois Truffaut,Jean-Pierre Leaud / Claire Maurier / Albert Remy,French,97033,8.8,France,20.5
+106,2 The Gods Must Be Crazy II,Comedy,98,1989,Kami Uys,Li Su / Lena Farugia / Hans Strydom,English,54691,8.8,South Africa/Botswana,20.8
+107, Ladri di biciclette,Crime / Drama,89,1948,Vittorio Desica,Lamberto Majorani / Enzo Steola / Liana Carrell,Italian,86676,9.1,Italy,20.4
+108,Unmanned wisdom no one knows,Drama,141,2004,It's Hirokazu-eda,Yuya Yagira / Kitaura Ayu / Hiei Kimura,Japanese,281308,9.1,Japan,21
+109, Prayers for Bobby,Drama / Biography / Same Sex,90,2009,Russell Mukahi,Sigourney Weaver / Henry Czerny / Ryan Kelly,English,45774,8.9,USA,21
+110," Paris, Texas",Drama,145,1984,Wim Wenders,Harry Dean Stanton / Sam Berry / Bernhard Wiki,English,50523,8.6,West Germany/France/UK/US,20.8
+111,Unstoppable walking or walking,Drama / Family,115,2008,It's Hirokazu-eda,Hiro Abe / Yui Natsukawa / Yukiko Ehara,Japanese,249437,8.8,Japan,21
+112, On Golden Pond,Drama / Family,109,1982,Mark Redell,Katherine Hepburn / Henry Fonda / Jane Fonda,English,25076,8.8,UK/USA,20.8
+113, Le hérisson,Drama,100,2009,Mona Achache,Josian Balasco / Galance Le Guiemik / Ikawa Togo,French,128651,8.8,France/Italy,21
+114,Heavy rain is coming Пред дождот,Drama / War,113,1994,Mirko Manchevsky,Gregor Colin / Dzemail Maksut / Rabina Mittwiska,Macedonian,26094,8.7,Macedonia/France/UK,20.9
+115, In the Name of the Father,Biography / Drama,133,1993,Jim Sheridan,Daniel Day-Lewis / Pete Postlethwaite / John Lynch,English,35882,8.8,Ireland/UK/US,20.9
+116,Shadow warrior,Drama / History / War,179,1980,Akira Kurosawa,Tatsuya Nakadai / Tsutomu Yamazaki / Kenichi Hagiwara,Japanese,62508,9,Japan/US,20.8
+117,childhood memories,Drama / Biography / Family,137,1985,Hou Hsiao-hsien,You Anshun / Tian Feng / Mei Fang,Mandarin,49104,8.9,China Taiwan,20.8
+118, ALWAYS の,Drama / Family,133,2005,Takashi Yamazaki,Hidetaka Yoshioka / Shinichi Tsutsumi / Hiroko Yakushimaru,Japanese,36521,8.8,Japan,21
+119, An eternity and a day,Drama,127,1998,Theo Angelopoulos,Bruno Ganz / Isabella Renard / Fabrizio Bentivoglio,Greek,29695,9.1,France/Italy/Greece/Germany,20.9
+120,Independence Era Independence Era,Drama,125,1994,Yang Dechang,Chen Xiangqi / Wang Bosen / Deng Anning,Mandarin,34417,8.8,China Taiwan,20.9
+121,Examination of the Narayama Festival Examination of the Narayama Festival,Drama / Family,131,1983,Shohei Imamura,Ken Ogata / Sumiko Sakamoto / Souhei Sakata,Japanese,48184,9,Japan,20.8
+122, Fanny och Alexander,Drama,188,1982,Ingmar Bergman,Christina Adolfsson / Berger Astor / Penina Oway,Swedish,16814,8.7,France/Sweden/West Germany,20.8
+123, Casablanca,Drama / Romance / War,102,1942,Michael Curtiz,Humphrey Bogart / Ingrid Bergman / Paul Henred,English,204784,8.7,USA,20.4
+124,Lubinghua Lubinghua,Family / Drama,99,1989,Yang Liguo,Huang Kunxuan / Li Shuzhen / Zhang Ruizhu,Mandarin,15107,8.8,China Taiwan,20.8
+125,my september,Drama / Children,88,1990,Yin Li,Zhang Meng / Zhang Guoli / Tao Zeru,Mandarin,10153,8.8,Mainland China,20.9
+126,Turtles also fly,Drama / War,98,2004,Bachman Gobadi,Soran Ebrahim / Avaz Latif,Kurdish,8920,8.9,Iran/France/Iraq,21
+127, Picassos äventyr,Comedy,115,1978,Teddy Danielson,Josta Ekman / Hans Alfredsen / Margarita Crocker,English,5490,8.7,Sweden,20.7
+128, Persona,Drama / Thriller,85,1966,Ingmar Bergman,Beebe Anderson / Liv Ullman / Margarita Crocker,Swedish,26054,8.8,Sweden,20.6
+129, Viskningar och rop,Drama / Romance,91,1972,Ingmar Bergman,Harriet Anderson / Carly Sylvain / Ingrid Thulin,Swedish,25219,8.7,Sweden,20.7
+130, Metropolis,Drama / Science Fiction,153,1927,Fritz Lang,Alfred Abel / Gustav Frisch / Bridget Helm,No dialogue,39912,9.1,Germany,20.2
+131,Burnt by the Sun,Drama / History,146,1994,Nikita Mikhalkov,Oleg Menshikov / Nikita Mikhalkov / Ingeborg Dakunnet,Russian,17912,8.6,Russia/France,20.9
+132, Fly Away Home,Adventure / Drama / Family,107,1996,Carol Ballard,Anna Paquin / Jeff Daniels / Dana Delany,English,47247,8.9,USA,20.9
+133, Avatar,Action / Sci-Fi / Adventure,162,2009,James Cameron,Sam Worthington / Zoe Saldana / Sigourney Weaver,English,1259760,8.8,USA,21
+134, Love Letter,Drama / Romance,117,1995,Shunji Iwai,Nakayama Miho / Toyokawa Etsuji / Sakai Miki,Japanese,974502,8.9,Japan,20.9
+135, Edward Scissorhands,Drama / Fantasy / Romance,105,1990,Tim Burton,Johnny Depp / Winona Ryder / Diane West,English,964626,8.7,USA,20.9
+136, Braveheart,Action / Biography / Drama / History / War,178,1995,Mel Gibson,Mel Gibson / Sophie Marceau / Brian Cox,English,524090,8.9,USA,20.9
+137, Se7en,Drama / Crime / Mystery / Thriller,127,1995,David Fincher,Morgan Freeman / Brad Pitt / Kevin Spacey,English,867672,8.8,USA,20.9
+138,Okuribito,Drama,130,2008,Yojiro Asada,Masahiro Benmu / Ryoko Hirosue / Tsuru Yamazaki,Japanese,600398,8.9,Japan,21
+139, Big Fish,Drama / Family / Fantasy / Adventure,125,2003,Tim Burton,Ewan McGregor / Albert Finney / Billy Crudup,English,521120,8.8,USA,21
+140,Infernal Affairs Infernal Affairs,Drama / Crime / Thriller,101,2002,Lau Wai Keung / Mak Siu Fai,Andy Lau / Tony Leung / Huang Qiusheng,Cantonese,1205965,9.3,Hong Kong,21
+141,The thief of the years The thief of the years,Drama / Family,117,2010,Luo Qirui,Wu Junru / Ren Dahua / Zhong Shaotu,Cantonese,537386,8.7,Hong Kong/Mainland China,21.1
+142,sunny day,Drama / Romance,134,1994,Jiang Wen,Summer Rain / Tranquility / Tao Hong,Mandarin,558641,8.8,Mainland China/Hong Kong,20.9
+143,The Legend of the Condor Heroes: The East and the West,Comedy / Fantasy / Martial Arts / Costumes,113,1993,Liu Zhenwei,Tony Leung / Brigitte Lin / Leslie Cheung,Cantonese,579201,8.7,Hong Kong,20.9
+144, The Prestige,Drama / Mystery / Thriller,130,2006,Christopher Nolan,Hugh Jackman / Christian Bale / Michael Caine,English,778776,8.9,UK / USA,21
+145, Legends of the Fall,Drama / Romance / War / Western,133,1994,Edward Zwick,Brad Pitt / Anthony Hopkins / Aidan Quinn,English,263036,8.8,USA,20.9
+146,Confession,Drama / Suspense,106,2010,Tetsuya Nakashima,Takako Matsu / Masaki Okada / Yoshino Kimura,Japanese,622564,8.8,Japan,21.1
+147,： The Dark Knight,Drama / Action / Science Fiction / Crime / Thriller,152,2008,Christopher Nolan,Christian Bale / Heath Ledger / Aaron Eckhart,English,959138,9.2,USA/UK,21
+148, The Sixth Sense,Drama / Mystery / Thriller,107,1999,M. Knight Shyamalan,Bruce Willis / Haley Joel Osment / Toni Collette,English,502592,8.9,USA,20.9
+149, The Boat That Rocked,Drama / Comedy / Music,116,2009,Richard Curtis,Bill Nighy / Kenneth Branagh / Philip Seymour Hoffman,English,226357,8.6,UK/Germany/France,21
+150, Before Sunset,Drama / Romance,80,2004,Richard Linklater,Ethan Hawke / Julie Delpy / Vernon Dobchev,English,490959,8.9,USA/France,21
+151, Waterloo Bridge,Drama / Romance / War,108,1940,Melvin Leroy,Vivien Leigh / Robert Taylor / Russel Watson,English,251706,8.8,USA,20.4
+152,Swallowtail Butterfly Swallowtail,Crime / Drama,148,1996,Shunji Iwai,Chara / Ayumi Ito / Hiroshi Mikami,Japanese,151596,8.7,Japan,20.9
+153,3 The Godfather: Part III,Drama / Crime,170,1990,Francis Ford Coppola,Al Pacino / Diane Keaton / Talia Shire,English,329881,9,USA,20.9
+154,Rashomon Rashomon,Drama / Crime / Mystery,88,1950,Akira Kurosawa,Toshiro Mifune / Kyomachiko / Senya,Japanese,281957,8.8,Japan,20.5
+155,diet men and women diet men and women,Drama / Family,124,1994,Ang Lee,Lang Xiong / Yang Guimei / Wu Qianlian,Mandarin,550971,9.2,China Taiwan/USA,20.9
+156, Le petit Nicolas,Children / Comedy / Family,92,2009,Laurent Tirard,Maxime Godard / Valerie Lemesier / Cade Maillard,French,127653,8.6,France/Belgium,21
+157,Guling Street Teenage Murder Case Guling Street Teenage Murder Case,Drama / Crime,237,1991,Yang Dechang,Zhang Zhen / Yang Jingyi / Zhang Guozhu,Mandarin,251772,8.9,China Taiwan,20.9
+158, The Gods Must Be Crazy,Comedy,109,1980,Kami Uys,Maris Wells / Sandra Prinsloo / Li Su,English,132455,8.7,South Africa/Botswana,20.8
+159, Central do Brasil,Drama,110,1998,Walter Sellers,Ferland Montenago / Marilia Pera / Venezia Di Oliveira,Portuguese,98707,8.7,Brazil/France,20.9
+160, Hotel Rwanda,Drama / Biography / History / War,121,2004,Terry George,Don Cheadle / Sophie Okonedo / Joaquin Phoenix,English,294376,8.9,UK/South Africa/Italy/US,21
+161, Amadeus,Drama / Biography / History / Music,160,1984,Milos Foreman,F. Murray Abraham / Tom Husk / Elizabeth Berridge,English,91425,8.7,USA/France/Czechoslovakia/Italy,20.8
+162, Good Bye Lenin!,Drama / Comedy,121,2003,Wolfgang Baker,Daniel Bruch / Katrin Sass / Chulpan Khamatova,German,78384,8.8,Germany,21
+163, Everybody's Fine,Drama / Family,99,2009,Kirk Jones,Robert De Niro / Kate Beckinsale / Sam Rockwell,English,89633,8.6,USA,21
+164, The Boy in the Striped Pajamas,Drama / War,94,2008,Mark Herman,Asa Butterfield / Vera Farmiga / Carla Hogan,English,492929,9.2,UK/USA,21
+165, Gloomy Sunday - Ein Lied von Liebe und Tod,Love / Drama,112,1999,Nov Schuber,"Erica Morusan, Joachim Kroll, Stefano Dionis",German,75926,8.6,Germany/Hungary,20.9
+166, Trois couleurs: Rouge,Drama / Romance / Suspense,99,1994,Krzysztof Kieslowski,Jérène Jacob / Jean-Louis Tradignan / Frederique Feder,French,106864,8.7,France/Poland/Switzerland,20.9
+167, Billy Elliot,Drama / Children / Song And Dance / Family,110,2000,Stephen Dedley,Jamie Bell / Julie Waters / Jamie Delavan,English,95923,8.8,UK/France,21
+168, What's Eating Gilbert Grape,Drama / Romance / Family,118,1993,Lars Hallstrom,Johnny Depp / Leonardo DiCaprio / Juliette Lewis,English,132991,8.6,USA,20.9
+169, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,Drama / Comedy / War,95,1964,Stanley Kubrick,Peter Sellers / George C. Scott / Sterling Hayden,English,84300,8.8,USA / UK,20.6
+170,Furong Town,Drama / Romance,164,1987,Xie Jin,Liu Xiaoqing / Jiang Wen / Zheng Zaishi,Mandarin,106627,9.2,Mainland China,20.8
+171, Desert Flower,Drama / Biography,128,2009,Shirley Homan,Soyana Omar-Schiego / Idriss Abdillahi Houfaneh / Awa Saïd Darar,English,99499,8.8,UK/Germany/Austria/France,21
+172, Dog Day Afternoon,Drama / Comedy / Crime,125,1975,Sidney Lumet,Al Pacino / John Keizer / Charles Durn,English,81017,8.7,USA,20.7
+173, Smultronstället,Drama / Romance / Family,91,1957,Ingmar Bergman,Victor Sjostrom / Bibi Andersson / Ingrid Thulin,Swedish,57117,8.8,Sweden,20.5
+174,Old events in the south of the city,Drama,88,1983,Wu Yigong,Shen Jie / Zhang Fengyi / Zhang Min,Mandarin,102561,9.1,Mainland China,20.8
+175,Office Stories Служебный Роман,Drama / Comedy / Romance,159,1977,Elidar Ryazanov,Alyssa Freindlich / Andrei Miakhkov / Svetlana Nemeeva,Russian,18905,8.8,Soviet Union,20.7
+176, JFK,Biography / Drama / History / Mystery / Thriller,189,1991,Oliver Stone,Kevin Costner / Sissy Spacek / Tommy Lee Jones,English,32478,8.8,USA/France,20.9
+177,The story of a love dog-like miracle Mari and a puppy,Drama / Children,124,2007,Ryuichi Inomata,Eiichiro Funakoshi / Akiko Matsumoto / Ryohei Sakita,Japanese,11746,8.7,Japan,21
+178,bridge Мост,Action / War,105,1969,Khayrudin Kvarvac,"Velimir Bata Zivojnovic, Slobodan Perovic, Boris Dvornik",Serbo-Croatian,20945,8.8,Yugoslavia,20.6
+179, Il postino,Biography / Comedy / Drama / Romance,108,1994,Michael Ledford / Massimo Troisi,"Philippe Noire, Massimo Troisi, Maria Grazia Cuccinotta",Italian,19415,8.8,Italy/France/Belgium,20.9
+180, C'era una volta il West,Drama / Crime / Western,175,1968,Sergio Leone,Henry Fonda / Charles Bronson / Claudia Cardina,English,46758,8.7,Italy/USA,20.6
+181,The color of heaven رنگ خدا,Drama / Family,90,1999,Majid Majidi,Hussein Mahagu / Mohsen Ramezani / Salameh Feyzi,Persian,12370,8.7,Iran,20.9
+182,Autumn saury taste Autumn saury taste,Drama / Family,113,1962,Yasujiro Ozu,Chishu Ryu / Shima Iwashita / Mariko Okada,Japanese,39815,8.7,Japan,20.6
+183,Thirteenth Nankai,Drama / Biography / Romance,110,1997,Gao Zhisen,Xie Junhao / Pan Canliang / Su Yuhua,Cantonese,56300,9.3,Hong Kong,20.9
+184, The Straight Story,Drama / Biography,112,1999,David Lynch,Sissy Spacek / Jane Galloway Heitz / Joseph A. Carpenter,English,27323,8.5,France/UK/US,20.9
+185, Butch Cassidy and the Sundance Kid,Adventure / Crime / Drama / Western,110,1969,George Roy Hill,Paul Newman / Robert Redford / Katherine Ross,English,18457,8.6,USA,20.6
+186, Amy,Drama / Music,104,1997,Nadia Tas,"Elana De Roma, Rachel Griffith, Ben Mendelsohn",English,5919,8.6,Australia,20.9
+187, La dolce vita,Drama / Comedy,174,1960,Federico Fellini,"Marcelo Mastroianni, Anita Eckberg, Anuk Aimee",Italian,26471,8.6,Italy/France,20.6
+188, Les misérables,Drama,210,1958,Jean-Paul Lechanois,Jean Gabon / Boulleville / Fernand Ledoux,French,7732,8.8,France/Italy/East Germany,20.5
+189, The Butterfly Effect,Drama / Mystery / Science Fiction / Thriller,113,2004,Eric Brace / J. McKee Gruber,Ashton Kutcher / Melora Walters / Amy Smart,English,848420,8.8,USA / Canada,21
+190, The Silence of the Lambs,Drama / Crime / Thriller,118,1991,Jonathan Demme,Jodie Foster / Anthony Hopkins / Scott Glenn,English,793270,8.9,USA,20.9
+191,chongqing forest,Drama / Romance,102,1994,Wong Kar Wai,Brigitte Lin / Takeshi Kaneshiro / Tony Leung,Cantonese,724917,8.8,Hong Kong,20.9
+192, The Matrix,Action / Sci-Fi,136,1999,Lily Wachowski / Lana Wachowski,Keanu Reeves / Lawrence Fishburne / Carrie-Anne Moss,English,763157,9.1,USA,20.9
+193,sweet,Drama / Romance,118,1996,Chen Kexin,Dawn / Maggie Cheung / Yang Gongru,Cantonese,473543,8.9,Hong Kong,20.9
+194, Good Will Hunting,Drama,126,1997,Gus Van Sant,Matt Damon / Robin Williams / Ben Affleck,English,641307,8.9,USA,20.9
+195, Saving Private Ryan,Drama / War,169,1998,Steven Spielberg,Tom Hanks / Tom Sizemore / Edward Burns,English,587778,9.1,USA,20.9
+196,blissful bliss bliss,Drama / Romance / Gay,96,1997,Wong Kar Wai,Leslie Cheung / Tony Leung / Zhang Zhen,Cantonese,568876,9,Hong Kong/Japan/Korea,20.9
+197, Crash,Crime / Drama,112,2004,Paul Haggis,Sandra Bullock / Don Cheadle / Matt Dillon,English,281780,8.6,USA/Germany/Australia,21
+198,3 The Bourne Ultimatum,Action / Mystery / Thriller,115,2007,Paul Greenglass,Matt Damon / Julia Stiles / David Strathairn,English,383250,8.8,USA/Germany,21
+199,Across the Four Seas Across the Four Seas,Drama / Comedy / Action / Crime,108,1991,John Woo,Chow Yun Fat / Leslie Cheung / Zhong Chuhong,Cantonese,378204,8.8,Hong Kong,20.9
+200,heroic nature,Drama / Action / Crime,95,1986,John Woo,Chow Yun-Fat / Dillon / Leslie Cheung,Cantonese,479424,8.6,Hong Kong,20.8
+201, The Green Mile,Crime / Drama / Fantasy / Mystery,189,1999,Frank Darabont,Tom Hanks / David Morse / Mike Clark Duncan,English,287747,8.9,USA,20.9
+202, Gran Torino,Drama,116,2008,Clint Eastwood,Clint Eastwood / Christopher Carley / Bee Wong,English,89390,8.6,USA/Germany,21
+203, Vitus,Drama / Music,100,2006,Frandy-M. Millau,Fabicio Posani / Theo Galki / Julia Jenkins,Swiss German,28961,8.6,Switzerland,21
+204,City of Sadness,Drama / History,157,1989,Hou Hsiao-hsien,Chen Songyong / Li Tianlu / Gao Jie,Minnan Language,71048,8.9,China Taiwan,20.8
+205,chaos,Drama / Action,162,1985,Akira Kurosawa,Nakadai Tatsuya / Terao Satoshi / Nezu Jinhachi,Japanese,77373,8.9,Japan/France,20.8
+206,"Tokyo Tower Tokyo Tower-Okan and I, and sometimes Oton-",Drama / Family,142,2007,Matsuoka Ingot,Ryo Odakiri / Tree Hirin / Ayumi Ito,Japanese,33359,8.6,Japan,21
+207,Siberian hairdresser Сибирский цирюльник,Comedy / Drama / Romance,180,1998,Nikita Mikhalkov,Julia Ormond / Oleg Menshikov / Alexei Petrenko,Russian,37489,8.6,Russia/France/Italian/Czech,20.9
+208, The Life of David Gale,Drama / Crime / Mystery,130,2003,Alan Parker,Kevin Spacey / Kate Winslet / Laura Linney,English,202784,8.6,USA/Germany/UK/Spain,21
+209,Ivan's childhood Иваново детство,Drama / War,95,1962,Andrei Tarkovsky / Edward Abalov,Nikolai Buryaev / Valentin Zubkov / Yevgeny Zarikov,Russian,34184,8.8,Soviet Union,20.6
+210, Sunset Blvd.,Drama / Film Noir,110,1950,Billy Wilder,William Holden / Gloria Swanson / Eric von Stroheim,English,52553,8.8,USA,20.5
+211, Armored Potomkin,Drama / History / War,75,1925,Sergey Eisenstein,Alexander Antonov / Vladimir Bassky / Gregory Alexandrov,No dialogue,25807,8.7,Soviet Union,20.2
+212, Some Like It Hot,Comedy,120,1959,Billy Wilder,Marilyn Monroe / Tony Curtis / Jack Lemmon,English,54087,8.9,USA,20.5
+213,Station for two people Вокзал для двоих,Drama / Romance,141,1983,Elidar Ryazanov,Lyudmila Gurchenko / Oleg Bashilashvili / Nikita Mikhalkov,Russian,8528,8.6,Soviet Union,20.8
+214,2： Tropa de Elite 2 - O Inimigo Agora É Outro,Drama / Action / Crime / Thriller,115,2010,Jose Padilla,Wagner Mara / Andre Ramiro / Mirhe Cortaz,Portuguese,75119,8.7,Brazil,21.1
+215,Harry Potter and the Deathly Hallows: Part 2,Fantasy / Adventure,130,2011,David Yates,Daniel Radcliffe / Emma Watson / Rupert Grint,English,736194,8.9,USA/UK,21.1
+216,Bouncer,Drama / Action / Thriller,110,1961,Akira Kurosawa,Toshiro Mifune / Tatsuya Nakadai / Shi Ye,Japanese,42438,9,Japan,20.6
+217,"woman, forty",Drama / Family,101,1995,Xu Anhua,Xiao Fangfang / Qiao Hong / Law Jiaying,Mandarin,41645,8.9,Hong Kong,20.9
+218, Front of the Class,Drama / Biography,95,2008,Peter Weiner,James Walker / Treat Williams / Dominic Scott Kaye,English,176605,8.6,USA,21
+219,crucible,Drama,125,2011,Hwang Dong Hyuk,Gong Yoo / Jung Yoo Mi / Kim Hyun Soo,Korean,850505,9.3,South Korea,21.1
+220, Das Cabinet des Dr. Caligari,Crime / Mystery / Horror,71,1920,Robert Wiene,Werner Krauss / Konrad Werther / Friedrich Fehel,No dialogue,23030,8.9,Germany,20.2
+221,late spring,Drama / Family,108,1949,Yasujiro Ozu,Kasa Chizu / Hara Setsuko / Tsukigaoka Dream Road,Japanese,21935,8.7,Japan,20.4
+222, Le salaire de la peur,Drama / Thriller / Adventure,131,1953,Henri-George Clouzot,Yves Montan / Charles Varner / Peter van Eyck,French,10994,8.7,France/Italy,20.5
+223, Rudy,Biography / Drama / Sports,114,1993,David Ansbaugh,Sean Astin / Jon Favreau / Ned Beatty,English,53756,8.8,USA,20.9
+224, Detachment,Drama,98,2011,Tony Kaye,Adrien Brody / Marcia Gay Harden / James Caan,English,496018,9,USA,21.1
+225,Seediq Bale (top): Sun flag Seediq Bale (top) Sun flag,Drama / History / War,144,2011,Wei Desheng,Lin Qingtai / You Daqing / Ma Zhixiang,Japanese,93895,8.9,China Taiwan,21.1
+226, The Purple Rose of Cairo,Comedy / Romance / Fantasy,82,1985,Woody Allen,Mia Farrow / Jeff Daniels / Danny Aiello,English,41515,8.7,USA,20.8
+227,ن ن Rare separation from Simin,Drama / Family,123,2011,Asghar Farhadi,Peyman Moadi / Layla Hatami / Sari Bayat,Persian,233057,8.8,Iran/France,21.1
+228, Life of Pi,Drama / Fantasy / Adventure,127,2012,Ang Lee,Surah Sharma / Irrfan Khan / Rafi Spall,English,1240644,9.1,USA/Taiwan/UK/Canada,21.1
+229, The Apartment,Romance / Comedy / Drama,125,1960,Billy Wilder,Jack Lemmon / Shirley MacLaine / Fred MacMurray,English,40393,8.8,USA,20.6
+230, Nunta Muta,Comedy / Drama,87,2008,Horaciu Moraleele,Meda Andrea Victor / Alexandru Potochean / Valentin Teodosiu,Romanian,14209,8.6,Romania/Luxembourg/France,21
+231, Jagten,Drama,115,2012,Thomas Winterberg,Max Mikkelsen / Thomas Bo Larsen / Annika Wedekop,Danish,344548,9.1,Denmark/Sweden,21.1
+232, Knockin' on Heaven's Door,Action / Crime / Comedy / Drama,87,1997,Thomas Jahn,Thiel Schweiger / Jan Joseph Liffes / Thierry van Wevanker,German,14494,8.5,Germany,20.9
+233, Novecento,Drama / History / Romance / War,245,1976,Bernardo Bertolucci,Robert De Niro / Gérard Depardieu / Dominique Sanda,Italian,8843,8.7,Italy/France/West Germany,20.7
+234, The General,Drama / Comedy / Action / War / Adventure,67,1926,Buster Keaton / Clyde Brookman,Buster Keaton / Marion Marks / Glenn Calvinder,No dialogue,24433,9.1,USA,20.2
+235, Mr. Smith Goes to Washington,Drama,129,1939,Frank Capra,James Stewart / Jean Arthur / Claude Rains,English,10061,8.6,USA,20.3
+236,Gift from room 7,Drama / Comedy / Family,127,2013,Li Huanqing,Ryu Seung Ryong / Park Shin Hye / Jung Jin Young,Korean,499157,8.9,South Korea,21.1
+237, Before Midnight,Drama / Romance,109,2013,Richard Linklater,Ethan Hawke / Julie Delpy / Seamus David-Fitzpatrick,English,344735,8.8,USA/Greece,21.1
+238, Rush,Drama / Biography / Sports,123,2013,Ron Howard,Chris Hemsworth / Daniel Bruch / Olivia Wilde,English,135034,8.8,UK/Germany/US,21.1
+239, Papillon,Drama / Biography / Crime,151,1973,Franklin Schaffner,Steve McQueen / Dustin Hoffman / Victor Jory,English,10336,8.7,France/USA,20.7
+240, Saw,Mystery / Thriller / Horror,103,2004,Wen Ziren,Ray Warner / Cary Elwes / Danny Glover,English,477052,8.7,USA,21
+241,small town spring,Drama / Romance,93,1948,Fem,Li Wei / Wei Wei / Shi Yu,Mandarin,48075,8.7,Mainland China,20.4
+242, Paths of Glory,Drama / War,88,1957,Stanley Kubrick,Kirk Douglas / Ralph Meeker / Adolphe Mengio,English,45876,9.1,USA,20.5
+243, Short Circuit,Comedy / Family / Science Fiction,98,1986,John Bandham,Allie Sheedy / Steve Guttenberg / Fisher Stephens,English,13228,8.6,USA,20.8
+244, Per qualche dollaro in più,West,132,1965,Sergio Leone,Clint Eastwood / Lee Van Cleef / Gian Maria Voront,Italian,43193,8.9,Italy/Spain/West Germany,20.6
+245,wedding banquet,Drama / Comedy / Romance / Gay / Family,108,1993,Ang Lee,Zhao Wenxuan / Lang Xiong / Gui Yalei,Mandarin,315281,8.9,Taiwan/USA,20.9
+246, The Sting,Drama / Comedy / Crime,129,1973,George Roy Hill,Paul Newman / Robert Redford / Robert Shaw,English,48649,8.7,USA,20.7
+247, Il gattopardo,Drama / History / Romance / War,187,1963,Lucino Visconti,Burt Lancaster / Claudia Cardina / Alain Delon,Italian,13269,8.8,Italy/France,20.6
+248, Interstellar,Drama / Sci-Fi / Adventure,169,2014,Christopher Nolan,Matthew McConaughey / Anne Hathaway / Jessica Chastain,English,1570347,9.4,US/UK/Canada,21.1
+249,： Stuart: A Life Backwards,Drama,90,2007,David Atwood,Tom Hardy / Benedict Cumberbatch / George Anton,English,51416,8.7,UK,21
+250, Jestem,Drama,93,2005,Dorota Kenjezawska,Piotr Jagielski / Agnieszka Nagórzycka / Edyta Jungowska,Polish,11034,9,Poland,21
+251, Something The Lord Made,Drama / Biography,110,2004,Joseph Sargent,Alan Rickman / Moss Duff / Mary Stuart Masterson,English,9544,8.7,USA,21
+252, 12 Angry Men,Drama / Crime,117,1997,William Friedkin,Courtney Vance / Ossie Davis / George C. Scott,English,22665,9.2,USA,20.9
+253, Romeo and Juliet,Drama / Romance,138,1968,Franco Zeffirelli,Leonard Whiting / Olivia Hussey / John McEney,English,11674,8.7,UK/Italy,20.6
+254,Infernal Affairs (original version),Drama / Crime,315,2006,Lau Wai Keung / Mak Siu Fai,Andy Lau / Tony Leung / Dawn,Mandarin,55098,9.1,Hong Kong,21
+255,The Terror Live,Drama / Crime / Mystery,97,2013,Kinsuke,Ha Jung Woo / Lee Kyung Young / Jeon Hye Jin,Korean,591470,8.7,South Korea,21.1
+256,Suyuan,Drama,122,2013,Lee Jun-ik,Xue Jingqiu / Yan Zhiyuan / Li Lai,Korean,615136,9.3,South Korea,21.1
+257,Defender 변호인,Drama,127,2013,Yang Yushuo,Song Kang-ho / Kim Young-ae / Oh Dal-soo,Korean,540567,9.2,South Korea,21.1
+258, The Help,Drama,146,2011,Tate Taylor,Emma Stone / Viola Davis / Bryce Dallas Howard,English,97168,8.8,USA/India/UAE,21.1
+259,barber,Drama / Biography,100,2006,Haschuru,Jing Kui,Mandarin,17320,9.2,Mainland China,21
+260,· The Curious Case of Benjamin Button,Drama / Romance / Fantasy,166,2008,David Fincher,Cate Blanchett / Brad Pitt / Julia Ormond,English,894949,9,USA,21
+261, The Grand Budapest Hotel,Drama / Comedy / Adventure,99,2014,Wes Anderson,Ralph Fiennes / Tony Revolori / Adrien Brody,English,826358,8.9,USA/Germany/UK,21.1
+262, Gone Girl,Drama / Crime / Mystery / Thriller,149,2014,David Fincher,Ben Affleck / Rosamund Pike / Neil Patrick Harris,English,835997,8.7,USA,21.1
+263,4： Mad Max: Fury Road,Action / Sci-Fi / Adventure,120,2015,George Miller,Tom Hardy / Charlize Theron / Nicholas Hoult,English,476395,8.6,Australia/USA,21.1
+264, A Bronx Tale,Crime / Drama,121,1993,Robert De Niro,Robert De Niro / Chaz Palminteri / Lilo Brancato,English,9733,8.7,USA,20.9
+265, Relatos salvajes,Drama / Comedy / Crime,122,2014,Damian Szfron,"Dario Grandinetti, Maria Manuel, Monica Villa",Spanish,399335,8.8,Argentina/Spain,21.1
+266,84 84 Charing Cross Road,Biography / Drama / Romance,100,1987,David Hugh Jones,Anne Bancroft / Anthony Hopkins / Judi Dench,English,20031,8.7,UK / USA,20.8
+267,Song of the Wanderer Дом за вешање,Comedy / Crime / Drama / Fantasy,142,1988,Emile Kusturica,Davor Dujmovic / Bora Todlovic / Ljubica Adzovic,English,11959,9.1,Italy/UK/Yugoslavia,20.8
+268, Giù la testa,Adventure / War / West,157,1971,Sergio Leone,Rod Steiger / James Cobain / Romulo Valli,Italian,17033,9.1,Italy,20.7
+269, To Be or Not to Be,Comedy / Romance / War,99,1942,Ernst Lubitsch,Carol Lombard / Jack Benny / Robert Stark,English,38722,9.2,USA,20.4
+270,Да 之 歌 Ballad about a soldier,Drama / Romance / War,88,1959,Gregory Chukhray,"Vladimir Ivashov, Zana Prokhorenko, Antonina Maksimova",Russian,12044,9.1,Soviet Union,20.5
+271, The Circus,Comedy / Romance,71,1928,Charlie Chaplin,Charlie Chaplin / Al Ernest Garcia / Melner Kennedy,English,19569,9.2,USA,20.2
+272,"back to back, face to face",Drama,148,1994,Huang Jianxin / Yang Yazhou,Niu Zhenhua / Lei Kesheng / Li Qiang,Mandarin,101650,9.5,Mainland China/Hong Kong,20.9
+273, Sherlock Jr.,Comedy / Action / Romance,45,1924,Buster Keaton,Buster Keaton / Katherine McGuire / Joe Keaton,No dialogue,21829,9.5,USA,20.2
+274, Hacksaw Ridge,Drama / Biography / History / War,139,2016,Mel Gibson,Andrew Garfield / Sam Worthington / Vince Vaughn,English,720475,8.7,Australia/USA,21.1
+275, Room,Drama / Family,118,2015,Lenny Abrahamson,Brie Larson / Jacob Tremblay / Sean Bridgers,English,344689,8.8,Ireland/Canada/UK/US,21.1
+276, Call Me by Your Name,Drama / Romance / Gay,132,2017,Luca Guadagnino,Armie Hammer / Timothy Chalamet / Michael Stuhlbard,English,641210,8.9,Italy/France/Brazil/USA,21.1
+277, Hawking,Drama / Biography,90,2004,Philip Martin,Benedict Cumberbatch / Lisa Dylan / Adam Godley,English,19025,8.6,UK,21
+278, Ready Player One,Action / Sci-Fi / Adventure,140,2018,Steven Spielberg,"Tye Sheridan, Olivia Cooke, Ben Mendelsohn",English,1244046,8.7,USA,21.1
+279,！ Dangal,Drama / Biography / Sports / Family,161,2016,Nieti Tiwari,Aamir Khan / Fatima Sana Shakar / Sanya Mahota,Hindi,1432241,9,India,21.1
+280, Contratiempo,Drama / Crime / Mystery / Thriller,106,2016,Oriol Paul,Mario Casas / Ana Wagner / Jose Coronado,Spanish,1129213,8.8,Spain,21.1
+281, Maudie,Drama / Biography / Romance,115,2016,Aisling Walsh,Sally Hawkins / Ethan Hawke / Kari Matchett,English,107515,9.1,Ireland/Canada,21.1
+282,Big Buddha Plus,Drama / Comedy,102,2017,Huang Xinyao,Zhuang Yizeng / Chen Zhusheng / Dai Liren,Minnan Language,394161,8.7,China Taiwan,21.1
+283, Manchester by the Sea,Drama / Family,137,2016,Kenneth Lonergan,Casey Affleck / Lucas Hedges / Michelle Williams,English,454676,8.6,USA,21.1
+284,我能说 I Can Speak,Drama / Comedy,119,2017,Kim Hyun Suk,Luo Wenji / Li Jixun / Lim Huilan,Korean,90966,8.8,South Korea,21.1
+285,I'm not a medicine god,Drama / Comedy,117,2018,Wen Muye,Xu Zheng / Wang Chuanjun / Zhou Yiwei,Mandarin,1910374,9,Mainland China,21.1
+286, Ničija zemlja,Drama / War,98,2001,Dennis Tanovich,"Branko Djoric, Rene Bitolajac, Philip Sovagovic",English,27703,8.6,Bosnia and Herzegovina/Slovenia/Italy/France/UK/Belgium,21
+287, Cabaret,Drama / Romance / Song And Dance,124,1972,Bob Foss,Lisa Minnelli / Michael York / Helmut Grimm,English,11565,8.8,USA,20.7
+288,Both of us,Drama,88,2005,Ma Liwen,Gong Zhe / Jin Yaqin / Zhang Shufang,Mandarin,108191,8.7,Mainland China,21
+289,garland under the mountain,Drama / War,140,1985,Xie Jin,Lv Xiaohe / Tang Guoqiang / He Wei,Mandarin,50474,9.4,Mainland China,20.8
+290, Bohemian Rhapsody,Drama / Biography / Gay / Music,135,2018,Brian Singer,Rami Malek / Ben Hardy / Joseph Mazzello,English,539524,8.6,UK / USA,21.1
+291,The Raven and the Sparrow The Raven and the Sparrow,Drama,106,1949,Zheng Junli,Zhao Dan / Shangguan Yunzhu / Sun Daolin,Mandarin,8845,8.7,Mainland China,20.4
+292,turned out,Drama / History,110,1999,Chen Guoxing,Li Xuejian / Li Youbin / Gao Ming,Mandarin,62244,9.4,Mainland China,20.9
+293,What is home كفرناحوم,Drama,126,2018,Nadine Labaki,Zane Al Rafia / Jordanos Hifero / Borwatif Trej Bancor,Arabic,938430,9.1,Lebanon/USA/France/Cyprus/Qatar/UK,21.1
+294,Good morning,Comedy,94,1959,Yasujiro Ozu,Haruko Sugimura / Chishu Ryu / Yoshiko Kuga,Japanese,9356,8.7,Japan,20.5
+295,Shanghai Beach Shanghai Beach,Drama,103,1983,Zhao Zhenqiang,Chow Yun-fat / Lu Liangwei / Zhao Yazhi,Cantonese,9922,8.9,Hong Kong,20.8
+296,New World 신세계,Drama / Crime,134,2013,Park Hoon Jung,Lee Jung-jae / Choi Min-sik / Hwang Jung-min,Korean,354744,8.9,South Korea,21.1
+297,寄生虫 parasite,Drama,132,2019,Bong Joon Ho,Song Kang-ho / Lee Sun-kyun / Cho Yu-jung,Korean,1242779,8.8,South Korea,21.1
+298, Joker,Drama / Crime / Thriller,122,2019,Todd Phillips,Joaquin Phoenix / Robert De Niro / Mark Malone,English,910385,8.7,USA / Canada,21.1
+299, Nordwand,Drama / History / Adventure / Sports,126,2008,Philip Stelzer,"Benno Firman, Florian Lucas, Johanna Walkalek",German,12516,8.6,Germany/Austria/Switzerland,21
+300, En man som heter Ove,Drama,116,2015,Hannes Helm,Ralph Lasgard / Baja Paz / Tobias Amberley,Swedish,406614,8.9,Sweden,21.1
+301, The Bourne Identity,Action / Mystery / Thriller,119,2002,Doug Liman,Matt Damon / Franca Potente / Chris Cooper,English,386274,8.6,USA/Germany/Czech,21
+302,Twilight Seihei Twilight Seibei,Drama / History / Romance,129,2002,Yoji Yamada,Hiroyuki Sanada / Rie Miyazawa / Nenji Kobayashi,Japanese,29206,8.8,Japan,21
+303,2 The Bourne Supremacy,Action / Mystery / Thriller,108,2004,Paul Greenglass,Matt Damon / Brian Cox / Joan Allen,English,321397,8.7,USA/Germany,21
+304,2： Terminator 2: Judgment Day,Action / Sci-Fi,137,1991,James Cameron,Arnold Schwarzenegger / Linda Hamilton / Edward Furlong,English,311119,8.8,USA/France,20.9
+305, Black Hawk Down,Action / History / War,144,2001,Ridley Scott,"Josh Hartnett, Ewan McGregor, Tom Sizemore",English,264313,8.7,USA / UK,21
+306, Brokeback Mountain,Drama / Romance / Gay / Family,134,2005,Ang Lee,Heath Ledger / Jake Gyllenhaal / Michelle Williams,English,651091,8.8,USA / Canada,21
+307, Eight Below,Drama / Adventure,120,2006,Frank Marshall,Paul Walker / Bruce Greenwood / Moon Bradgood,English,79275,8.7,USA,21
+308, Thelma & Louise,Crime / Drama / Thriller,130,1991,Ridley Scott,Geena Davis / Susan Sarandon / Harvey Keitel,English,209157,8.9,USA/UK/France,20.9
+309, The Fall,Drama / Comedy / Fantasy / Adventure,117,2006,Tasim Sin,Katinka Antaru / Justine Waddell / Lee Pace,English,106467,8.8,USA/South Africa/India,21
+310, The Terminal,Comedy / Drama / Romance,128,2004,Steven Spielberg,Tom Hanks / Catherine Zeta-Jones / Stanley Tucci,English,507889,8.8,USA,21
+311, Carlito's Way,Crime / Drama / Thriller,144,1993,Brian De Palma,Al Pacino / Sean Penn / Penelope Ann Miller,English,38237,8.7,USA,20.9
+312, Cinderella Man,Drama / Family / Biography / Sports,144,2005,Ron Howard,Russell Crowe / Renee Zellweger / Paul Giamatti,English,47660,8.8,USA,21
+313, Malèna,Drama / War / Erotica,109,2000,Giuseppe Tonadore,Monica Bellucci / Giuseppe Sulfaro / Luciano Federico,Italian,886014,8.9,Italy/USA,21
+314, Pirates of the Caribbean: The Curse of the Black Pearl,Action / Adventure / Fantasy,143,2003,Gore Verbinski,Johnny Depp / Jeffrey Rush / Orlando Bloom,English,780423,8.8,USA,21
+315, Slumdog Millionaire,Drama / Romance,120,2008,Danny Boyle / Lovelynn Tandan,Dev Patel / Sharuba Shukla / Yani Karp,English,687642,8.6,UK,21
+316,Where is my friend's house خانه دوست کجاست؟‎,Drama,83,1987,Abbas Kiarostami,Babi Ahmed Poh / Ahmed Ahmed Poh / Koda Bahe Difan,Persian,22319,8.8,Iran,20.8
+317, Vertigo,Romance / Mystery / Thriller,128,1958,Alfred Hitchcock,James Stewart / Kim Novak / Barbara Bel Geddes,English,108808,8.7,USA,20.5
+318,Love the wind and dust Love the wind and dust,Drama / Romance,109,1986,Hou Hsiao-hsien,Li Tianlu / Xin Shufen / Wang Jingwen,Mandarin,76597,8.7,China Taiwan,20.8
+319, Groundhog Day,Drama / Comedy / Romance / Fantasy,101,1993,Harold Ramis,Bill Murray / Andie MacDowell / Chris Elliott,English,174437,8.6,USA,20.9
+320, HANA-BI,Drama / Romance / Crime / Thriller,103,1997,Kitano Takeshi,Kitano Takeshi / Kishimoto Kashiko / Osugi Ren,Japanese,101748,8.7,Japan,20.9
+321,Tin Shui Wai day and night Tin Shui Wai day and night,Drama / Family,90,2008,Xu Anhua,Bao Qijing / Chen Liyun / Liang Jinlong,Cantonese,107101,8.6,Hong Kong,21
+322, Rain Man,Drama,133,1988,Barry Levinson,Dustin Hoffman / Tom Cruise / Valeria Golino,English,370603,8.7,USA,20.8
+323,E.T. E.T. the Extra-Terrestrial,Drama / Science Fiction,115,1982,Steven Spielberg,Henry Thomas / Dee Wallace / Robert McNaughton,English,306263,8.6,USA,20.8
+324,gun fire gun fire,Drama / Action / Crime,84,1999,To Qifeng,Wu Zhenyu / Ren Dahua / Huang Qiusheng,Cantonese,195455,8.8,Hong Kong,20.9
+325, Out of Africa,Adventure / Biography / Drama / Romance,161,1985,Sidney Pollack,Meryl Streep / Robert Redford / Klaus Maria Brandauer,English,82412,8.6,USA,20.8
+326, L.A. Confidential,Drama / Crime / Mystery / Thriller,138,1997,Curtis Hansen,Kevin Spacey / Russell Crowe / Guy Pearce,English,132601,8.8,USA,20.9
+327, Lord of War,Drama / Crime,122,2005,Andrew Nicole,Nicolas Cage / Bridget Moynahan / Jared Leto,English,328904,8.7,France/Germany/USA,21
+328, The Rock,Action / Adventure,136,1996,Michael Bay,Sean Connery / Nicolas Cage / Ed Harris,English,234530,8.6,USA,20.9
+329, The Bucket List,Adventure / Comedy / Drama,97,2007,Rob Reiner,Jack Nicholson / Morgan Freeman / Sean Hayes,English,392453,8.7,USA,21
+330, Saving Face,Drama / Comedy / Romance / Gay,91,2004,Wu Siwei,Yang Yahui / Chen Chong / Chen Ling,English,66003,8.8,USA,21
+331, Der Untergang,Drama / Biography / History / War,156,2004,Oliver Hirschbiger,Bruno Ganz / Alexandra Maria Lana / Corinne Havelch,German,87572,8.8,Germany/Austria/Italy,21
+332, It Happened One Night,Comedy / Romance,105,1934,Frank Capra,Clark Gable / Claudette Colbert / Walter Connolly,English,47558,8.8,USA,20.3
+333,Thousands of arrows pierce the heart,Drama / Family,118,2012,Wang Jing,Yan Bingyan / Chen Gang / Jiao Gang,Mandarin,210900,8.6,Mainland China,21.1
+334, Limelight,Comedy / Drama / Music / Romance,137,1952,Charlie Chaplin,Charlie Chaplin / Buster Keaton / Claire Bloom,English,6848,8.9,USA,20.5
+335, Dial M for Murder,Crime / Mystery / Thriller,105,1954,Alfred Hitchcock,Ray Milland / Grace Kelly / Robert Cummings,English,91297,8.9,USA,20.5
+336, Kes,Drama / Children,111,1969,Ken Lodge,David Bradley / Freddie Fletcher / Lynne Perry,English,8449,8.6,UK,20.6
+337, Dolores Claiborne,Drama / Mystery / Thriller,132,1995,Taylor Hackford,Kathy Bates / Christopher Plummer / David Strathairn,English,14642,8.6,USA,20.9
+338,Chronicle of My Mother,Drama,118,2012,Harada Makoto,Koji Yakusho / Kirin Kiki / Aoi Miyazaki,Japanese,14094,8.7,Japan,21.1
+339,绿洲 oasis,Drama / Romance,132,2002,Li Cangdong,Xue Jingqiu / Wen Suli / An Neixiang,Korean,53982,8.7,South Korea,21
+340,face change,Drama,101,1995,Wu Tianming,Zhu Xu / Zhou Renying / Zhao Zhigang,Mandarin,41108,9,Mainland China/Hong Kong,20.9
+341,childhood in the south,Drama,91,2007,easy to cold,Yi Zhibing / He Weixin / Xie Yuan,Mandarin,29462,9.3,Mainland China,21
+342, Höstsonaten,Drama / Family,99,1978,Ingmar Bergman,Ingrid Bergman / Liv Ullman / Lena Nyman,Swedish,27558,9,Sweden/France/West Germany/UK,20.7
+343, Werckmeister harmóniák,Drama / Suspense,145,2000,Bella Tarr / Anias Hranitsky,Lars Rudolph / Peter Fitz / Hannah Schegula,Hungarian,9619,8.8,Hungary/Italy/Germany/France,21
+344, Miss Sloane,Drama / Suspense,132,2016,John Madden,Jessica Chastain / Gugu Mbatha-Raw / John Lithgow,English,86059,8.8,USA/France,21.1
+345, Le voyage de Fanny,Drama / War,94,2016,Lola Dorren,"Leonie Sisaud, Fantine Arduin, Juliana Leprouse",French,34086,8.6,France/Belgium,21.1
+346, The World's Fastest Indian,Biography / Drama / Sports,127,2005,Roger Donaldson,Anthony Hopkins / Alan Murphy / Tim Chabert,English,14347,8.9,New Zealand/Japan/USA,21
+347, Chaplin,Drama / Biography,143,1992,Richard Attenborough,Robert Downey Jr. / Geraldine Chaplin / Paul Rhys,English,15798,8.6,UK/US/France/Italy,20.9
+348, Deconstructing Harry,Comedy / Drama / Fantasy / Romance,96,1997,Woody Allen,Woody Allen / Robin Williams / Demi Moore,English,30024,8.6,USA,20.9
+349,· Harry Potter and the Sorcerer's Stone,Fantasy / Adventure,152,2001,Chris Columbus,Daniel Radcliffe / Emma Watson / Rupert Grint,English,1040402,9.1,USA/UK,21
+350,new year,Drama / Family,101,1991,Huang Jianzhong,Zhao Lirong / Ge You / Liang Tian,Mandarin,45492,8.9,Mainland China,20.9
+351, The Blind Side,Drama / Family / Biography / Sports,129,2009,John Lee Hancock,Sandra Bullock / Tim McGraw / Quinton Aaron,English,256314,8.7,USA,21
+352,Call of a distant mountain,Drama,124,1980,Yoji Yamada,Ken Takakura / Chieko Besho / Hidetaka Yoshioka,Japanese,13564,8.7,Japan,20.8
+353,Izu-like dancer Izu dancer,Drama,82,1974,Xihe self-denial,Yamaguchi Momoe / Miura Yuka / Ichinomiya Atsuko,Japanese,23301,8.6,Japan,20.7
+354, Apocalypto,Action / Adventure / Drama,139,2006,Mel Gibson,"Rudy Youngblood, Dalia Hernandez, Jonathan Breville",Mayan,83076,8.6,USA,21
+355, Pride & Prejudice,Drama / Romance,129,2005,Joe Wright,Keira Knightley / Matthew Macfadyen / Donald Sutherland,English,714627,8.7,France/UK/US,21
+356,meteor language meteor language,Comedy / Drama,110,1999,Zhang Zhiliang,Leslie Cheung / Ye Jinglan / Dillon,Cantonese,14127,8.6,Hong Kong,20.9
+357, Million Dollar Baby,Drama / Sports,132,2004,Clint Eastwood,Clint Eastwood / Hilary Swank / Morgan Freeman,English,200617,8.7,USA,21
+358, Cast Away,Adventure / Drama,143,2000,Robert Zemeckis,Tom Hanks / Helen Hunt / Chris North,English,257251,8.6,USA,21
+359,yesterday,Biography / Drama / Music,114,2001,Zhang Yang,Jia Hongsheng / Wang Tong / Jia Fengsen,Mandarin,35162,8.6,Mainland China,21
+360,Mother Mother Bee,Drama / Family,133,2008,Yoji Yamada,Sayuri Yoshinaga / Tadanobu Asano / Rei Dan,Japanese,9474,8.6,Japan,21
+361,New Dragon Inn New Dragon Inn,Action / Romance / Martial Arts / Costumes,88,1992,Li Huimin,Maggie Cheung / Brigitte Lin / Tony Leung,Mandarin,399960,8.6,Hong Kong/Mainland China,20.9
+362, To Kill a Mockingbird,Crime / Drama / Mystery,129,1962,Robert Mulligan,Gregory Peck / John Megner / Frank Overton,English,51114,8.6,USA,20.6
+363, The Bridges of Madison County,Drama / Romance,135,1995,Clint Eastwood,Clint Eastwood / Meryl Streep / Anne Colley,English,200507,8.7,USA,20.9
+364, Back to the Future,Comedy / Sci-Fi / Adventure,116,1985,Robert Zemeckis,Michael J. Fox / Christopher Lloyd / Lea Thompson,English,186258,8.7,USA,20.8
+365,ID Identity,Drama / Mystery / Thriller,90,2003,James Mangold,John Cusack / Ray Liotta / Amanda Peet,English,735667,8.8,USA,21
+366, Black Swan,Drama / Thriller,108,2010,Darren Aronofsky,"Natalie Portman, Mila Kunis, Vincent Castle",English,731458,8.6,USA,21.1
+367, The Reader,Drama / Romance,124,2008,Stephen Dedley,Kate Winslet / David Krause / Ralph Fiennes,English,424294,8.6,USA/Germany,21
+368, Full Metal Jacket,Drama / War,116,1987,Stanley Kubrick,Matthew Modine / Adam Baldwin / Vincent D'Onofrio,English,119638,8.6,UK/USA,20.8
+369, Glory Road,Drama / Biography / Sports,118,2006,James Gartner,Josh Lucas / Wes Brown / Derek Luke,English,45278,8.6,USA,21
+370, October Sky,Biography / Drama / Family,108,1999,Joe Johnston,Jake Gyllenhaal / Chris Cooper / Laura Dern,English,37800,8.7,USA,20.9
+371, Le renard et l'enfant,Drama / Children / Adventure,92,2007,Luc Jagger,Betty Joyer-Blow / Isabelle Carre / Thomas Laliberté,French,29730,8.5,France,21
+372, Random Harvest,Drama / Romance,126,1942,Melvin Leroy,Ronald Colman / Grea Garson / Philip Dorn,English,4201,8.6,USA,20.4
+373, Shutter Island,Drama / Mystery / Thriller,138,2010,Martin Scorsese,Leonardo DiCaprio / Mark Ruffalo / Ben Kingsley,English,873196,8.8,USA,21.1
+374, Inglourious Basterds,Drama / Crime,153,2009,Quentin Tarantino,Brad Pitt / Melanie Rowland / Christopher Waltz,English,429812,8.6,Germany/USA,21
+375,A Chinese Ghost Story,Love / Fantasy / Martial Arts / Costume,98,1987,Cheng Xiaodong,Leslie Cheung / Wang Zuxian / Wu Ma,Cantonese,665891,8.8,Hong Kong,20.8
+376,Mahjong Mahjong,Comedy / Drama,121,1996,Yang Dechang,Ke Yulun / Zhang Zhen / Lin Haixiang,Mandarin,37982,8.6,China Taiwan,20.9
+377,terrorist terrorist,Drama / Crime,109,1986,Yang Dechang,Miao Qianren / Li Liqun / Jin Shijie,Mandarin,46203,8.9,China Taiwan,20.8
+378, Gandhi,Biography / Drama / History,191,1982,Richard Attenborough,Ben Kingsley / Candice Bergen / Edward Fox,English,33522,8.5,UK/India/US,20.8
+379, Frida,Biography / Drama / Romance,123,2002,Julie Taymer,Salma Hayek / Alfred Molina / Mia Mastro,English,64210,8.7,USA/Mexico/Canada,21
+380,Ametsuki Monogatari Ametsuki Monogatari,Drama / War / Fantasy,96,1953,Mizoguchi Kenji,Kinuyo Tanaka / Masayuki Mori / Sotaro Osamu,Japanese,21772,8.6,Japan,20.5
+381,LOL University LOL University,Comedy / Drama,121,2004,Star Guardian,Koji Yakusho / Goro Hiragaki / Masaya Takahashi,Japanese,18656,8.5,Japan,21
+382,miracle miracle,Drama / Family,128,2011,It's Hirokazu-eda,Koki Maeda / Oshiro Maeda / Nene Ohtsuka,Japanese,64061,8.8,Japan,21.1
+383,2 ALWAYS ・の,Drama,146,2007,Takashi Yamazaki,Hidetaka Yoshioka / Shinichi Tsutsumi / Koyuki,Japanese,16773,8.7,Japan,21
+384,Walther defends Sarajevo Валтер брани Сарајево,War,133,1972,Khayrudin Kvarvac,"Velimir Bata Zivojnovic, Rad Markovic, Rubisa Samadzic",Serbian,14057,8.7,Yugoslavia,20.7
+385, Remember the Titans,Drama / Biography / Sports,113,2000,Boz Yakin,Denzel Washington / Will Patton / Wood Harris,English,26749,8.6,USA,21
+386, Merry Christmas Mr. Lawrence,Drama / War / Same-Sex,123,1983,Oshima Nagisa,David Bowie / Tom Conti / Ryuichi Sakamoto,English,102489,8.8,UK/Japan/New Zealand,20.8
+387,， Au revoir les enfants,Drama / War,104,1987,Louis Mahler,"Gaspar Mannes, Raphael Fayette, Francine Lasseter",French,13540,8.6,France/West Germany/Italy,20.8
+388, Gattaca,Drama / Science Fiction / Thriller,106,1997,Andrew Nicole,Ethan Hawke / Uma Thurman / Jude Law,English,256099,8.8,USA,20.9
+389,2001 2001: A Space Odyssey,Science Fiction / Thriller / Adventure,149,1968,Stanley Kubrick,"Kyle Dura, Gary Lockwood, William Sylvester",English,279281,8.9,UK/USA,20.6
+390,see you in heaven,Drama / Family,85,2009,Jiang Wenli,Zhu Xu / Yao Jun / Zhu Yinuo,Mandarin,68867,8.7,Mainland China,21
+391, Philadelphia,Drama / Gay,125,1993,Jonathan Demme,Tom Hanks / Denzel Washington / Roberta Maxwell,English,93657,8.7,USA,20.9
+392,Memories of Murder,Drama / Action / Crime / Mystery / Thriller,132,2003,Bong Joon Ho,Song Kang-ho / Kim Sang-kyung / Kim Lei-ha,Korean,627777,8.9,South Korea,21
+393, The Usual Suspects,Crime / Mystery / Thriller,106,1995,Brian Singer,Stephen Baldwin / Gabriel Byrne / Benicio del Toro,English,235255,8.6,Germany/USA,20.9
+394, Le papillon,Drama / Children / Comedy,85,2002,Philip Miller,Michelle Cerol / Claire Buonnish / Nade Thieu,French,113617,8.6,France,21
+395, Love Actually,Comedy / Drama / Romance,135,2003,Richard Curtis,Hugh Grant / Colin Firth / Emma Thompson,English,667678,8.6,UK/US/France,21
+396, United,Drama,97,2011,James Strong,David Tennant / Jack O'Connell / Sam Claflin,English,7786,8.6,UK,21.1
+397,： The Dark Knight Rises,Drama / Action / Science Fiction / Crime / Thriller,165,2012,Christopher Nolan,Christian Bale / Tom Hardy / Anne Hathaway,English,653340,8.8,USA/UK,21.1
+398, Richard II,Drama / History,140,2012,Rupert Gould,Ben Whishaw / Clemence Posey / Patrick Stewart,English,15180,8.8,UK,21.1
+399,"： Henry IV, Part 2",Drama / History,115,2012,Richard Eyre,Jeremy Irons / Tom Hiddleston / Simon Russell Beal,English,8357,8.6,UK,21.1
+400,"： Henry IV, Part 1",Drama / History,115,2012,Richard Eyre,Jeremy Irons / Tom Hiddleston / Simon Russell Beal,English,10258,8.7,UK/USA,21.1
+401,Seediq Bale Seediq Bale,Drama / History / War,153,2012,Wei Desheng,Lin Qingtai / Ma Zhixiang / Ando Masanobu,Seediq,166430,8.8,China Taiwan,21.1
+402,Seediq Bale (below): Rainbow Bridge Seediq Bale (below) Rainbow Bridge,Drama / History / War,132,2011,Wei Desheng,Ma Zhixiang / Wen Lan / Tanaka Chie,Japanese,83560,8.8,China Taiwan,21.1
+403, La tête en friche,Comedy,82,2010,Jean Baker,Gérard Depardieu / Gisele Kazadsu / Patrick Berridge,French,37819,8.9,France,21.1
+404, Kirschblüten - Hanami,Drama / Romance,127,2008,Doris Derry,Elma Weber / Hannelore Elsner / Moonlight,German,6418,8.5,Germany,21
+405,The dawn here is quiet А зори здесь тихие,Drama / History / War,188,1972,Stanislav Rostotsky,Andrei Martynov / Irina Dorganova / Irina Delopeko,Russian,11597,8.7,Soviet Union,20.7
+406, Incendies,Drama / War / Mystery,131,2010,Denis Villeneuve,"Lubana Azbar, Melissa Desomons-Pollin, Maxim Goldet",French,53333,8.6,Canada/France,21.1
+407, Amour,Drama / Romance,127,2012,Michael Haneke,Jean-Louis Tradignan / Emmanuelle Riva / Isabelle Huppert,English,80828,8.6,France/Germany/Austria,21.1
+408, Les Misérables,Drama / Romance / Song And Dance,157,2012,Tom Hooper,Hugh Jackman / Russell Crowe / Anne Hathaway,English,317416,8.6,UK/USA,21.1
+409, Murder in the First,Drama / Thriller,123,1995,Marco Rocco,Christian Slater / Kevin Bacon / Gary Oldman,English,8559,8.6,France/USA,20.9
+410,Yokosuke Yosuke,Drama / Romance,160,2013,Okita Shuichi,Kengo Kora / Yuriko Yoshitaka / Sosuke Ikematsu,Japanese,137822,8.8,Japan,21.1
+411, Safety Last!,Comedy / Romance / Thriller,74,1923,Fred C. Newmeier / Sam Taylor,Harold Lloyd / Mildred Davis / Bill Strother,No dialogue,10181,8.9,USA,20.2
+412,Disturbed,Drama / Romance / Family,98,1964,Mikio Naruse,Hideko Takamine / Yuzo Kayama / Mitsuko Kusabue,Japanese,11157,9.1,Japan,20.6
+413, Il conformista,Drama,108,1970,Bernardo Bertolucci,"Jean-Louis Tradignan, Stefania Sandrelli, Dominique Sanda",Italian,8223,8.6,Italy/France/West Germany,20.7
+414, Plata quemada,Drama / Romance / Crime / Thriller / Gay,125,2000,Marcy Road Pinney Road,Leonardo Sbaraglia / Eduardo Noriega / Pablo Etchari,Spanish,19505,8.6,Argentina/Spain/Uruguay,21
+415,Duke of 特工,Drama,137,2018,Yoon Jongbin,Huang Zhengmin / Li Xingmin / Zhao Zhenxiong,Korean,160591,8.7,South Korea,21.1
+416,In the Mood for Love,Drama / Romance,98,2000,Wong Kar Wai,Tony Leung / Maggie Cheung / Pan Dihua,Cantonese,533912,8.7,Hong Kong,21
+417, Witness for the Prosecution,Drama / Crime / Mystery,97,1982,Alan Gibson,Ralph Richardson / Deborah Kerr / Beau Bridges,English,49184,9.5,USA/UK,20.8
+418,war and peace Война и мир,Drama / History / Romance / War,401,1966,Sergey Bondarchuk,Sergey Bondarchuk / Lyudmila Saverieva / Vyacheslav Tikhonov,Russian,10775,9.2,Soviet Union,20.6
+419,82nd grader Kim Ji-young 82 년생 김지영,Drama,118,2019,Kim Bo Young,Jung Yoo Mi / Gong Yoo / Kim Mi Kyung,Korean,345715,8.6,South Korea,21.1
+420, Portrait de la jeune fille en feu,Drama / Romance / Gay,120,2019,Celine Sciamma,"Nomi Merlant, Adela Harnell, Luanna Badgerami",French,168818,8.7,France,21.1
+421,特写 Close-up,Crime / Drama,98,1990,Abbas Kiarostami,Hossain Sabzian / Mawson Makmalbaf / Abolfazl Ahankhah,Persian,11343,8.7,Iran,20.9
+422, Hidden Figures,Drama / Biography / History,127,2016,Theodore Melfi,Taraji P. Henson / Octavia Spencer / Janelle Monae,English,188870,8.9,USA,21.1
+423, Begin Again,Comedy / Romance / Music,104,2013,John Carney,Keira Knightley / Mark Ruffalo / Adam Levine,English,390459,8.6,USA,21.1
+424,Ruan Lingyu,Biography / Drama / Romance,121,1991,Guan Jinpeng,Maggie Cheung / Tony Leung Ka Fai / Qin Han,Cantonese,97552,8.6,Hong Kong,20.9
+425, A Clockwork Orange,Crime / Drama / Science Fiction,136,1971,Stanley Kubrick,Malcolm McDowell / Patrick Markey / Michael Bates,English,333979,8.6,UK/USA,20.7
+426,Big red lantern hanging high,Drama,125,1991,Zhang Yimou,Gong Li / Ma Jingwu / He Saifei,Mandarin,227995,8.7,Mainland China / Hong Kong / Taiwan,20.9
+427, Hamilton,History / Song And Dance,160,2020,Thomas Kyle,Lin-Manuel Miranda / Leslie Odom Jr. / David Diggs,English,58497,9.5,USA,21.2
+428,2 II,Drama / Crime / Thriller,119,2003,Lau Wai Keung / Mak Siu Fai,Edison Chen / Shawn Yue / Zeng Zhiwei,Cantonese,408944,8.7,Hong Kong,21
+429,green snake,Drama / Romance / Fantasy / Costume,99,1993,Tsui Hark,Zhang Manyu / Wang Zuxian / Zhao Wenzhuo,Cantonese,472157,8.6,Hong Kong/Mainland China,20.9
+430, Intolerance: Love's Struggle Throughout the Ages,Drama / History / Romance,163,1916,David Griffith,Lillian Gish / Mae Marsh / Robert Harlan,English,9897,8.8,USA,20.1
+431, Barry Lyndon,Drama / Romance / War,185,1975,Stanley Kubrick,Ryan O'Neal / Marisa Berenson / Patrick Markey,English,35701,8.8,UK/USA,20.7
+432,Wrangler,Drama / Romance,99,1982,Xie Jin,Zhu Shimao / Cong Shan / Liu Qiong,Mandarin,57381,9.1,Mainland China,20.8
+433, Kill Bill: The Whole Bloody Affair,Action / Crime,247,2011,Quentin Tarantino,Uma Thurman / Michael Bowen / David Carradine,English,26502,8.6,USA,21.1
+434, Still Life,Drama,92,2013,Uberto Pasolini,Eddie Marsan / Joann Froggart / Andrew Buchan,English,36630,9,UK/Italy,21.1
+435, La notte,Drama / Romance,122,1961,Michelangelo Antonioni,"Marcelo Mastroianni, Jeanne Moreau, Monica Vitti",Italian,11788,8.8,Italy/France,20.6
+436, Artificial Intelligence: AI,Drama / Science Fiction,146,2001,Steven Spielberg,Haley Joel Osment / Frances O'Connor / Sam Robards,English,401392,8.7,USA/UK,21
+437, Chicago,Comedy / Song And Dance / Crime,113,2002,Rob Marshall,Taye Diggs / Katherine Zeta-Jones / Renee Zellweger,English,140060,8.9,USA/Germany,21
+438, The Trial of the Chicago 7,Drama / History,129,2020,Alan Sorkin,Eddie Redmayne / Alex Sharp / Sasha Baron Cohen,English,84833,8.6,US/UK/India,21.2
+439, All Quiet on the Western Front,Drama / Action / History / War,133,1930,Lewis Milestone,Lewis Warheim / Liu Ayers / John Ray,English,17317,8.8,USA,20.3
+440,fly into space Солярис,Drama / Science Fiction / Mystery,167,1972,Andrei Tarkovsky,Natalia Bondarchuk / Donatas Overdyce / Yuri Javit,Russian,25276,8.7,Soviet Union,20.7
+441,Stalker,Drama / Science Fiction / Mystery,163,1979,Andrei Tarkovsky,Alexander Kejdanovsky / Alisa Freindrich / Anatoly Solonitsyn,Russian,24915,8.8,Soviet Union,20.7
+442, Offret,Drama,149,1986,Andrei Tarkovsky,Erland Josephson / Susan Fleetwood / Alan Edwald,Swedish,11287,8.9,Sweden/France/UK,20.8
+443,blind mountain,Drama / Crime,95,2007,Li Yang,Huang Lu / Yang Youan / He Yunle,Sichuan dialect,157189,8.7,Mainland China,21
+444, The Education of Little Tree,Drama,116,1997,Richard Fredenberg,Joseph Ashton / James Cromwell / Tantou Cardino,English,6699,8.6,Canada,20.9
+445,Tengu,Drama,101,2006,Qi Jian,Fu Dalong / Zhu Yuanyuan / Liu Zifeng,Mandarin,30920,8.8,Mainland China,21
+446,Jiupin Sesame Official,Drama / Comedy / Costume,108,1994,Wang Jing,Stephen Chow / Wu Mengda / Zhang Min,Cantonese,584754,8.7,Hong Kong/Mainland China,20.9
+447, Titanic,Drama / Action / History / Romance / Disaster,173,1996,Robert Lieberman,Peter Geller / Catherine Zeta-Jones / George C. Scott,English,5811,8.7,Canada/United States,20.9
+448, Dark Waters,Drama,126,2019,Todd Hines,Mark Ruffalo / Anne Hathaway / Tim Robbins,English,119813,8.6,USA,21.1
+449,Arang's story,Drama / Family,99,1989,To Qifeng,Chow Yun-fat / Zhang Aijia / Huang Kunxuan,Cantonese,105488,8.6,Hong Kong,20.8
+450,Eight and a half 8½,Drama,138,1963,Federico Fellini,Marcelo Mastroianni / Claudia Cardina / Anuk Aimee,Italian,50503,8.6,Italy/France,20.6
+451, Drishyam,Drama / Crime / Mystery,143,2015,Nisikat Kamat,Adjaye Deugan / Tabu / Shriya Saran,Hindi,194338,8.6,India,21.1
+452, The Father,Drama,97,2020,Florian Zeller,Anthony Hopkins / Olivia Colman / Mark Gatiss,English,218437,8.6,UK/France,21.2
+453, Der Hauptmann,Drama / History / War,118,2017,Robert Svenk,Max Hubach / Milan Pescher / Frederick Law,German,67913,8.6,Germany/Poland/Portugal/France,21.1
+454,happy and mourning,Drama / Family,108,2015,Zhang Tao,Yu Fengyun / Wang Shilan / Li Baoming,Mandarin,19763,8.7,Mainland China/Hong Kong/France,21.1
+455, Dallas Buyers Club,Drama / Biography / Same Sex,117,2013,Jean-Marc Valet,Matthew McConaughey / Jennifer Garner / Jared Leto,English,412052,8.8,USA,21.1
+456,Q,Drama,125,1981,Cen Fan,Yan Shunkai / Wang Suya / Li Wei,Mandarin,28932,8.7,Mainland China,20.8
+457, Un amour à taire,Drama / Romance / War / Same Sex,102,2005,Christian Fuller,Jeremy Resnais / Louise Monot / Bruno Todduccini,French,8732,8.6,France,21
+458,mansion gate,Drama / Romance / Biography,115,2003,Guo Baochang,Siqin Gaowa / Chen Baoguo / Liu Peiqi,Mandarin,7508,9.3,Mainland China,21
+459,3： The Matrix Revolutions,Action / Sci-Fi,129,2003,Lana Wachowski / Lily Wachowski,Keanu Reeves / Lawrence Fishburne / Carrie-Anne Moss,English,408330,8.8,USA,21
+460,We Made a Beautiful Bouquet I fell in love like a bouquet,Drama / Romance,124,2021,Doi Yutai,Sugata Masaki / Arimura Kasumi / Hosoda Yoshio,Japanese,409993,8.6,Japan,21.2
+461, Whiplash,Drama / Music,107,2014,Damien Chazelle,"Miles Teller, J.K. Simmons, Paul Reiser",English,521350,8.7,USA,21.1
+462, The Notebook,Drama / Romance,123,2004,Nick Cassavetes,Ryan Gosling / Rachel McAdams / Gena Rowlands,English,604706,8.6,USA,21
+463,sister and sister stand up,Drama,84,1951,Chen Xihe,Li Meng / Liang Ming / Li Wei,Mandarin,9542,8.9,Mainland China,20.5
+464,red medaka,Drama / Biography,124,2015,Hideta Takahata,Kazuya Ninomiya / Takeshi Kitano / Daisuke Miyagawa,Japanese,42044,9,Japan,21.1
+465,Dead field festival dies in the countryside,Drama / Fantasy,104,1974,Shuji Terayama,Kotaro Suga / Hiroyuki Takano / Kaoru Yachigusa,Japanese,17183,8.9,Japan,20.7
+466,I am Cuba Я - Куба,Drama,141,1964,Mikhail Karatozov,Sergio Corelli / Salvador Wood / José Gallardo,Spanish,10027,9.1,USSR/Cuba,20.6
+467, The Shop Around the Corner,Comedy / Romance / Drama,99,1940,Ernst Lubitsch,Margaret Sullivan / James Stewart / Frank Morgan,English,10462,8.6,USA,20.4
+468, Ace in the Hole,Drama / Film Noir,111,1951,Billy Wilder,Kirk Douglas / Jane Sterling / Robert Arthur,English,12827,8.7,USA,20.5
+469,thief Вор,Drama,96,1997,Pavel Chukhlay,Vladimir Mashkov Vladimir Mashkov / Ekaterina Lednikova / Misha Filipchuk,Russian,5710,8.7,Russia/France,20.9
+470,Heaven and Hell,Drama / Crime,143,1963,Akira Kurosawa,Toshiro Mifune / Tatsuya Nakadai / Kyoko Kagawa,Japanese,13674,8.8,Japan,20.6
+471,Great Buddha Ridge ,Drama / Action,120,1966,Okamoto Kihachi,Tatsuya Nakadai / Michiyo Aratama / Yuzo Kayama,Japanese,11291,8.7,Japan,20.6
+472, Fried Green Tomatoes,Drama,130,1991,Jon Avignay,Kathy Bates / Jessica Tandy / Mary-Louise Parker,English,9548,8.6,USA,20.9
+473,scarecrow,Comedy / History / War,94,1987,Wang Tong,Zhuo Shengli / Zhang Baizhou / Wu Bingnan,Mandarin,8064,8.6,China Taiwan,20.8
+474," One, Two, Three",Comedy,115,1961,Billy Wilder,James Cagney / Horst Buchholz / Pamela Tiffin,English,14842,8.9,USA,20.6
+475, The Treasure of the Sierra Madre,Drama / Western / Adventure,126,1948,John Huston,Humphrey Bogart / Walter Houston / Tim Holt,English,7674,8.6,USA,20.4
+476,Cage People Cage People,Drama,145,1992,Zhang Zhiliang,Wong Ka Kui / Qiao Hong / Liao Qizhi,Cantonese,9688,8.9,Hong Kong,20.9
+477, Seven Chances,Comedy / Romance,56,1925,Buster Keaton,Buster Keaton / T. Roy Barnes / Hinds Edward,English,10859,8.9,USA,20.2
+478, Der letzte Mann,Drama,90,1924,F.W. Murnau,Emile Jannings / Meryl Dellshaft / Max Hiller,German,6233,8.7,Germany,20.2
+479, A Shine of Rainbows,Drama / Family,101,2009,Vic Sarin,Connie Nielsen / Aidan Quinn / Niamh Shaw,English,14207,8.8,Canada/Ireland,21
+480,· Jacquôt de Nantes,Biography / Drama,118,1991,Agnès Varda,Philippe Maron / Edouard Joubeaud / Laurent Monnier,French,5337,9.1,France,20.9
+481, Welt am Draht,Science Fiction / Crime / Mystery,1,1973,Rainer Werner Fassbender,Klaus Loveich / Barbara Valentine / Gut Lamprecht,English,5716,8.6,West Germany,20.7
+482, Donne-moi des ailes,Adventure,113,2019,Nicolas Vanier,"Jean-Paul Lufre, Melanie Dutai, Loos Vazquez",French,36952,8.8,France,21.1
+483, CODA,Drama / Music,111,2021,Cheyenne Hyde,Emilia Jones / Troy Cotesoul / Mary Matlin,American Sign Language,90293,8.6,USA/France/Canada,21.2
+484, Togo,Drama / Adventure,113,2019,Eriksson Cole,Willem Dafoe / Julianne Nicholson / Christopher Heyerdahl,English,91036,8.8,USA,21.1
+485, The Two Popes,Drama / Biography,125,2019,Fernando Merrills,Anthony Hopkins / Jonathan Pryce / Juan Minuchin,Latin,54466,8.6,UK/Italy,21.1
+486, Marriage Story,Drama / Romance,136,2019,Noah Baumbach,Scarlett Johansson / Adam Driver / Laura Dern,English,291396,8.6,UK/USA,21.1
+487, The Irishman,Drama / Biography / Crime,209,2019,Martin Scorsese,Robert De Niro / Al Pacino / Joe Pesci,English,240146,8.8,USA,21.1
+488, Werk ohne Autor,Drama,189,2018,Florian Henkel von Donnersmark,Tom Schilling / Sebastian Koch / Paula Bell,German,72169,8.6,Germany/Italy,21.1
+489,who fell in love with him first who fell in love with him first,Drama / Comedy / Gay,100,2018,Xu Yuting / Xu Zhiyan,Qiu Ze / Xie Yingxuan / Chen Rushan,Mandarin,356439,8.6,China Taiwan,21.1
+490, Green Book,Drama / Comedy / Biography / Music,130,2018,Peter Farrelly,Viggo Mortensen / Mahershala Ali / Linda Cardellini,English,1455892,8.9,US/Mainland China,21.1
+491,"That mountain, that man, that dog",Drama / Family,93,1999,Huo Jianqi,Teng Rujun / Liu Ye / Zhao Xiuli,Mandarin,106548,8.7,Mainland China,20.9
+492,T84·85,Drama,94,1986,Yang Yanjin,Ye Zhikang / Da Shichang / Guo Yuntai,Mandarin,7802,8.7,Mainland China,20.8
+493,children studying,Drama / Children,92,2012,Yuan Ya Xuan,Jiang Hualin / Li Jiaqi / Yuan Mingxuan,Mandarin,9787,8.6,Mainland China,21.1
+494,thief family,Drama / Crime / Family,117,2018,It's Hirokazu-eda,Masaya Nakagawa / Sakura Ando / Mayu Matsuoka,Japanese,749829,8.7,Japan,21.1
+495, Wonder,Drama / Children / Family,113,2017,Stephen Chobowski,Jacob Tremblay / Julia Roberts / Izabela Vidovic,English,511456,8.6,USA/Hong Kong,21.1
+496," Three Billboards Outside Ebbing, Missouri",Drama / Crime,115,2017,Martin MacDonald,Frances McDormand / Woody Harrelson / Sam Rockwell,English,751584,8.7,USA/UK,21.1
+497,"Ah, Wilderness Part 2",Drama,147,2017,Yoshiyuki Kishi,Sugata Masaki / Liang Yizhun / Kinoshita Akari,Japanese,21982,8.6,Japan,21.1
+498, Der kommer en dag,Drama,115,2016,Jasper W. Nelson,Russ Mickelson / Sophie Grabber / Harald Kaiser Herman,Danish,27433,8.7,Denmark,21.1
+499,Hikai Deeper than the deep sea,Drama / Family,117,2016,It's Hirokazu-eda,Hiro Abe / Yoko Maki / Satomi Kobayashi,Japanese,179139,8.8,Japan,21.1
+500, diary,Drama / Family,127,2015,It's Hirokazu-eda,Ayase Haruka / Nagasawa Masami / Xia Fan,Japanese,396521,8.8,Japan,21.1
+501,Nyoji Nyoko and become a father,Drama / Family,120,2013,It's Hirokazu-eda,Masaharu Fukuyama / Machiko Ono / Yoko Maki,Japanese,136142,8.7,Japan,21.1
+502,Busan trip,Action / Thriller / Disaster,118,2016,Yan Shanghao,Gong Yoo / Jung Yoo Mi / Ma Dong Suk,Korean,1081111,8.6,South Korea,21.1
+503, Under sandet,Drama / History / War,100,2015,Martin Zanrivert,Roland Moeller / Mikel Folsgaard / Louis Hoffman,Danish,72708,8.7,Denmark/Germany,21.1
+504, Spotlight,Drama / Biography,128,2015,Tom McCarthy,Mark Ruffalo / Michael Keaton / Rachel McAdams,English,252432,8.8,USA,21.1
+505,heart maze,Drama / Crime / Mystery,110,2014,Xin Yukun,Huo Weimin / Wang Xiaotian / Luo Yun,Mandarin,462467,8.7,Mainland China,21.1
+506, Spring Little Forest Winter,Drama,120,2015,Junichi Mori,Ai Hashimoto / Takada Miura / Mayu Matsuoka,Japanese,345574,9,Japan,21.1
+507,Autumn Little Forest Summer ,Drama,111,2014,Junichi Mori,Ai Hashimoto / Takada Miura / Mayu Matsuoka,Japanese,386102,9,Japan,21.1
+508, The Imitation Game,Drama / Biography / War / Same-Sex,114,2014,Morten Tydum,Benedict Cumberbatch / Keira Knightley / Matthew Goode,English,572613,8.7,UK/USA,21.1
+509, WOOD JOB,Drama / Comedy,116,2014,Yaguchi Shijing,Someya Shota / Nagasawa Masami / Ito Hideaki,Japanese,150752,8.6,Japan,21.1
+510, Die andere Heimat - Chronik einer Sehnsucht,Drama / History,231,2013,Edgar Ritz,Jan Dieter Schneider / Antonia Bill / Maximilian Schaeter,German,8238,8.6,Germany/France,21.1
+511, About Time,Comedy / Romance / Fantasy,123,2013,Richard Curtis,"Domhnall Gleeson, Rachel McAdams, Bill Nighy",English,580183,8.8,UK,21.1
+512,Zishan Fish Recipe ,Drama / History / Costumes,126,2021,Lee Jun-ik,Xue Jingqiu / Bian Yuehan / Li Junyin,Korean,33193,8.8,South Korea,21.2
+513, Friends: The Reunion,Comedy / Romance,104,2021,Ben Winston,Jennifer Aniston / Courteney Cox / Matthew Perry,English,66330,9.2,USA,21.2
+514,The Great Passage,Drama,134,2013,Yuya Ishii,Matsuda Ryuhei / Miyazaki Aoi / Odakiri,Japanese,68585,8.6,Japan,21.1
+515,tokyo family tokyo family,Drama / Family,146,2013,Yoji Yamada,Isao Masuzume / Kazuko Yoshiyuki / Masahiko Nishimura,Japanese,51370,8.8,Japan,21.1
+516, Henry V,Drama / History / War,132,2012,Thea Sherrock,Tom Hiddleston / Julie Waters / John Hurt,English,10033,8.7,UK,21.1
+517,Hoh Xil,Drama / Crime,85,2004,Lu Chuan,Dobujie / Zhang Lei / Qi Dao,Mandarin,271411,8.9,Mainland China/Hong Kong,21
+518, All That Jazz,Drama / Comedy / Music / Song And Dance,123,1979,Bob Foss,Roy Shedd / Jessica Lange / Leland Palmer,English,9031,8.6,USA,20.7
+519,my whole life,Drama / History,120,1950,Shi Hui,Shi Hui / Wei Heling / Cui Chaoming,Mandarin,11081,8.8,Mainland China,20.5
+520,Blue flame,Drama / Crime / Romance,116,2003,Yukio Ninagawa,Kazunari Ninomiya / Aya Matsuura / Kumiko Akiyoshi,Japanese,36832,8.7,Japan,21
+521,2： The Matrix Reloaded,Action / Sci-Fi,138,2003,Lana Wachowski / Lily Wachowski,Keanu Reeves / Lawrence Fishburne / Carrie-Anne Moss,English,369594,8.7,USA,21
+522, Blood Diamond,Drama / Thriller / Adventure,143,2006,Edward Zwick,Leonardo DiCaprio / Djimon Hounsou / Jennifer Connelly,English,340725,8.7,USA/Germany/UK,21
+523,East evil and west poison East evil west poison,Drama / Action / Romance / Martial Arts / Ancient Costume,100,1994,Wong Kar Wai,Leslie Cheung / Brigitte Lin / Tony Leung,Cantonese,529290,8.6,Hong Kong / Taiwan,20.9
+524, Memento,Crime / Drama / Mystery / Thriller,113,2000,Christopher Nolan,Guy Pearce / Carrie-Anne Moss / Joe Pantoliano,English,553189,8.7,USA,21
+525, Harry Potter and the Goblet of Fire,Mystery / Fantasy / Adventure,157,2005,Mike Newell,Daniel Radcliffe / Emma Watson / Rupert Grint,English,565965,8.7,UK/USA,21
+526, Django Unchained,Drama / Action / Western / Adventure,163,2012,Quentin Tarantino,Jamie Foxx / Leonardo DiCaprio / Christopher Waltz,English,549986,8.8,USA,21.1
+527, Harry Potter and the Chamber of Secrets,Fantasy / Adventure,161,2002,Chris Columbus,Daniel Radcliffe / Emma Watson / Rupert Grint,English,650401,8.8,UK/USA,21
+528,Tang Bohu points autumn fragrance Tang Bohu points autumn fragrance,Comedy / Romance / Costume,102,1993,Li Lichi,Stephen Chow / Gong Li / Chen Baixiang,Cantonese,966521,8.7,Hong Kong,20.9
+529, Harry Potter and the Prisoner of Azkaban,Fantasy / Adventure,141,2004,Alfonso Cuaron,Daniel Radcliffe / Emma Watson / Rupert Grint,English,624141,8.9,UK/USA,21
+530,effort,Action / Comedy / Crime / Fantasy,100,2004,Stephen Chow,Stephen Chow / Yuan Qiu / Yuan Hua,Cantonese,973729,8.7,Mainland China/Hong Kong,21
+531,king of comedy king of comedy,Comedy / Drama / Romance,89,1999,Stephen Chow / Li Lichi,Stephen Chow / Cecilia Cheung / Karen Mok,Cantonese,873148,8.8,Hong Kong,20.9
+532, Catch Me If You Can,Biography / Crime / Drama,141,2002,Steven Spielberg,Leonardo DiCaprio / Tom Hanks / Christopher Walken,English,879169,9.1,USA / Canada,21
+533, All About Eve,Drama,138,1950,Joseph L. Mankiewicz,Bette Davis / Anne Baxter / George Sanders,English,22713,8.7,USA,20.5
+534, Monsieur Verdoux,Comedy / Crime / Drama,124,1947,Charlie Chaplin,Charlie Chaplin / Maddie Correll / Alison Rodin,English,8702,8.8,USA,20.4
+535,Red beard,Drama,185,1965,Akira Kurosawa,Toshiro Mifune / Yuzo Kayama / Tsutomu Yamazaki,Japanese,12738,8.8,Japan,20.6
+536, Our Hospitality,Comedy / Romance / Thriller,73,1923,John Brightstone / Buster Keaton,Buster Keaton / Natalie Talmadge / Joe Roberts,English,5106,8.6,USA,20.2
+537,winter vacation,Drama / Children,98,1984,Hou Hsiao-hsien,Mei Fang / Gu Jun / Wang Qiguang,Mandarin,21838,8.7,China Taiwan,20.8
+538, Citizen Kane,Drama / Suspense,119,1941,Orson Welles,Orson Welles / Joseph Cotton / Dorothy Comingore,English,101616,8.8,USA,20.4
+539, Sunrise: A Song of Two Humans,Drama / Romance,94,1927,F.W. Murnau,George O'Brien / Jenny Gaynor / Margaret Livingston,English,13402,8.8,USA,20.2
+540, La passion de Jeanne d'Arc,Biography / Crime / Drama / History,110,1928,Carl Theodore Dreyer,"Maria Faoconetti, Antonin Aalto, Andre Bailey",French,10445,8.7,France,20.2
+541, Rear Window,Suspense / Thriller,112,1954,Alfred Hitchcock,James Stewart / Grace Kelly / Wendell Corey,English,167634,8.7,USA,20.5
+542,poem,Drama,139,2010,Li Cangdong,Yoon Jing Hee / Lee David / Kim Hee Ra,Korean,45388,8.6,South Korea,21.1
+543,The color of pomegranate,Biography / Drama / Music,79,1969,Sergey Parajanov,"Sofico Ciaulieri, Milk Alksanya, Willer Garstea",Armenian,14851,8.6,Soviet Union,20.6
+544,Cranes are flying,Drama / Romance / War,95,1957,Mikhail Karatozov,"Tatyana Samoylova, Alexei Batalov, Vasily Merkulyev",Russian,13967,8.7,Soviet Union,20.5
+545, L'armée des ombres,Drama / War,140,1969,Jean-Pierre Melville,Lino Ventura / Paul Morris / Jean-Pierre Cassel,French,6956,8.6,France/Italy,20.6
+546,"I was born, but ... I've seen a picture book that adults see.",Comedy / Drama,100,1932,Yasujiro Ozu,Tatsuo Hito / Tomio Aoki / Hiroko Yoshikawa,Japanese,5220,8.8,Japan,20.3
+547,The Song of Singing Sparrows,Drama,96,2008,Majid Majidi,Muhammad Amir Naji / Hossein Aghazi / Maryam Akbari,Persian,5182,8.6,Iran,21
+548, Judgment at Nuremberg,Drama / History,179,1961,Stanley Kramer,Spencer Tracy / Burt Lancaster / Richard Widmark,English,7010,9.1,USA,20.6
+549, The Killing,Crime / Film Noir / Thriller,85,1956,Stanley Kubrick,Sterling Hayden / Colleen Grey / Vince Edwards,English,26906,8.6,USA,20.5
+550,dream dream,Drama / Fantasy,121,1990,Akira Kurosawa / Inoshiro Honda,Akira Terao / Mitsuko Baisho / Toshie Negishi,Japanese,47408,8.7,Japan/US,20.9
+551,Sanjuro Tsubaki,Drama / Comedy / Action / Crime / Thriller,96,1962,Akira Kurosawa,Toshiro Mifune / Tatsuya Nakadai / Koshiki Kobayashi,Japanese,26114,8.8,Japan,20.6
+552, Du rififi chez les hommes,Drama / Crime / Thriller,118,1955,Jules Dassin,Gene Servius / Robert Manuel / Carl Mona,French,3962,8.5,France,20.5
+553,When a woman steps up the stairs,Drama,111,1960,Mikio Naruse,Hideko Takamine / Masayuki Mori / Reiko 团,Japanese,16843,9.1,Japan,20.6
+554, Cléo de 5 à 7,Comedy / Drama / Music,90,1962,Agnès Varda,Corinne Marchand / Antoine Bourseye / Dominique Dabre,French,19356,8.7,France/Italy,20.6
+555, Scener ur ett äktenskap,Drama / Romance,169,1973,Ingmar Bergman,Liv Ullman / Erland Josephson / Gunell Lindblom,Swedish,20268,9.1,Sweden,20.7
+556,Spring Love Letter (ハル),Drama / Romance,118,1996,Yoshimitsu Morita,Eri Fukatsu / Seiyo Uchino / Naho Toda,Japanese,14025,8.6,Japan,20.9
+557,The full story of Kim Bok-nam's murder case,Drama / Crime / Thriller,116,2010,Jang Cheol Soo,Seo Young Hee / Ji Sung Won / Park Jung Hak,Korean,215284,8.6,South Korea,21.1
+558,Nozomi Sandakan Hachibankan Nozomi,Drama / History / War,120,1974,Xiong Jingqi,Komaki Kurihara / Kinuyo Tanaka / Yoko Takahashi,Japanese,10079,8.7,Japan,20.7
+559, Alice in den Städten,Drama,110,1974,Wim Wenders,Rudiger Fogler / Yella Rotlander / Lisa Cruzer,German,5867,8.7,West Germany,20.7
+560, La montaña sagrada,Fantasy / Adventure,114,1973,Alessandro Jodorowsky,Alessandro Jodorowsky / Horacio Salinas / Zamira Saunders,Spanish,17641,8.7,Mexico,20.7
+561, Addams Family Values,Comedy / Family / Fantasy / Thriller,94,1993,Barry Sonnenfeld,Christina Ricci / Joan Cusack / Raul Julia,English,43059,8.7,USA,20.9
+562,Life and no more,Drama / Disaster,95,1992,Abbas Kiarostami,Fadha Kidman / Bubba Bayul / Osina Fah,Persian,10286,8.8,Iran,20.9
+563, Kingdom of Heaven,Drama / History / War,144,2005,Ridley Scott,Orlando Bloom / Eva Green / Edward Norton,English,97552,8.6,UK/Germany/Spain/Morocco/USA/Italy/France,21
+564,tropical fish,Comedy / Drama,109,1995,Chen Yuxun,Lin Jiahong / Wen Ying / Lin Zhengsheng,Mandarin,12462,8.6,China Taiwan,20.9
+565,Hello Ghost,Drama / Comedy / Family,111,2010,Kim Young-joo,Cha Tae Hyun / Go Chang Suk / Jang Young Nam,Korean,185621,8.6,South Korea,21.1
+566, Sátántangó,Drama / Suspense,450,1994,Bella Tal,Mihai Wiig / Phuket Horvath / Laszlo Felugosi,Hungarian,7481,9,Hungary/Germany/Switzerland,20.9
+567,The second part of the final movement of the cantabile,Drama,123,2010,Hideki Takeuchi,Juri Ueno / Hiroshi Tamaki,Japanese,35692,8.8,Japan,21.1
+568, Joint Guard Area JSA,Drama,110,2000,Park Chan-wook,Lee Young-ae / Lee Byung-hun / Song Kang-ho,Korean,85888,8.8,South Korea,21
+569,Happy hour,Drama,317,2015,Hamaguchi Ryusuke,Yukie Tanaka / Hazuki Kikuchi / Maiko Mihara,Japanese,8960,8.6,Japan,21.1
+570,East Evil Definitive Edition,Drama / Action / Romance,93,2008,Wong Kar Wai,Leslie Cheung / Brigitte Lin / Tony Leung,Cantonese,176957,8.8,Hong Kong/Mainland/Taiwan,21
+571, Soldier's Girl,Drama / Romance / Crime / Same Sex,112,2003,Frank Pearson,Troy Gretty / Lee Pace / Andrew Brower,English,29472,8.6,USA / Canada,21
+572,11 Roma ore 11,Drama,107,1952,Giuseppe de Santis,Eva Vanicek / Carla Del Poggio / Massimo Gilotti,Italian,3876,9.2,Italy/France,20.5
+573,Then then,Drama,130,1985,Yoshimitsu Morita,Yusaku Matsuda / Miwako Fujitani / Kaoru Kobayashi,Japanese,6673,8.6,Japan,20.8
+574,Space Exploration Editorial Department,Comedy / Sci-Fi,112,2021,Kong Dashan,Yang Haoyu / Alia / Jiang Qiming,Mandarin,1083,8.6,Mainland China,21.2
+575,chivalrous woman,Drama / Action / Martial Arts / Ancient Costume,179,1970,Hu Jinquan,Xu Feng / Shi Jun / Bai Ying,Mandarin,23294,8.6,Taiwan/Hong Kong,20.7
+576,floating cloud,Drama / Romance,123,1955,Mikio Naruse,Hideko Takamine / Masayuki Mori / Mariko Okada,Japanese,9582,8.6,Japan,20.5
+577, Lawrence of Arabia,Drama / Biography / Adventure,216,1962,David Lean,Peter O'Toole / Alec Guinness / Anthony Quinn,English,44729,8.7,UK,20.6
+578,Weird talk,Drama / Fantasy / Horror,183,1964,Kobayashi Masaki,Michiyo Aratama / Misako Watanabe / Rentaro Mikuni,Japanese,19696,8.6,Japan,20.6
+579, Stranger Than Paradise,Drama / Comedy,89,1984,Jim Jarmusch,John Laurie / Easter Burlingt / Richard Edson,English,14422,8.6,USA/West Germany,20.8
+580, Amarcord,Drama / Comedy,123,1973,Federico Fellini,"Popela Macchio, Armando Blanchard, Margaly Noel",Italian,14002,8.8,Italy/France,20.7
+581,red persimmon,Drama / Family,168,1997,Wang Tong,Tao Shu / Shi Jun / Zhang Shi,Mandarin,6191,8.9,China Taiwan,20.9
+582, Hedwig and the Angry Inch,Drama / Comedy / Gay / Music,95,2001,John Cameron Mitchell,John Cameron Mitchell / Miriam Shore / Andrea Martin,English,9189,8.7,USA,21
+583, Paper Moon,Comedy / Crime / Drama,102,1973,Peter Bogdanovich,Ryan O'Neal / Tatum O'Neal / Madeline Kahn,English,10318,8.6,USA,20.7
+584, The Color Purple,Drama,154,1985,Steven Spielberg,Danny Glover / Whoopi Goldberg / Margaret Avery,English,25434,8.6,USA,20.8
+585, Bicentennial Man,Drama / Comedy / Science Fiction,132,1999,Chris Columbus,Robin Williams / Abs Davis / Sam Neill,English,94351,8.6,USA/Germany,20.9
+586, Freedom Writers,Biography / Crime / Drama,123,2007,Richard La Gravens,Hilary Swank / Patrick Dempsey / Scott Glenn,English,23884,8.6,USA/Germany,21
+587, Everything Everywhere All at Once,Comedy / Fantasy / Adventure,132,2022,Dan Kwan / Daniel Schnatter,Michelle Yeoh / Stephanie Xu / Guan Jiwei,English,9228,8.8,USA,21.2
+588, The stork's meteoric step,Drama / Romance,143,1991,Theo Angelopoulos,Marcelo Mastroianni / Jeanne Moreau,French,5563,8.8,France/Italy/Greece/Switzerland,20.9

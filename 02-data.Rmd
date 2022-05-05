@@ -1,2 +1,103 @@
 # Data sources
 
+## Data source:
+we will retrieve data from websites IMDb (America)and douban (China). The data for this report comes from the film data resources.
+Grab and visual analysis of any movie short reviews (hits) as well as their scores from the websites IMDb (America)and douban (China). The data will contain movie IDs, genre, popularity, runtime, vote and other informations. We will do the Data Cleaning first.
+
+## Collecting Data
+Since our final project wants to answer the question from two movie markets, China and America, it was separated into two parts naturally. Hence, we collected data separately (Shiang dynamicly web scraped data from douban, and Long dynamicly web scraped data from IMDB), and later we did the same research and answer the same questions with different counties' movie data. 
+
+If there were a choice of option, we might choose some other database sites that provide ready-made raw data. This is because fetching web data was a painful process, not only that some website have anti - crawling mechanism for which the layout of the web interface changes at regular intervals so that we cannot use previous existing codes to retrieve the data, but also that we need long time to store our data into the csv files we wrote.  For instance, we both spent long time due to any web pages are very different from where the data is on the next page. For IMDB, the link we use is with the code of JavaScript displayed written in confusion, for which it has so many repetitive classes which prevents us from quickly selecting the parts we need. Especially for douban, a website with a mix of languages, we spent about 2 hours for just stored the data and 2 more hours for translating all the languages from raw data into English.
+
+
+
+## Basic information about the dataset.
+```{r}
+library(tidyverse)
+library(psych)   
+# imdb
+movie_IMDB = read_csv("movie_IMDB.csv")
+head(movie_IMDB)
+
+# describe the information of the data
+describeBy(movie_IMDB)
+
+# shows the dimensions of the data frame by row and column
+dim(movie_IMDB)
+
+# shows the structure of the data frame
+str(movie_IMDB)
+
+# provides summary statistics on the columns of the data frame
+summary(movie_IMDB)
+```
+
+```{r}
+# douban high
+movie_high= read_csv("movie_high.csv")
+head(movie_high)
+
+# describe the information of the data
+describeBy(movie_high)
+
+# shows the dimensions of the data frame by row and column
+dim(movie_high)
+
+# shows the structure of the data frame
+str(movie_high)
+
+# provides summary statistics on the columns of the data frame
+summary(movie_high)
+```
+
+```{r}
+# douban median
+movie_median= read_csv("movie_median.csv")
+head(movie_median)
+
+# describe the information of the data
+describeBy(movie_median)
+
+# shows the dimensions of the data frame by row and column
+dim(movie_median)
+
+# shows the structure of the data frame
+str(movie_median)
+
+# provides summary statistics on the columns of the data frame
+summary(movie_median)
+```
+
+```{r}
+# douban low
+movie_low= read_csv("movie_low.csv")
+head(movie_low)
+
+# describe the information of the data
+describeBy(movie_low)
+
+# shows the dimensions of the data frame by row and column
+dim(movie_low)
+
+# shows the structure of the data frame
+str(movie_low)
+
+# provides summary statistics on the columns of the data frame
+summary(movie_low)
+```
+
+## Issues
+1. One movie would have several movie genres, it would cause over-estimating.
+2. For China website, since we do the translation, there would cause some misunderstandings.
+3. Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems.
+4. For IMDB, web pages are very different from where the data is on the next page (especially for the movies after place 100th and even 700th).
+5. Need to use dynamic web scraping since we are not just retrieve data from the first pages for both websites.
+6. For IMDB website, some of the movie place data has missing numerical digits for which would cause problems if not doing the data filling.
+
+
+
+## Links
+1. https://www.douban.com/doulist/240962/
+2. https://www.douban.com/doulist/243559/
+3. https://www.douban.com/doulist/248893/
+4. https://www.imdb.com/search/title/?groups=top_1000

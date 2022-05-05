@@ -1,1 +1,45 @@
 # Missing values
+
+#### movie data from IMDB
+```{r}
+library(tidyverse)
+library(redav)
+library(ggplot2)
+# imdb
+movie_IMDB = read_csv("movie_IMDB.csv")
+head(movie_IMDB)
+
+# check the sum of missing value
+sum(is.na(movie_IMDB))
+
+# provides summary statistics on the columns of the data frame, this will also give details on missing values for each column
+summary(movie_IMDB)
+
+# visualise the number of missings in cases using plot_missing from redav
+# rows and columns sorted by number missing
+plot_missing(movie_IMDB, percent = FALSE)
+
+```
+
+#### movie data from douban
+```{r}
+# douban movie
+movie_high= read_csv("movie_high.csv")
+movie_median= read_csv("movie_median.csv")
+movie_low= read_csv("movie_low.csv")
+movie_douban = rbind(movie_high,movie_median)
+movie_douban = rbind(movie_douban,movie_low)
+head(movie_douban)
+
+# check the sum of missing value
+sum(is.na(movie_douban))
+
+# provides summary statistics on the columns of the data frame, this will also give details on missing values for each column
+summary(movie_douban)
+
+# visualise the number of missings in cases using plot_missing from redav
+# rows and columns sorted by number missing
+plot_missing(movie_douban, percent = FALSE)
+```
+
+From the above results, we find there exists no missing pattern in both datasets. This is mostly because we captured the data we need through web crapping from the websites pages by pages dynamically, from which the missing values were all removed inside the loops since they have no text values.
