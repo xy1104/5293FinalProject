@@ -23,8 +23,8 @@ movie_low= read_csv("movie_low.csv")
 ```{r}
 movie_douban = rbind(movie_high,movie_median)
 movie_douban = rbind(movie_douban,movie_low)
-head(movie_douban)
-head(movie_IMDB)
+#head(movie_douban)
+#head(movie_IMDB)
 ```
 
 ## Genre
@@ -106,6 +106,7 @@ From this vertical histogram on Comparison of the Number of Films in Each Genre 
 
 ## Score and Reviewers
 ### IMDB
+*IMDB scores review*
 ```{r}
 IMDB_rates_andratecount <- movie_IMDB %>%
   group_by(year) %>%
@@ -121,16 +122,18 @@ IMDB_scores_review <- IMDB_rates_andratecount %>%
          vote_normal = (vote_mean - mean(IMDB_rates_andratecount$vote_mean))/sd(IMDB_rates_andratecount$vote_mean))
 
 IMDB_scores_review
+```
 
+```{r}
 g2 <- IMDB_scores_review %>%
   ggplot() +
   geom_line(aes(x=year, y = rating_normal, color = "Rating"),size =1)  +
   geom_line(aes(x=year, y = vote_normal, color = "Votes"),size =1) +
   scale_colour_manual("", 
                       breaks = c("Votes", "Rating"),
-                      values = c("red",  "blue"))
+                      values = c("red",  "blue"))+
   labs(
-    title = "Comparison of ratings and votes from 1920 to 2022 (IMDB)",
+    title='Comparison of ratings and votes from 1920 to 2022 (IMDB)',
     x = "Year",
     y = "Normalized value"
   )
@@ -139,6 +142,7 @@ g2
 ```
 
 ### Douban
+*Douban scores review*
 ```{r}
 # normalize the data to let them in the same range
 
@@ -156,7 +160,9 @@ score_review = score_review %>%
   
 
 score_review
+```
 
+```{r}
 ggplot()+
   geom_line(data = score_review, aes(x = Year, y = Reviews_n,colour = "Reviews"),  size =1) +
   geom_line(data = score_review, aes(x = Year, y = Rank_n, colour = "Rank"),size=1) +
@@ -164,7 +170,7 @@ ggplot()+
                       breaks = c("Reviews", "Rank"),
                       values = c("red",  "blue"))+
   labs(
-    title='Comparison of ratings and reviews from 20 century to 21 century (Douban)',
+    title='Comparison of ratings and reviews from 1920 to 2022 (Douban)',
     x= 'Year',
     y='Normalized Value'
   )
@@ -177,25 +183,24 @@ The above two plots on Comparison of ratings and votes from 1920 to 2022 for bot
  
 
 ## Histogram of The Combination with IMDB and Douiban
-*Maximum rating in IMDB*
 ```{r}
 #seq(0,10)
+```
+*Maximum of rating in IMDB*
+```{r}
 max(movie_IMDB$rating)
 ```
-*Minimum rating in IMDB*
+*Minimum of rating in IMDB*
 ```{r}
 min(movie_IMDB$rating)
 ```
-*Maximum rating in Douban*
+*Maximum of rating in Douban*
 ```{r}
 max(movie_douban$Rank)
 ```
-*Minimum rating in Douban*
+*Minimum of rating in Douban*
 ```{r}
 min(movie_douban$Rank)
-```
-
-```{r}
 ggplot() + 
   geom_histogram(data = movie_IMDB, aes(x = rating, y = ..density..,fill = "r"), alpha = 0.3,binwidth = 0.05) +
     stat_function(fun = dnorm, args = list(mean = mean(movie_IMDB$rating), sd = sd(movie_IMDB$rating)),color="red",size=1)+
@@ -204,7 +209,10 @@ ggplot() +
   stat_bin(bins =30) +
   xlim(7,10) +
   scale_colour_manual(name ="Rating", values = c("r" = "red", "b" = "blue"), labels=c("b" = "Douban", "r" = "IMDB")) +
-  scale_fill_manual(name ="Rating", values = c("r" = "red", "b" = "blue"), labels=c("b" = "Douban", "r" = "IMDB"))
+  scale_fill_manual(name ="Rating", values = c("r" = "red", "b" = "blue"), labels=c("b" = "Douban", "r" = "IMDB")) +
+  labs(
+    title='Density histograms of ratings in both IMDB and Douban from 1920 to 2022'
+  )
 ```
 
 
@@ -213,3 +221,4 @@ As plot the density histograms of these two datasets, we could observe that: \
 2. The size of high rating in Douban is large than IMDB, more movies are located in the range [8.5,10]. \
 
 **Remember, our dataset only contains the popular movies or the movies which have rating > 7, so if the dataset is large enough, the distribution of them could be more convictive.**  \
+

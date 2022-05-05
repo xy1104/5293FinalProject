@@ -155,24 +155,6 @@
 <li><p>Do movie ratings differ significantly on different movie sites?<br />
 </p></li>
 </ol>
-<pre><code>## # A tibble: 6 x 12
-##    ...1 Name                        Type                           Duration  Year Director         Actor   Language Reviews  Rank Country Century
-##   &lt;dbl&gt; &lt;chr&gt;                       &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
-## 1     0 The Shawshank Redemption    Crime / Drama                       142  1994 Frank Darabont   Tim Ro~ English  2610384   9.7 USA        20.9
-## 2     1 Farewell My Concubine       Drama / Romance / Gay               171  1993 Chen Kaige       Leslie~ Mandarin 1938287   9.6 Mainla~    20.9
-## 3     2 Witness for the Prosecution Drama / Crime / Mystery             116  1957 Billy Wilder     Tyrone~ English   456535   9.6 USA        20.5
-## 4     3 Forrest Gump                Drama / Romance                     142  1994 Robert Zemeckis  Tom Ha~ English  1962283   9.5 USA        20.9
-## 5     4 La vita è bella             Drama / Comedy / Romance / War      116  1997 Roberto Bernini  Robert~ Italian  1205797   9.6 Italy      20.9
-## 6     5 Schindler&#39;s List            Drama / History / War               195  1993 Steven Spielberg Liam N~ English  1005746   9.6 USA        20.9</code></pre>
-<pre><code>## # A tibble: 6 x 9
-##   Column1 movie_title                        year place rating   vote link               duration genre                     
-##     &lt;dbl&gt; &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;    &lt;chr&gt;                     
-## 1       0 The Batman                         2022     1    8   434477 /title/tt1877830/  176 min  Action, Crime, Drama      
-## 2       1 The Northman                       2022     2    7.8  40320 /title/tt11138512/ 137 min  Action, Adventure, Drama  
-## 3       2 Everything Everywhere All at Once  2022     3    8.8  31625 /title/tt6710474/  139 min  Action, Adventure, Comedy 
-## 4       3 KGF: Chapter 2                     2022     4    8.9     55 /title/tt10698680/ 168 min  Action, Crime, Drama      
-## 5       4 Spider-Man: No Way Home            2021     5    8.4  86180 /title/tt10872600/ 148 min  Action, Adventure, Fantasy
-## 6       5 Dune                               2021     6    8.1 613257 /title/tt1160419/  155 min  Action, Adventure, Drama</code></pre>
 <div id="genre" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Genre<a href="results.html#genre" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="imdb-1" class="section level3 hasAnchor" number="5.1.1">
@@ -201,6 +183,7 @@
 <h2><span class="header-section-number">5.2</span> Score and Reviewers<a href="results.html#score-and-reviewers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="imdb-2" class="section level3 hasAnchor" number="5.2.1">
 <h3><span class="header-section-number">5.2.1</span> IMDB<a href="results.html#imdb-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>IMDB scores review</em></p>
 <pre><code>## # A tibble: 90 x 5
 ## # Groups:   year [90]
 ##     year rating_mean vote_mean rating_normal vote_normal
@@ -216,21 +199,11 @@
 ##  9  1938        7.8    530870        -1.32        -0.976
 ## 10  1939        8.05 13251644.        0.254       -0.539
 ## # ... with 80 more rows</code></pre>
-<pre><code>## $x
-## [1] &quot;Year&quot;
-## 
-## $y
-## [1] &quot;Normalized value&quot;
-## 
-## $title
-## [1] &quot;Comparison of ratings and votes from 1920 to 2022 (IMDB)&quot;
-## 
-## attr(,&quot;class&quot;)
-## [1] &quot;labels&quot;</code></pre>
-<p><img src="finalproj_files/figure-html/unnamed-chunk-40-1.png" width="672" /></p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-41-1.png" width="672" /></p>
 </div>
 <div id="douban-1" class="section level3 hasAnchor" number="5.2.2">
 <h3><span class="header-section-number">5.2.2</span> Douban<a href="results.html#douban-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Douban scores review</em></p>
 <pre><code>## # A tibble: 102 x 5
 ## # Groups:   Year [102]
 ##     Year Reviews_m Rank_m Reviews_n Rank_n
@@ -246,7 +219,7 @@
 ##  9  1927    26657    8.95    -0.790  1.80 
 ## 10  1928    10877.   8.8     -0.977  1.13 
 ## # ... with 92 more rows</code></pre>
-<p><img src="finalproj_files/figure-html/unnamed-chunk-41-1.png" width="672" /></p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-43-1.png" width="672" /></p>
 <p>The above two plots on Comparison of ratings and votes from 1920 to 2022 for both IMDB and Douban indicate that:<br />
 1. From 1920s to early 1960s, the number of movie viewers was low, but the ratings were generally high.<br />
 2.From 1960s to 1990s, the number of viewers began to increase, but the ratings were slightly mediocre.<br />
@@ -256,15 +229,15 @@
 </div>
 <div id="histogram-of-the-combination-with-imdb-and-douiban" class="section level2 hasAnchor" number="5.3">
 <h2><span class="header-section-number">5.3</span> Histogram of The Combination with IMDB and Douiban<a href="results.html#histogram-of-the-combination-with-imdb-and-douiban" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p><em>Maximum rating in IMDB</em></p>
+<p><em>Maximum of rating in IMDB</em></p>
 <pre><code>## [1] 9.3</code></pre>
-<p><em>Minimum rating in IMDB</em></p>
+<p><em>Minimum of rating in IMDB</em></p>
 <pre><code>## [1] 7.6</code></pre>
-<p><em>Maximum rating in Douban</em></p>
+<p><em>Maximum of rating in Douban</em></p>
 <pre><code>## [1] 9.7</code></pre>
-<p><em>Minimum rating in Douban</em></p>
+<p><em>Minimum of rating in Douban</em></p>
 <pre><code>## [1] 7.4</code></pre>
-<p><img src="finalproj_files/figure-html/unnamed-chunk-46-1.png" width="672" /></p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-48-1.png" width="672" /></p>
 <p>As plot the density histograms of these two datasets, we could observe that:<br />
 1. The distributions of IMDB and Douban are similar, approximately normally distributed, which indicates that we have enough samples to do the analysis.<br />
 2. The size of high rating in Douban is large than IMDB, more movies are located in the range [8.5,10].<br />
