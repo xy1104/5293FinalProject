@@ -1,4 +1,4 @@
-# Interactive components
+# Interactive component
 
 ```{r}
 library(tidyverse)
@@ -18,8 +18,8 @@ head(movie_douban)
 head(movie_IMDB)
 ```
 
-## Genre Changes over Time
-### IMDB
+### Genre Changes over Time
+##### IMDB
 ```{r}
 # split the genre column into three new columns: genre_1, genre_2, genre_3, note, some movies do not have value in genre_2 or genre_3
 movie_IMDB_split_genre <- movie_IMDB %>%
@@ -79,7 +79,7 @@ From this interactive lines plot on Trends of Top 10 Genres from 1920 to 2022(IM
 4. The number of films in all genres changed little before 1960, but grew dramatically from the 1990s onward, with significant growth in the number of films in the top five categories of Drama, Comedy, Thriller, Adventure, and Romance. After peaking around 2010, the number of movies has declined overall in recent years.
 
 
-### Douban
+##### Douban
 ```{r}
 # split the genre column into three new columns: genre_1, genre_2, genre_3, note, some movies do not have value in genre_2 or genre_3
 movie_DB_split_genre <- movie_douban %>%
@@ -137,7 +137,7 @@ From this interactive lines plot on Trends of Top 10 Genres from 1920 to 2022 (D
 3. We can see that these genres increase withn fluctuation, and there is a rapid drop during the 2019-2020, because of the epidemic, the movie market is almost at standstill. \
 
 
-## Significant difference: Scatter plot
+### Significant difference: Scatter plot
 Since the size of datasets are not same, we find the same movies contained in both dataset. The scatter plot would give a more intuitional result. X-axis is rating from Douban (doubanR), Y-axis is rating from IMDB (imdbR), the short blue is the regression line between them and abline(black straight line). Above black line, doubanR < imdbR, and below black line, doubanR > imdbR. 
 ```{r}
 set.seed(0)
@@ -182,7 +182,7 @@ From this interactive plot, you could see the details by moving mouse over the p
   * Douban: 5 stars \
 for a good movie, it is hard to give 10/10, 8/10 maybe already consider as a high score. On the other hand, 4/5, or 5/5 could be easy on Douban.
 
-## Significant difference: Percentile plot
+### Significant difference: Percentile plot
 To reduce the effect of scoring mechanism, we use percentile rank (the below interactive plot), thus we rank movies by IMDB and Douban respectively, the highest rating is 100, and the lowest is 0, we redraw the plor. The points located between two grey lines (the rank difference is less than 20%) can be regarded as having a small score difference between IMDB and Douban.
 
 ```{r}
@@ -222,4 +222,5 @@ ggplotly(percentile)
 We could observe that (you could see the details by moving mouse over the point): \
 1. The positive relation still exists, the regression line changes slightly. \
 2. However, from the regression lines, the rating on two website are similar, there still have some movies, above the top grey line and below the bottom grey line, which have a big difference between two websites, which may cause by the culture, regulations, or other reasons.
+
 

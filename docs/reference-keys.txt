@@ -17,7 +17,7 @@ score-and-reviewers
 imdb-1
 douban-1
 histogram-of-the-combination-with-imdb-and-douiban
-interactive-components
+interactive-component
 genre-changes-over-time
 imdb-2
 douban-2
