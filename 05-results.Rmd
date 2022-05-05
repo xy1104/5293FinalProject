@@ -1,1 +1,202 @@
 # Results
+
+1. Does the rating of a movie correlate with the number of people watching or reviewing it? (The more people review and rate these movies, the more popular they are, the higher the rating they receive?) \
+
+2. How have film genres changed over time? \
+
+3. Do movie ratings differ significantly on different movie sites? \
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+```
+
+```{r}
+# imdb
+movie_IMDB = read_csv("movie_IMDB.csv")
+movie_high= read_csv("movie_high.csv")
+movie_median= read_csv("movie_median.csv")
+movie_low= read_csv("movie_low.csv")
+```
+
+```{r}
+movie_douban = rbind(movie_high,movie_median)
+movie_douban = rbind(movie_douban,movie_low)
+head(movie_douban)
+head(movie_IMDB)
+```
+
+## Genre
+### IMDB
+```{r}
+# split the genre column into three new columns: genre_1, genre_2, genre_3, note, some movies do not have value in genre_2 or genre_3
+movie_IMDB_split_genre <- movie_IMDB %>%
+  separate(genre, c("genre_1", "genre_2", "genre_3"))
+
+#head(movie_IMDB_split_genre)
+
+# we also need a tibble that with one column genre but store one genre in each row
+movie_IMDB_split_mutirows <- movie_IMDB_split_genre %>%
+  pivot_longer(genre_1:genre_3, names_to = "genre_order", values_to = "genre_i") %>%
+  drop_na() %>%
+  filter(genre_i != "Fi")
+
+#head(movie_IMDB_split_mutirows)
+
+movie_genre_rank <- movie_IMDB_split_mutirows %>%
+  group_by(genre_i) %>%
+  summarise(total_counts = n()) %>%
+  arrange(-total_counts) 
+
+g1 <- movie_genre_rank %>%
+  ggplot(aes(x=reorder(genre_i, total_counts), y = total_counts)) +
+  geom_bar(stat="identity", fill="steelblue") +
+  #geom_text(aes(label=total_counts), vjust= 0.7,position = position_dodge(0.9),  size=3.5) + 
+  coord_flip() +
+  labs(
+    title = "Comparison of Genres in total from 1920 to 2022 (IMDB)",
+    x = "Genres",
+    y = "Quantities of Genres"
+  )
+
+g1
+```
+
+From this vertical histogram on Comparison of Genres in total from 1920 to 2022 (IMDB), we observed that: \
+1. Drama seems to be the most popular genre, which is far more than any other genres. \
+2. Adventure, Action, Comedy, and Crime are also with high degree of popularity just followed by Drama in the top 5 places. \
+3. Compared with other film genres, the number of Drama in the top 700 list is several times or even closed to a hundred times higher than other genres in the whole 102-year period in this intraday list on the dynamic page.
+
+
+
+### Douban
+```{r}
+movie_DB_genre <- movie_douban %>%
+  separate(Type, c("genre_1", "genre_2", "genre_3")) %>%
+  pivot_longer(genre_1:genre_3, names_to = "genre_order", values_to = "genre_i") %>%
+  drop_na() %>%
+  group_by(genre_i) %>%
+  summarise(total_counts = n()) %>%
+  arrange(-total_counts) %>%
+  ggplot(aes(x=reorder(genre_i, total_counts), y = total_counts)) +
+  geom_bar(stat="identity", fill="steelblue") +
+  coord_flip() +
+  labs(
+    title = "Comparison of the Number of Films in Each Genre from 1920 to 2022 (Douban)",
+    x = "Genres",
+    y = "Quantities of Genres"
+  )
+movie_DB_genre
+```
+
+From this vertical histogram on Comparison of the Number of Films in Each Genre from 1920 to 2022 (Douban), we observed that: \
+1. Drama seems to be the most popular genre, which is far more than any other genres. \
+2. Comedy, Romance, Crime, and Action are also with high degree of popularity just followed by Drama in the top 5 places. \
+3. Compared with other film genres, the number of Drama in the top 1664 list is several times or even closed to a hundred times higher than other genres in the whole 102-year period in this intraday list on Douban website.
+
+
+**Conclusion for the Comparison on genres from IMDB and Douban:** \
+**1. Drama is the most popular genre on both websites from 1920 to 2020.** \
+**2. Comedy, Crime, and Action are also popular and ranked in the top five.** \
+**3. Romance has higher quantities on Douban, while Adventure has higher quantities on IMDB. Therefore, users of Douban prefer Romance than  Adventure with high probabilities; users of IMDB prefer Adventure than  Romance more likely.** \
+
+
+
+
+## Score and Reviewers
+### IMDB
+```{r}
+IMDB_rates_andratecount <- movie_IMDB %>%
+  group_by(year) %>%
+  mutate(rating_mean = mean(rating),
+         vote_mean = mean(vote)) %>%
+  summarise(rating_mean,vote_mean) %>%
+  unique()
+
+# vote have great difference compare to rating
+# normalize both columns to give out more efficient comparison
+IMDB_scores_review <- IMDB_rates_andratecount %>%
+  mutate(rating_normal = (rating_mean - mean(IMDB_rates_andratecount$rating_mean))/sd(IMDB_rates_andratecount$rating_mean),
+         vote_normal = (vote_mean - mean(IMDB_rates_andratecount$vote_mean))/sd(IMDB_rates_andratecount$vote_mean))
+
+IMDB_scores_review
+
+g2 <- IMDB_scores_review %>%
+  ggplot() +
+  geom_line(aes(x=year, y = rating_normal, color = "Rating"),size =1)  +
+  geom_line(aes(x=year, y = vote_normal, color = "Votes"),size =1) +
+  scale_colour_manual("", 
+                      breaks = c("Votes", "Rating"),
+                      values = c("red",  "blue"))
+  labs(
+    title = "Comparison of ratings and votes from 1920 to 2022 (IMDB)",
+    x = "Year",
+    y = "Normalized value"
+  )
+
+g2
+```
+
+### Douban
+```{r}
+# normalize the data to let them in the same range
+
+score_review = movie_douban %>%
+  group_by(Year) %>%
+  mutate(
+    Reviews_m = mean(Reviews),
+    Rank_m = mean(Rank)
+  ) %>%
+  summarise(Reviews_m, Rank_m) %>%
+  unique()
+score_review = score_review %>%
+  mutate(Reviews_n = (Reviews_m - mean(score_review$Reviews_m))/sd(score_review$Reviews_m),
+         Rank_n = (Rank_m - mean(score_review$Rank_m))/sd(score_review$Rank_m))
+  
+
+score_review
+
+ggplot()+
+  geom_line(data = score_review, aes(x = Year, y = Reviews_n,colour = "Reviews"),  size =1) +
+  geom_line(data = score_review, aes(x = Year, y = Rank_n, colour = "Rank"),size=1) +
+    scale_colour_manual("", 
+                      breaks = c("Reviews", "Rank"),
+                      values = c("red",  "blue"))+
+  labs(
+    title='Comparison of ratings and reviews from 20 century to 21 century (Douban)',
+    x= 'Year',
+    y='Normalized Value'
+  )
+```
+
+The above two plots on Comparison of ratings and votes from 1920 to 2022 for both IMDB and Douban indicate that: \
+1. From 1920s to early 1960s, the number of movie viewers was low, but the ratings were generally high. \
+2.From 1960s to 1990s, the number of viewers began to increase, but the ratings were slightly mediocre. \
+3. From 1990s to this year, the number of movie viewers continued to rise significantly, but at the same time the movie ratings also had a gradual upward trend. \
+ 
+
+## Histogram of The Combination with IMDB and Douiban
+```{r}
+#seq(0,10)
+max(movie_IMDB$rating)
+min(movie_IMDB$rating)
+max(movie_douban$Rank)
+min(movie_douban$Rank)
+ggplot() + 
+  geom_histogram(data = movie_IMDB, aes(x = rating, y = ..density..,fill = "r"), alpha = 0.3,binwidth = 0.05) +
+    stat_function(fun = dnorm, args = list(mean = mean(movie_IMDB$rating), sd = sd(movie_IMDB$rating)),color="red",size=1)+
+  geom_histogram(data = movie_douban, aes(x = Rank, y = ..density..,fill = "b"), alpha = 0.3,binwidth = 0.05) +
+    stat_function(fun = dnorm, args = list(mean = mean(movie_douban$Rank), sd = sd(movie_douban$Rank)),color="blue",size=1)+
+  stat_bin(bins =30) +
+  xlim(7,10) +
+  scale_colour_manual(name ="Rating", values = c("r" = "red", "b" = "blue"), labels=c("b" = "Douban", "r" = "IMDB")) +
+  scale_fill_manual(name ="Rating", values = c("r" = "red", "b" = "blue"), labels=c("b" = "Douban", "r" = "IMDB"))
+```
+
+
+As plot the density histograms of these two datasets, we could observe that: \
+1. The distributions of IMDB and Douban are similar, approximately normally distributed, which indicates that we have enough samples to do the analysis. \
+2. The size of high rating in Douban is large than IMDB, more movies are located in the range [8.5,10]. \
+
+**Remember, our dataset only contains the popular movies or the movies which have rating > 7, so if the dataset is large enough, the distribution of them could be more convictive.**  \

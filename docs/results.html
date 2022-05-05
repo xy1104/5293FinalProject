@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="missing-values.html"/>
-<link rel="next" href="interactive-component.html"/>
+<link rel="next" href="interactive-components.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,13 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
 
 
 
@@ -82,9 +89,35 @@
 <li class="chapter" data-level="2.5" data-path="data-sources.html"><a href="data-sources.html#links"><i class="fa fa-check"></i><b>2.5</b> Links<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data Transformation<span></span></a></li>
-<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values<span></span></a></li>
-<li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a></li>
-<li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component<span></span></a></li>
+<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values<span></span></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-imdb"><i class="fa fa-check"></i><b>4.1</b> Movie data from IMDB<span></span></a></li>
+<li class="chapter" data-level="4.2" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-douban"><i class="fa fa-check"></i><b>4.2</b> Movie data from douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="results.html"><a href="results.html#genre"><i class="fa fa-check"></i><b>5.1</b> Genre<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="results.html"><a href="results.html#imdb"><i class="fa fa-check"></i><b>5.1.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.1.2" data-path="results.html"><a href="results.html#douban"><i class="fa fa-check"></i><b>5.1.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="results.html"><a href="results.html#score-and-reviewers"><i class="fa fa-check"></i><b>5.2</b> Score and Reviewers<span></span></a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="results.html"><a href="results.html#imdb-1"><i class="fa fa-check"></i><b>5.2.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.2.2" data-path="results.html"><a href="results.html#douban-1"><i class="fa fa-check"></i><b>5.2.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="results.html"><a href="results.html#histogram-of-the-combination-with-imdb-and-douiban"><i class="fa fa-check"></i><b>5.3</b> Histogram of The Combination with IMDB and Douiban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="interactive-components.html"><a href="interactive-components.html"><i class="fa fa-check"></i><b>6</b> Interactive components<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="interactive-components.html"><a href="interactive-components.html#genre-changes-over-time"><i class="fa fa-check"></i><b>6.1</b> Genre Changes over Time<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="interactive-components.html"><a href="interactive-components.html#imdb-2"><i class="fa fa-check"></i><b>6.1.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="6.1.2" data-path="interactive-components.html"><a href="interactive-components.html#douban-2"><i class="fa fa-check"></i><b>6.1.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="interactive-components.html"><a href="interactive-components.html#significant-difference-scatter-plot"><i class="fa fa-check"></i><b>6.2</b> Significant difference: Scatter plot<span></span></a></li>
+<li class="chapter" data-level="6.3" data-path="interactive-components.html"><a href="interactive-components.html#significant-difference-percentile-plot"><i class="fa fa-check"></i><b>6.3</b> Significant difference: Percentile plot<span></span></a></li>
+</ul></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -107,7 +140,128 @@
             <section class="normal" id="section-">
 <div id="results" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">Chapter 5</span> Results<a href="results.html#results" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<ol style="list-style-type: decimal">
+<li><p>Does the rating of a movie correlate with the number of people watching or reviewing it? (The more people review and rate these movies, the more popular they are, the higher the rating they receive?)<br />
+</p></li>
+<li><p>How have film genres changed over time?<br />
+</p></li>
+<li><p>Do movie ratings differ significantly on different movie sites?<br />
+</p></li>
+</ol>
+<pre><code>## # A tibble: 6 x 12
+##    ...1 Name                        Type                           Duration  Year Director         Actor   Language Reviews  Rank Country Century
+##   &lt;dbl&gt; &lt;chr&gt;                       &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
+## 1     0 The Shawshank Redemption    Crime / Drama                       142  1994 Frank Darabont   Tim Ro~ English  2610384   9.7 USA        20.9
+## 2     1 Farewell My Concubine       Drama / Romance / Gay               171  1993 Chen Kaige       Leslie~ Mandarin 1938287   9.6 Mainla~    20.9
+## 3     2 Witness for the Prosecution Drama / Crime / Mystery             116  1957 Billy Wilder     Tyrone~ English   456535   9.6 USA        20.5
+## 4     3 Forrest Gump                Drama / Romance                     142  1994 Robert Zemeckis  Tom Ha~ English  1962283   9.5 USA        20.9
+## 5     4 La vita è bella             Drama / Comedy / Romance / War      116  1997 Roberto Bernini  Robert~ Italian  1205797   9.6 Italy      20.9
+## 6     5 Schindler&#39;s List            Drama / History / War               195  1993 Steven Spielberg Liam N~ English  1005746   9.6 USA        20.9</code></pre>
+<pre><code>## # A tibble: 6 x 9
+##   Column1 movie_title                        year place rating   vote link               duration genre                     
+##     &lt;dbl&gt; &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;    &lt;chr&gt;                     
+## 1       0 The Batman                         2022     1    8   434477 /title/tt1877830/  176 min  Action, Crime, Drama      
+## 2       1 The Northman                       2022     2    7.8  40320 /title/tt11138512/ 137 min  Action, Adventure, Drama  
+## 3       2 Everything Everywhere All at Once  2022     3    8.8  31625 /title/tt6710474/  139 min  Action, Adventure, Comedy 
+## 4       3 KGF: Chapter 2                     2022     4    8.9     55 /title/tt10698680/ 168 min  Action, Crime, Drama      
+## 5       4 Spider-Man: No Way Home            2021     5    8.4  86180 /title/tt10872600/ 148 min  Action, Adventure, Fantasy
+## 6       5 Dune                               2021     6    8.1 613257 /title/tt1160419/  155 min  Action, Adventure, Drama</code></pre>
+<div id="genre" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Genre<a href="results.html#genre" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="imdb" class="section level3 hasAnchor" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> IMDB<a href="results.html#imdb" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p>From this vertical histogram on Comparison of Genres in total from 1920 to 2022 (IMDB), we observed that:<br />
+1. Drama seems to be the most popular genre, which is far more than any other genres.<br />
+2. Adventure, Action, Comedy, and Crime are also with high degree of popularity just followed by Drama in the top 5 places.<br />
+3. Compared with other film genres, the number of Drama in the top 700 list is several times or even closed to a hundred times higher than other genres in the whole 102-year period in this intraday list on the dynamic page.</p>
+</div>
+<div id="douban" class="section level3 hasAnchor" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Douban<a href="results.html#douban" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p>From this vertical histogram on Comparison of the Number of Films in Each Genre from 1920 to 2022 (Douban), we observed that:<br />
+1. Drama seems to be the most popular genre, which is far more than any other genres.<br />
+2. Comedy, Romance, Crime, and Action are also with high degree of popularity just followed by Drama in the top 5 places.<br />
+3. Compared with other film genres, the number of Drama in the top 1664 list is several times or even closed to a hundred times higher than other genres in the whole 102-year period in this intraday list on Douban website.</p>
+<p><strong>Conclusion for the Comparison on genres from IMDB and Douban:</strong><br />
+<strong>1. Drama is the most popular genre on both websites from 1920 to 2020.</strong><br />
+<strong>2. Comedy, Crime, and Action are also popular and ranked in the top five.</strong><br />
+<strong>3. Romance has higher quantities on Douban, while Adventure has higher quantities on IMDB. Therefore, users of Douban prefer Romance than Adventure with high probabilities; users of IMDB prefer Adventure than Romance more likely.</strong><br />
+</p>
+</div>
+</div>
+<div id="score-and-reviewers" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Score and Reviewers<a href="results.html#score-and-reviewers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="imdb-1" class="section level3 hasAnchor" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> IMDB<a href="results.html#imdb-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<pre><code>## # A tibble: 90 x 5
+## # Groups:   year [90]
+##     year rating_mean vote_mean rating_normal vote_normal
+##    &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;         &lt;dbl&gt;       &lt;dbl&gt;
+##  1  1920        8       73627        -0.0603      -0.992
+##  2  1922        7.9  66208183        -0.689        1.28 
+##  3  1927        8.3    231868         1.83        -0.987
+##  4  1931        8.05   113067         0.254       -0.991
+##  5  1932        7.9     89581        -0.689       -0.992
+##  6  1933        7.9  71516617        -0.689        1.47 
+##  7  1934        7.9     26197        -0.689       -0.994
+##  8  1937        7.6     99968        -2.58        -0.991
+##  9  1938        7.8    530870        -1.32        -0.976
+## 10  1939        8.05 13251644.        0.254       -0.539
+## # ... with 80 more rows</code></pre>
+<pre><code>## $x
+## [1] &quot;Year&quot;
+## 
+## $y
+## [1] &quot;Normalized value&quot;
+## 
+## $title
+## [1] &quot;Comparison of ratings and votes from 1920 to 2022 (IMDB)&quot;
+## 
+## attr(,&quot;class&quot;)
+## [1] &quot;labels&quot;</code></pre>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+</div>
+<div id="douban-1" class="section level3 hasAnchor" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Douban<a href="results.html#douban-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<pre><code>## # A tibble: 102 x 5
+## # Groups:   Year [102]
+##     Year Reviews_m Rank_m Reviews_n Rank_n
+##    &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt;
+##  1  1916     9897    8.8     -0.989  1.13 
+##  2  1920    23030    8.9     -0.833  1.58 
+##  3  1921    21380    8.8     -0.852  1.13 
+##  4  1922    13485    8.2     -0.946 -1.58 
+##  5  1923     7644.   8.75    -1.02   0.903
+##  6  1924    14031    9.1     -0.940  2.48 
+##  7  1925    28915.   8.93    -0.763  1.73 
+##  8  1926    24433    9.1     -0.816  2.48 
+##  9  1927    26657    8.95    -0.790  1.80 
+## 10  1928    10877.   8.8     -0.977  1.13 
+## # ... with 92 more rows</code></pre>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p>The above two plots on Comparison of ratings and votes from 1920 to 2022 for both IMDB and Douban indicate that:<br />
+1. From 1920s to early 1960s, the number of movie viewers was low, but the ratings were generally high.<br />
+2.From 1960s to 1990s, the number of viewers began to increase, but the ratings were slightly mediocre.<br />
+3. From 1990s to this year, the number of movie viewers continued to rise significantly, but at the same time the movie ratings also had a gradual upward trend.<br />
+</p>
+</div>
+</div>
+<div id="histogram-of-the-combination-with-imdb-and-douiban" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Histogram of The Combination with IMDB and Douiban<a href="results.html#histogram-of-the-combination-with-imdb-and-douiban" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>## [1] 9.3</code></pre>
+<pre><code>## [1] 7.6</code></pre>
+<pre><code>## [1] 9.7</code></pre>
+<pre><code>## [1] 7.4</code></pre>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p>As plot the density histograms of these two datasets, we could observe that:<br />
+1. The distributions of IMDB and Douban are similar, approximately normally distributed, which indicates that we have enough samples to do the analysis.<br />
+2. The size of high rating in Douban is large than IMDB, more movies are located in the range [8.5,10].<br />
+</p>
+<p><strong>Remember, our dataset only contains the popular movies or the movies which have rating &gt; 7, so if the dataset is large enough, the distribution of them could be more convictive.</strong><br />
+</p>
 
+</div>
 </div>
             </section>
 
@@ -115,7 +269,7 @@
         </div>
       </div>
 <a href="missing-values.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="interactive-component.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="interactive-components.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

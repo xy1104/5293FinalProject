@@ -30,7 +30,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="interactive-component.html"/>
+<link rel="prev" href="interactive-components.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -52,6 +52,13 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
 
 
 
@@ -82,9 +89,35 @@
 <li class="chapter" data-level="2.5" data-path="data-sources.html"><a href="data-sources.html#links"><i class="fa fa-check"></i><b>2.5</b> Links<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data Transformation<span></span></a></li>
-<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values<span></span></a></li>
-<li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a></li>
-<li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component<span></span></a></li>
+<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values<span></span></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-imdb"><i class="fa fa-check"></i><b>4.1</b> Movie data from IMDB<span></span></a></li>
+<li class="chapter" data-level="4.2" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-douban"><i class="fa fa-check"></i><b>4.2</b> Movie data from douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="results.html"><a href="results.html#genre"><i class="fa fa-check"></i><b>5.1</b> Genre<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="results.html"><a href="results.html#imdb"><i class="fa fa-check"></i><b>5.1.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.1.2" data-path="results.html"><a href="results.html#douban"><i class="fa fa-check"></i><b>5.1.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="results.html"><a href="results.html#score-and-reviewers"><i class="fa fa-check"></i><b>5.2</b> Score and Reviewers<span></span></a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="results.html"><a href="results.html#imdb-1"><i class="fa fa-check"></i><b>5.2.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.2.2" data-path="results.html"><a href="results.html#douban-1"><i class="fa fa-check"></i><b>5.2.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="results.html"><a href="results.html#histogram-of-the-combination-with-imdb-and-douiban"><i class="fa fa-check"></i><b>5.3</b> Histogram of The Combination with IMDB and Douiban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="interactive-components.html"><a href="interactive-components.html"><i class="fa fa-check"></i><b>6</b> Interactive components<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="interactive-components.html"><a href="interactive-components.html#genre-changes-over-time"><i class="fa fa-check"></i><b>6.1</b> Genre Changes over Time<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="interactive-components.html"><a href="interactive-components.html#imdb-2"><i class="fa fa-check"></i><b>6.1.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="6.1.2" data-path="interactive-components.html"><a href="interactive-components.html#douban-2"><i class="fa fa-check"></i><b>6.1.2</b> Douban<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="interactive-components.html"><a href="interactive-components.html#significant-difference-scatter-plot"><i class="fa fa-check"></i><b>6.2</b> Significant difference: Scatter plot<span></span></a></li>
+<li class="chapter" data-level="6.3" data-path="interactive-components.html"><a href="interactive-components.html#significant-difference-percentile-plot"><i class="fa fa-check"></i><b>6.3</b> Significant difference: Percentile plot<span></span></a></li>
+</ul></li>
 <li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -114,7 +147,7 @@
           </div>
         </div>
       </div>
-<a href="interactive-component.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="interactive-components.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
