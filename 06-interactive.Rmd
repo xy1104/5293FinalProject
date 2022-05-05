@@ -14,8 +14,8 @@ movie_median= read_csv("movie_median.csv")
 movie_low= read_csv("movie_low.csv")
 movie_douban = rbind(movie_high,movie_median)
 movie_douban = rbind(movie_douban,movie_low)
-head(movie_douban)
-head(movie_IMDB)
+#head(movie_douban)
+#head(movie_IMDB)
 ```
 
 ## Genre Changes over Time
@@ -51,7 +51,7 @@ movie_genre_top10_by_year <- left_join(movie_IMDB_split_mutirows,movie_genre_top
   group_by(year, genre_i) %>%
   summarize(quantity = n())
 
-movie_genre_top10_by_year
+#movie_genre_top10_by_year
 # find the top
 
 fig <- movie_genre_top10_by_year %>%
@@ -110,7 +110,7 @@ movie_genre_top10_by_year <- left_join(movie_DB_split_mutirows,movie_genre_top10
   group_by(Year, genre_i) %>%
   summarize(quantity = n())
 
-movie_genre_top10_by_year
+#movie_genre_top10_by_year
 # find the top
 
 fig <- movie_genre_top10_by_year %>%
@@ -222,5 +222,4 @@ ggplotly(percentile)
 We could observe that (you could see the details by moving mouse over the point): \
 1. The positive relation still exists, the regression line changes slightly. \
 2. However, from the regression lines, the rating on two website are similar, there still have some movies, above the top grey line and below the bottom grey line, which have a big difference between two websites, which may cause by the culture, regulations, or other reasons.
-
 
