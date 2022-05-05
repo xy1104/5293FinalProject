@@ -12,87 +12,128 @@ If there were a choice of option, we might choose some other database sites that
 
 
 ## Basic information about the dataset.
+
+### IMDB
+*Top five rows for a brief view on IMDB dataset*
 ```{r}
 library(tidyverse)
 library(psych)   
 # imdb
 movie_IMDB = read_csv("movie_IMDB.csv")
 head(movie_IMDB)
-
+```
+*Describe the information of IMDB dataset*
+```{r}
 # describe the information of the data
 describeBy(movie_IMDB)
-
+```
+*Shows the dimensions of IMDB dataset*
+```{r}
 # shows the dimensions of the data frame by row and column
 dim(movie_IMDB)
-
+```
+*Shows the structure of IMDB dataset*
+```{r}
 # shows the structure of the data frame
 str(movie_IMDB)
-
+```
+*Provides summary statistics on the columns of IMDB dataset*
+```{r}
 # provides summary statistics on the columns of the data frame
 summary(movie_IMDB)
 ```
 
+### douban high views
+*Top five rows for a brief view on douban high view dataset*
 ```{r}
 # douban high
 movie_high= read_csv("movie_high.csv")
 head(movie_high)
-
+```
+*Describe the information of douban high view dataset*
+```{r}
 # describe the information of the data
 describeBy(movie_high)
-
+```
+*Shows the dimensions of douban high view dataset*
+```{r}
 # shows the dimensions of the data frame by row and column
 dim(movie_high)
-
+```
+*Shows the structure of douban high view dataset*
+```{r}
 # shows the structure of the data frame
 str(movie_high)
-
+```
+*Provides summary statistics on the columns of douban high view dataset*
+```{r}
 # provides summary statistics on the columns of the data frame
 summary(movie_high)
 ```
 
+### douban median views
+*Top five rows for a brief view on douban median view dataset*
 ```{r}
 # douban median
 movie_median= read_csv("movie_median.csv")
 head(movie_median)
-
+```
+*Describe the information of douban median view dataset*
+```{r}
 # describe the information of the data
 describeBy(movie_median)
-
+```
+*Shows the dimensions of douban median view dataset*
+```{r}
 # shows the dimensions of the data frame by row and column
 dim(movie_median)
-
+```
+*Shows the structure of douban median view dataset*
+```{r}
 # shows the structure of the data frame
 str(movie_median)
-
+```
+*Provides summary statistics on the columns of douban median view dataset*
+```{r}
 # provides summary statistics on the columns of the data frame
 summary(movie_median)
 ```
 
+### douban low views
+*Top five rows for a brief view on douban low view dataset*
 ```{r}
 # douban low
 movie_low= read_csv("movie_low.csv")
 head(movie_low)
-
+```
+*Describe the information of douban low view dataset*
+```{r}
 # describe the information of the data
 describeBy(movie_low)
-
+```
+*Shows the dimensions of douban low view dataset*
+```{r}
 # shows the dimensions of the data frame by row and column
 dim(movie_low)
-
+```
+*Shows the structure of douban low view dataset*
+```{r}
 # shows the structure of the data frame
 str(movie_low)
-
+```
+*Provides summary statistics on the columns of douban low view dataset*
+```{r}
 # provides summary statistics on the columns of the data frame
 summary(movie_low)
 ```
 
-## Issues
-1. One movie would have several movie genres, it would cause over-estimating.
-2. For China website, since we do the translation, there would cause some misunderstandings.
-3. Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems.
-4. For IMDB, web pages are very different from where the data is on the next page (especially for the movies after place 100th and even 700th).
-5. Need to use dynamic web scraping since we are not just retrieve data from the first pages for both websites.
-6. For IMDB website, some of the movie place data has missing numerical digits for which would cause problems if not doing the data filling.
+## Issues \
+1. One movie would have several movie genres, it would cause over-estimating. \
+2. For China website, since we do the translation, there would cause some misunderstandings. \
+3. Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems. \
+4. For IMDB, web pages are very different from where the data is on the next page (especially for the movies after place 100th and even 700th). \
+5. Need to use dynamic web scraping since we are not just retrieve data from the first pages for both websites. \
+6. For IMDB website, some of the movie place data has missing numerical digits for which would cause problems if not doing the data filling. \
 
 
 

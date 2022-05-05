@@ -84,8 +84,15 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="data-sources.html"><a href="data-sources.html#data-source"><i class="fa fa-check"></i><b>2.1</b> Data source:<span></span></a></li>
 <li class="chapter" data-level="2.2" data-path="data-sources.html"><a href="data-sources.html#collecting-data"><i class="fa fa-check"></i><b>2.2</b> Collecting Data<span></span></a></li>
-<li class="chapter" data-level="2.3" data-path="data-sources.html"><a href="data-sources.html#basic-information-about-the-dataset."><i class="fa fa-check"></i><b>2.3</b> Basic information about the dataset.<span></span></a></li>
-<li class="chapter" data-level="2.4" data-path="data-sources.html"><a href="data-sources.html#issues"><i class="fa fa-check"></i><b>2.4</b> Issues<span></span></a></li>
+<li class="chapter" data-level="2.3" data-path="data-sources.html"><a href="data-sources.html#basic-information-about-the-dataset."><i class="fa fa-check"></i><b>2.3</b> Basic information about the dataset.<span></span></a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="data-sources.html"><a href="data-sources.html#imdb"><i class="fa fa-check"></i><b>2.3.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="2.3.2" data-path="data-sources.html"><a href="data-sources.html#douban-high-views"><i class="fa fa-check"></i><b>2.3.2</b> douban high views<span></span></a></li>
+<li class="chapter" data-level="2.3.3" data-path="data-sources.html"><a href="data-sources.html#douban-median-views"><i class="fa fa-check"></i><b>2.3.3</b> douban median views<span></span></a></li>
+<li class="chapter" data-level="2.3.4" data-path="data-sources.html"><a href="data-sources.html#douban-low-views"><i class="fa fa-check"></i><b>2.3.4</b> douban low views<span></span></a></li>
+</ul></li>
+<li><a href="data-sources.html#issues"><span class="toc-section-number">2.4</span> Issues<br />
+<span></span></a></li>
 <li class="chapter" data-level="2.5" data-path="data-sources.html"><a href="data-sources.html#links"><i class="fa fa-check"></i><b>2.5</b> Links<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data Transformation<span></span></a></li>
@@ -98,12 +105,12 @@
 <ul>
 <li class="chapter" data-level="5.1" data-path="results.html"><a href="results.html#genre"><i class="fa fa-check"></i><b>5.1</b> Genre<span></span></a>
 <ul>
-<li class="chapter" data-level="5.1.1" data-path="results.html"><a href="results.html#imdb"><i class="fa fa-check"></i><b>5.1.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.1.1" data-path="results.html"><a href="results.html#imdb-1"><i class="fa fa-check"></i><b>5.1.1</b> IMDB<span></span></a></li>
 <li class="chapter" data-level="5.1.2" data-path="results.html"><a href="results.html#douban"><i class="fa fa-check"></i><b>5.1.2</b> Douban<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="results.html"><a href="results.html#score-and-reviewers"><i class="fa fa-check"></i><b>5.2</b> Score and Reviewers<span></span></a>
 <ul>
-<li class="chapter" data-level="5.2.1" data-path="results.html"><a href="results.html#imdb-1"><i class="fa fa-check"></i><b>5.2.1</b> IMDB<span></span></a></li>
+<li class="chapter" data-level="5.2.1" data-path="results.html"><a href="results.html#imdb-2"><i class="fa fa-check"></i><b>5.2.1</b> IMDB<span></span></a></li>
 <li class="chapter" data-level="5.2.2" data-path="results.html"><a href="results.html#douban-1"><i class="fa fa-check"></i><b>5.2.2</b> Douban<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="results.html"><a href="results.html#histogram-of-the-combination-with-imdb-and-douiban"><i class="fa fa-check"></i><b>5.3</b> Histogram of The Combination with IMDB and Douiban<span></span></a></li>
@@ -148,6 +155,9 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 </div>
 <div id="basic-information-about-the-dataset." class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> Basic information about the dataset.<a href="data-sources.html#basic-information-about-the-dataset." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="imdb" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> IMDB<a href="data-sources.html#imdb" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Top five rows for a brief view on IMDB dataset</em></p>
 <pre><code>## # A tibble: 6 x 9
 ##   Column1 movie_title                        year place rating   vote link               duration genre                     
 ##     &lt;dbl&gt; &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;    &lt;chr&gt;                     
@@ -157,6 +167,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## 4       3 KGF: Chapter 2                     2022     4    8.9     55 /title/tt10698680/ 168 min  Action, Crime, Drama      
 ## 5       4 Spider-Man: No Way Home            2021     5    8.4  86180 /title/tt10872600/ 148 min  Action, Adventure, Fantasy
 ## 6       5 Dune                               2021     6    8.1 613257 /title/tt1160419/  155 min  Action, Adventure, Drama</code></pre>
+<p><em>Describe the information of IMDB dataset</em></p>
 <pre><code>##              vars   n        mean          sd   median     trimmed       mad    min         max       range  skew kurtosis         se
 ## Column1         1 700      349.50      202.22    349.5      349.50    259.46    0.0       699.0       699.0  0.00    -1.21       7.64
 ## movie_title*    2 700      350.50      202.22    350.5      350.50    259.46    1.0       700.0       699.0  0.00    -1.21       7.64
@@ -167,7 +178,9 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## link*           7 700      350.50      202.22    350.5      350.50    259.46    1.0       700.0       699.0  0.00    -1.21       7.64
 ## duration*       8 700       44.48       36.99     31.5       40.17     27.43    1.0       125.0       124.0  0.94    -0.35       1.40
 ## genre*          9 700       84.57       49.17     86.0       84.97     50.41    1.0       173.0       172.0 -0.09    -1.11       1.86</code></pre>
+<p><em>Shows the dimensions of IMDB dataset</em></p>
 <pre><code>## [1] 700   9</code></pre>
+<p><em>Shows the structure of IMDB dataset</em></p>
 <pre><code>## spec_tbl_df [700 x 9] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ Column1    : num [1:700] 0 1 2 3 4 5 6 7 8 9 ...
 ##  $ movie_title: chr [1:700] &quot;The Batman&quot; &quot;The Northman&quot; &quot;Everything Everywhere All at Once&quot; &quot;KGF: Chapter 2&quot; ...
@@ -191,6 +204,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##   ..   genre = col_character()
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
+<p><em>Provides summary statistics on the columns of IMDB dataset</em></p>
 <pre><code>##     Column1      movie_title             year          place           rating           vote               link             duration        
 ##  Min.   :  0.0   Length:700         Min.   :1920   Min.   :  1.0   Min.   :7.600   Min.   :        1   Length:700         Length:700        
 ##  1st Qu.:174.8   Class :character   1st Qu.:1982   1st Qu.:175.8   1st Qu.:7.700   1st Qu.:   120750   Class :character   Class :character  
@@ -205,6 +219,10 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##                    
 ##                    
 ## </code></pre>
+</div>
+<div id="douban-high-views" class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> douban high views<a href="data-sources.html#douban-high-views" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Top five rows for a brief view on douban high view dataset</em></p>
 <pre><code>## # A tibble: 6 x 12
 ##    ...1 Name                        Type                           Duration  Year Director         Actor   Language Reviews  Rank Country Century
 ##   &lt;dbl&gt; &lt;chr&gt;                       &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
@@ -214,6 +232,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## 4     3 Forrest Gump                Drama / Romance                     142  1994 Robert Zemeckis  Tom Ha~ English  1962283   9.5 USA        20.9
 ## 5     4 La vita è bella             Drama / Comedy / Romance / War      116  1997 Roberto Bernini  Robert~ Italian  1205797   9.6 Italy      20.9
 ## 6     5 Schindler&#39;s List            Drama / History / War               195  1993 Steven Spielberg Liam N~ English  1005746   9.6 USA        20.9</code></pre>
+<p><em>Describe the information of douban high view dataset</em></p>
 <pre><code>##           vars   n      mean        sd  median   trimmed       mad    min       max     range  skew kurtosis       se
 ## ...1         1 589    294.00    170.17   294.0    294.00    217.94    0.0     588.0     588.0  0.00    -1.21     7.01
 ## Name*        2 589    293.91    169.95   294.0    294.00    217.94    1.0     586.0     585.0  0.00    -1.21     7.00
@@ -227,7 +246,9 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## Rank        10 589      8.84      0.24     8.8      8.81      0.15    8.5       9.7       1.2  1.04     0.49     0.01
 ## Country*    11 589     81.16     35.67    84.0     83.66     44.48    1.0     144.0     143.0 -0.43    -0.86     1.47
 ## Century     12 589     20.87      0.23    20.9     20.90      0.15   20.1      21.2       1.1 -1.11     0.63     0.01</code></pre>
+<p><em>Shows the dimensions of douban high view dataset</em></p>
 <pre><code>## [1] 589  12</code></pre>
+<p><em>Shows the structure of douban high view dataset</em></p>
 <pre><code>## spec_tbl_df [589 x 12] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ ...1    : num [1:589] 0 1 2 3 4 5 6 7 8 9 ...
 ##  $ Name    : chr [1:589] &quot;The Shawshank Redemption&quot; &quot;Farewell My Concubine&quot; &quot;Witness for the Prosecution&quot; &quot;Forrest Gump&quot; ...
@@ -257,6 +278,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##   ..   Century = col_double()
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
+<p><em>Provides summary statistics on the columns of douban high view dataset</em></p>
 <pre><code>##       ...1         Name               Type              Duration        Year        Director            Actor             Language        
 ##  Min.   :  0   Length:589         Length:589         Min.   :  1   Min.   :1916   Length:589         Length:589         Length:589        
 ##  1st Qu.:147   Class :character   Class :character   1st Qu.:103   1st Qu.:1982   Class :character   Class :character   Class :character  
@@ -271,6 +293,10 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##  Mean   : 268473   Mean   :8.84                      Mean   :20.87  
 ##  3rd Qu.: 396521   3rd Qu.:8.90                      3rd Qu.:21.00  
 ##  Max.   :2610384   Max.   :9.70                      Max.   :21.20</code></pre>
+</div>
+<div id="douban-median-views" class="section level3 hasAnchor" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> douban median views<a href="data-sources.html#douban-median-views" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Top five rows for a brief view on douban median view dataset</em></p>
 <pre><code>## # A tibble: 6 x 12
 ##    ...1 Name               Type                      Duration  Year Director                         Actor Language Reviews  Rank Country Century
 ##   &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;                        &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;                            &lt;chr&gt; &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
@@ -280,6 +306,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## 4     3 Misery             Drama / Crime / Thriller       107  1990 Rob Reiner                       Jame~ English    65156   8.4 USA        20.9
 ## 5     4 Breakfast on Pluto Comedy / Drama                 128  2005 Neil Jordan                      Cill~ English    12481   8.3 Irelan~    21  
 ## 6     5 Sister Peach       Drama / Family                 118  2011 Xu Anhua                         Ye D~ English   293737   8.3 Hong K~    21.1</code></pre>
+<p><em>Describe the information of douban median view dataset</em></p>
 <pre><code>##           vars   n      mean        sd  median  trimmed      mad    min       max    range  skew kurtosis      se
 ## ...1         1 538    268.89    155.86   268.5   268.86   200.15    0.0     538.0    538.0  0.00    -1.21    6.72
 ## Name*        2 538    269.50    155.45   269.5   269.50   199.41    1.0     538.0    537.0  0.00    -1.21    6.70
@@ -293,7 +320,9 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## Rank        10 538      8.40      0.10     8.4     8.39     0.15    7.4       8.6      1.2 -1.65    16.68    0.00
 ## Country*    11 538     83.91     38.99    83.5    86.38    55.60    1.0     145.0    144.0 -0.34    -1.05    1.68
 ## Century     12 538     20.92      0.20    21.0    20.95     0.15   20.2      21.2      1.0 -1.16     0.73    0.01</code></pre>
+<p><em>Shows the dimensions of douban median view dataset</em></p>
 <pre><code>## [1] 538  12</code></pre>
+<p><em>Shows the structure of douban median view dataset</em></p>
 <pre><code>## spec_tbl_df [538 x 12] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ ...1    : num [1:538] 0 1 2 3 4 5 6 7 8 9 ...
 ##  $ Name    : chr [1:538] &quot;Sin City&quot; &quot;Pickpocket&quot; &quot;John Q&quot; &quot;Misery&quot; ...
@@ -323,6 +352,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##   ..   Century = col_double()
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
+<p><em>Provides summary statistics on the columns of douban median view dataset</em></p>
 <pre><code>##       ...1           Name               Type              Duration          Year        Director            Actor             Language        
 ##  Min.   :  0.0   Length:538         Length:538         Min.   : 49.0   Min.   :1921   Length:538         Length:538         Length:538        
 ##  1st Qu.:134.2   Class :character   Class :character   1st Qu.:100.0   1st Qu.:1987   Class :character   Class :character   Class :character  
@@ -337,6 +367,10 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##  Mean   : 102977   Mean   :8.396                      Mean   :20.92  
 ##  3rd Qu.: 115280   3rd Qu.:8.500                      3rd Qu.:21.10  
 ##  Max.   :1000428   Max.   :8.600                      Max.   :21.20</code></pre>
+</div>
+<div id="douban-low-views" class="section level3 hasAnchor" number="2.3.4">
+<h3><span class="header-section-number">2.3.4</span> douban low views<a href="data-sources.html#douban-low-views" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Top five rows for a brief view on douban low view dataset</em></p>
 <pre><code>## # A tibble: 6 x 12
 ##    ...1 Name              Type                               Duration  Year Director           Actor       Language Reviews  Rank Country Century
 ##   &lt;dbl&gt; &lt;chr&gt;             &lt;chr&gt;                                 &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;       &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
@@ -346,6 +380,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## 4     3 U-571             Action / Drama / War                    116  2000 Jonathan Mostow    Matthew Mc~ English    48620   8.1 France~    21  
 ## 5     4 miracle           Action / Comedy / Crime / Drama         127  1989 Jackie Chan        Jackie Cha~ Cantone~   35544   8.1 Hong K~    20.8
 ## 6     5 love myth         Drama / Comedy / Romance                112  2021 Shao Yihui         Xu Zheng /~ Mandarin  589996   8.1 Mainla~    21.2</code></pre>
+<p><em>Describe the information of douban low view dataset</em></p>
 <pre><code>##           vars   n     mean        sd  median  trimmed      mad    min       max     range  skew kurtosis      se
 ## ...1         1 537   268.42    155.58   268.0   268.40   200.15    0.0     537.0     537.0  0.00    -1.21    6.71
 ## Name*        2 537   269.00    155.16   269.0   269.00   198.67    1.0     537.0     536.0  0.00    -1.21    6.70
@@ -359,7 +394,9 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ## Rank        10 537     8.11      0.09     8.1     8.11     0.15    7.9       8.3       0.4 -0.09    -0.75    0.00
 ## Country*    11 537    84.85     38.56    81.0    87.16    59.30    1.0     145.0     144.0 -0.35    -1.10    1.66
 ## Century     12 537    20.96      0.18    21.0    20.99     0.15   20.2      21.2       1.0 -1.44     1.95    0.01</code></pre>
+<p><em>Shows the dimensions of douban low view dataset</em></p>
 <pre><code>## [1] 537  12</code></pre>
+<p><em>Shows the structure of douban low view dataset</em></p>
 <pre><code>## spec_tbl_df [537 x 12] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ ...1    : num [1:537] 0 1 2 3 4 5 6 7 8 9 ...
 ##  $ Name    : chr [1:537] &quot;Tick, Tick…Boom!&quot; &quot;Gro&lt;U+00DF&gt;e Freiheit&quot; &quot;The Fifth Element&quot; &quot;U-571&quot; ...
@@ -389,6 +426,7 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##   ..   Century = col_double()
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
+<p><em>Provides summary statistics on the columns of douban low view dataset</em></p>
 <pre><code>##       ...1           Name               Type              Duration        Year        Director            Actor             Language        
 ##  Min.   :  0.0   Length:537         Length:537         Min.   : 44   Min.   :1922   Length:537         Length:537         Length:537        
 ##  1st Qu.:134.0   Class :character   Class :character   1st Qu.: 99   1st Qu.:1995   Class :character   Class :character   Class :character  
@@ -404,15 +442,23 @@ Grab and visual analysis of any movie short reviews (hits) as well as their scor
 ##  3rd Qu.:  94426   3rd Qu.:8.200                      3rd Qu.:21.10  
 ##  Max.   :1366735   Max.   :8.300                      Max.   :21.20</code></pre>
 </div>
+</div>
 <div id="issues" class="section level2 hasAnchor" number="2.4">
-<h2><span class="header-section-number">2.4</span> Issues<a href="data-sources.html#issues" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span> Issues<br />
+<a href="data-sources.html#issues" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ol style="list-style-type: decimal">
-<li>One movie would have several movie genres, it would cause over-estimating.</li>
-<li>For China website, since we do the translation, there would cause some misunderstandings.</li>
-<li>Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems.</li>
-<li>For IMDB, web pages are very different from where the data is on the next page (especially for the movies after place 100th and even 700th).</li>
-<li>Need to use dynamic web scraping since we are not just retrieve data from the first pages for both websites.</li>
-<li>For IMDB website, some of the movie place data has missing numerical digits for which would cause problems if not doing the data filling.</li>
+<li>One movie would have several movie genres, it would cause over-estimating.<br />
+</li>
+<li>For China website, since we do the translation, there would cause some misunderstandings.<br />
+</li>
+<li>Since we retrieve data from website, to figure out the regular expression for each variable would cause some problems.<br />
+</li>
+<li>For IMDB, web pages are very different from where the data is on the next page (especially for the movies after place 100th and even 700th).<br />
+</li>
+<li>Need to use dynamic web scraping since we are not just retrieve data from the first pages for both websites.<br />
+</li>
+<li>For IMDB website, some of the movie place data has missing numerical digits for which would cause problems if not doing the data filling.<br />
+</li>
 </ol>
 </div>
 <div id="links" class="section level2 hasAnchor" number="2.5">

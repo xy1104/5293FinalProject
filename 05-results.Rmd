@@ -177,12 +177,25 @@ The above two plots on Comparison of ratings and votes from 1920 to 2022 for bot
  
 
 ## Histogram of The Combination with IMDB and Douiban
+*Maximum rating in IMDB*
 ```{r}
 #seq(0,10)
 max(movie_IMDB$rating)
+```
+*Minimum rating in IMDB*
+```{r}
 min(movie_IMDB$rating)
+```
+*Maximum rating in Douban*
+```{r}
 max(movie_douban$Rank)
+```
+*Minimum rating in Douban*
+```{r}
 min(movie_douban$Rank)
+```
+
+```{r}
 ggplot() + 
   geom_histogram(data = movie_IMDB, aes(x = rating, y = ..density..,fill = "r"), alpha = 0.3,binwidth = 0.05) +
     stat_function(fun = dnorm, args = list(mean = mean(movie_IMDB$rating), sd = sd(movie_IMDB$rating)),color="red",size=1)+
