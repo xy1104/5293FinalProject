@@ -61,4 +61,5 @@ summary(movie_douban)
 plot_missing(movie_douban, percent = FALSE)
 ```
 
+## Explanation of Missing Value Pattern
 From the above results, we find there exists no missing pattern in both datasets. This is mostly because we captured the data we need through web crapping from the websites pages by pages dynamically, from which the missing values were all removed inside the loops since they have no text values.

@@ -100,6 +100,7 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-imdb"><i class="fa fa-check"></i><b>4.1</b> movie data from IMDB<span></span></a></li>
 <li class="chapter" data-level="4.2" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-douban"><i class="fa fa-check"></i><b>4.2</b> Movie data from Douban<span></span></a></li>
+<li class="chapter" data-level="4.3" data-path="missing-values.html"><a href="missing-values.html#explanation-of-missing-value-pattern"><i class="fa fa-check"></i><b>4.3</b> Explanation of Missing Value Pattern<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a>
 <ul>
@@ -125,7 +126,13 @@
 <li class="chapter" data-level="6.2" data-path="interactive-component.html"><a href="interactive-component.html#significant-difference-scatter-plot"><i class="fa fa-check"></i><b>6.2</b> Significant difference: Scatter plot<span></span></a></li>
 <li class="chapter" data-level="6.3" data-path="interactive-component.html"><a href="interactive-component.html#significant-difference-percentile-plot"><i class="fa fa-check"></i><b>6.3</b> Significant difference: Percentile plot<span></span></a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="conclusion.html"><a href="conclusion.html#takeways"><i class="fa fa-check"></i><b>7.1</b> TakeWays<span></span></a></li>
+<li class="chapter" data-level="7.2" data-path="conclusion.html"><a href="conclusion.html#limitations"><i class="fa fa-check"></i><b>7.2</b> Limitations<span></span></a></li>
+<li class="chapter" data-level="7.3" data-path="conclusion.html"><a href="conclusion.html#future-works"><i class="fa fa-check"></i><b>7.3</b> Future Works<span></span></a></li>
+<li class="chapter" data-level="7.4" data-path="conclusion.html"><a href="conclusion.html#lessons-learned"><i class="fa fa-check"></i><b>7.4</b> Lessons Learned<span></span></a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -147,7 +154,43 @@
             <section class="normal" id="section-">
 <div id="conclusion" class="section level1 hasAnchor" number="7">
 <h1><span class="header-section-number">Chapter 7</span> Conclusion<a href="conclusion.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="takeways" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> TakeWays<a href="conclusion.html#takeways" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>The distributions of rating from both IMDB and Douban dataset are similar. Expecially, when we eliminated the effect of scoring mechanism, the difference between them is very small.</p></li>
+<li><p>There does exist some movies which have big difference on the rating for different websites, the main reason would be the culture difference.</p></li>
+<li><p>The change of genre over year is slightly, since the Drama covers so much ground, it would always take the largest part in the movie market. And due to the effect of epidemic, there existed a rapid decreases in the movie market.</p></li>
+<li><p>With the development of Internet, more and more people are willing to share their ideas. At the same time, with the improvement of people’s appreciation ability and pubalic increase their standard of judgement a good film, the number of films with high scores has decreased significantly.</p></li>
+</ol>
+</div>
+<div id="limitations" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Limitations<a href="conclusion.html#limitations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>When we retrieve data from website, sometimes the website would have mechanism like anti-website-crawling. It would give some limitations on getting data before analysis.</p></li>
+<li><p>The website also change their arrangment frequently, some websites even change timely, the code based on these websites could be disabled after the arrangment changed. So if we want reproduce our result, it would be helpful to find some websites or links that have consistent arrangment.</p></li>
+<li><p>The data format retrieved from website sometimes would be messy, so it would cause some limitations on data analysis.</p></li>
+<li><p>For our project, the limitation is the different size of dataset and different columns in the dataset. What we did was, in some explorations, we found the common data and columns in both dataset. However, it would definitely reduce the size of dateset, which may effect the accuracy.Thus, for the future work, we could expand the size of both dataset to contain more common data.</p></li>
+</ol>
+</div>
+<div id="future-works" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Future Works<a href="conclusion.html#future-works" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In our project, we did the second retrieving process, i.e. the first retrieving process is that retrieving data from website, and the second retrieving process is that jump to the link, which we get from the html, and get the other information that could not be obtained in the first step. If want to get more details, such as budget or revenues, we need to do more deep research. Also, as we mentioned in the ‘Limitations’ part, for the future work, we could expand the size of both dataset to contain more common data.</p>
+<p>Due to time and capacity constraints, we did not capture deeper information on the IMDB webpage related to the development of the movie and its box office. In the future, we have time to go deeper and continue to get some more complex information in real time dynamically, such as the budget of each movie, the cast list, the director, the country of publication, and other data, as well as the process of collecting the number of their followers on social platforms through the list of people who can be obtained from two different web pages.</p>
+<p>With this information, we can analyze more movie-related questions: which types of movies make money? What are the controllable factors associated with box office (revenue)? Does the number of followers of actors and directors have a significant impact on box office as well as ratings? How do original movies compare with film adaptations? What are the prominent keywords of movies? What is the share of film origins? etc.</p>
+<p>These analysis results in the future works can more comprehensively help us discover the demand of movie-watching users to predict the box office of movies, evaluate the precise marketing of movie producers and theaters, and predict the quality movies recommended by websites and apps for audiences.</p>
+<p>In this project, we did some translation automatically during web scraping, since we had a Chinese website. However, there is no guarantee of accuracy. How to choose an intelligent translation tool to deal with foreign languages remains to be considered.</p>
+</div>
+<div id="lessons-learned" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Lessons Learned<a href="conclusion.html#lessons-learned" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Before retrieving data, make sure the website whether change timely or frequently. If want to the result would be reproducible, try to use some websites or link with static format.</p></li>
+<li><p>The consistent of data type would help a lot during the data analysis.</p></li>
+<li><p>Regular expression on web scraping would be very useful.</p></li>
+<li><p>Web scraping would be very time-consuming, how to reduce the runtime is the question during the whole scraping process.</p></li>
+<li><p>Even though the package ‘googltrans’ would do the translation automatically, there is no guarantee of accuracy. Therefore, using the original dataset would get the most accurate result, compare with the translated result. In this project, we were trying to avoid using the translated title to do some analysis.</p></li>
+</ol>
 
+</div>
 </div>
             </section>
 

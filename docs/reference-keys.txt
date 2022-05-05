@@ -12,6 +12,7 @@ data-transformation
 missing-values
 movie-data-from-imdb
 movie-data-from-douban
+explanation-of-missing-value-pattern
 results
 genre
 imdb-1
@@ -27,3 +28,7 @@ douban-2
 significant-difference-scatter-plot
 significant-difference-percentile-plot
 conclusion
+takeways
+limitations
+future-works
+lessons-learned

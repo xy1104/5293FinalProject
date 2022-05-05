@@ -100,6 +100,7 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-imdb"><i class="fa fa-check"></i><b>4.1</b> movie data from IMDB<span></span></a></li>
 <li class="chapter" data-level="4.2" data-path="missing-values.html"><a href="missing-values.html#movie-data-from-douban"><i class="fa fa-check"></i><b>4.2</b> Movie data from Douban<span></span></a></li>
+<li class="chapter" data-level="4.3" data-path="missing-values.html"><a href="missing-values.html#explanation-of-missing-value-pattern"><i class="fa fa-check"></i><b>4.3</b> Explanation of Missing Value Pattern<span></span></a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a>
 <ul>
@@ -125,7 +126,13 @@
 <li class="chapter" data-level="6.2" data-path="interactive-component.html"><a href="interactive-component.html#significant-difference-scatter-plot"><i class="fa fa-check"></i><b>6.2</b> Significant difference: Scatter plot<span></span></a></li>
 <li class="chapter" data-level="6.3" data-path="interactive-component.html"><a href="interactive-component.html#significant-difference-percentile-plot"><i class="fa fa-check"></i><b>6.3</b> Significant difference: Percentile plot<span></span></a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a></li>
+<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion<span></span></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="conclusion.html"><a href="conclusion.html#takeways"><i class="fa fa-check"></i><b>7.1</b> TakeWays<span></span></a></li>
+<li class="chapter" data-level="7.2" data-path="conclusion.html"><a href="conclusion.html#limitations"><i class="fa fa-check"></i><b>7.2</b> Limitations<span></span></a></li>
+<li class="chapter" data-level="7.3" data-path="conclusion.html"><a href="conclusion.html#future-works"><i class="fa fa-check"></i><b>7.3</b> Future Works<span></span></a></li>
+<li class="chapter" data-level="7.4" data-path="conclusion.html"><a href="conclusion.html#lessons-learned"><i class="fa fa-check"></i><b>7.4</b> Lessons Learned<span></span></a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -154,7 +161,7 @@ we use the link to get the top 700 movies in the IMDB. First, we analyze the web
 <p>For Douban (China movies website):
 we find a blogger that will update the list of movies timely, who divides the movies into three categories, high, median, low, the standard is the starring is greater than 8.0, and the number of viewers is at least 2000 people.
 First, we analyze the website to determine which data we want. And then we use python to retrieve data. Since we retrieve from a China website, during the loading, we also did the translation by <code>googltrans</code> package, even though it might not be accurate as we expected. Finally, we save data into three csv files, we will combine these three file in the analysis part.</p>
-<p>The codes for retrieving data from both websites and the relative csv files, you could find in the following link:
+<p>The codes for retrieving data from both websites and the relative csv files, we saved in the place with the following link:
 <a href="https://github.com/LL07-bit/93-Projects" class="uri">https://github.com/LL07-bit/93-Projects</a></p>
 
 </div>
