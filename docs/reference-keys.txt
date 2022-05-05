@@ -1,7 +1,14 @@
 introduction
 data-sources
+data-source
+collecting-data
+basic-information-about-the-dataset.
+issues
+links
 data-transformation
 missing-values
+movie-data-from-imdb
+movie-data-from-douban
 results
 interactive-component
 conclusion

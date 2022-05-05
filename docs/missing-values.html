@@ -73,8 +73,15 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction<span></span></a></li>
-<li class="chapter" data-level="2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>2</b> Data sources<span></span></a></li>
-<li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data transformation<span></span></a></li>
+<li class="chapter" data-level="2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>2</b> Data sources<span></span></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-sources.html"><a href="data-sources.html#data-source"><i class="fa fa-check"></i><b>2.1</b> Data source:<span></span></a></li>
+<li class="chapter" data-level="2.2" data-path="data-sources.html"><a href="data-sources.html#collecting-data"><i class="fa fa-check"></i><b>2.2</b> Collecting Data<span></span></a></li>
+<li class="chapter" data-level="2.3" data-path="data-sources.html"><a href="data-sources.html#basic-information-about-the-dataset."><i class="fa fa-check"></i><b>2.3</b> Basic information about the dataset.<span></span></a></li>
+<li class="chapter" data-level="2.4" data-path="data-sources.html"><a href="data-sources.html#issues"><i class="fa fa-check"></i><b>2.4</b> Issues<span></span></a></li>
+<li class="chapter" data-level="2.5" data-path="data-sources.html"><a href="data-sources.html#links"><i class="fa fa-check"></i><b>2.5</b> Links<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data Transformation<span></span></a></li>
 <li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values<span></span></a></li>
 <li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results<span></span></a></li>
 <li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component<span></span></a></li>
@@ -100,7 +107,64 @@
             <section class="normal" id="section-">
 <div id="missing-values" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Missing values<a href="missing-values.html#missing-values" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="movie-data-from-imdb" class="section level4 hasAnchor" number="4.0.0.1">
+<h4><span class="header-section-number">4.0.0.1</span> movie data from IMDB<a href="missing-values.html#movie-data-from-imdb" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<pre><code>## # A tibble: 6 x 9
+##   Column1 movie_title                        year place rating   vote link               duration genre                     
+##     &lt;dbl&gt; &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;    &lt;chr&gt;                     
+## 1       0 The Batman                         2022     1    8   434477 /title/tt1877830/  176 min  Action, Crime, Drama      
+## 2       1 The Northman                       2022     2    7.8  40320 /title/tt11138512/ 137 min  Action, Adventure, Drama  
+## 3       2 Everything Everywhere All at Once  2022     3    8.8  31625 /title/tt6710474/  139 min  Action, Adventure, Comedy 
+## 4       3 KGF: Chapter 2                     2022     4    8.9     55 /title/tt10698680/ 168 min  Action, Crime, Drama      
+## 5       4 Spider-Man: No Way Home            2021     5    8.4  86180 /title/tt10872600/ 148 min  Action, Adventure, Fantasy
+## 6       5 Dune                               2021     6    8.1 613257 /title/tt1160419/  155 min  Action, Adventure, Drama</code></pre>
+<pre><code>## [1] 0</code></pre>
+<pre><code>##     Column1      movie_title             year          place           rating           vote               link             duration        
+##  Min.   :  0.0   Length:700         Min.   :1920   Min.   :  1.0   Min.   :7.600   Min.   :        1   Length:700         Length:700        
+##  1st Qu.:174.8   Class :character   1st Qu.:1982   1st Qu.:175.8   1st Qu.:7.700   1st Qu.:   120750   Class :character   Class :character  
+##  Median :349.5   Mode  :character   Median :2000   Median :350.5   Median :7.900   Median :   530619   Mode  :character   Mode  :character  
+##  Mean   :349.5                      Mean   :1994   Mean   :350.5   Mean   :7.972   Mean   : 38505462                                        
+##  3rd Qu.:524.2                      3rd Qu.:2011   3rd Qu.:525.2   3rd Qu.:8.100   3rd Qu.: 27097079                                        
+##  Max.   :699.0                      Max.   :2022   Max.   :700.0   Max.   :9.300   Max.   :936662225                                        
+##     genre          
+##  Length:700        
+##  Class :character  
+##  Mode  :character  
+##                    
+##                    
+## </code></pre>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+</div>
+<div id="movie-data-from-douban" class="section level4 hasAnchor" number="4.0.0.2">
+<h4><span class="header-section-number">4.0.0.2</span> movie data from douban<a href="missing-values.html#movie-data-from-douban" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<pre><code>## # A tibble: 6 x 12
+##    ...1 Name                        Type                           Duration  Year Director         Actor   Language Reviews  Rank Country Century
+##   &lt;dbl&gt; &lt;chr&gt;                       &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
+## 1     0 The Shawshank Redemption    Crime / Drama                       142  1994 Frank Darabont   Tim Ro~ English  2610384   9.7 USA        20.9
+## 2     1 Farewell My Concubine       Drama / Romance / Gay               171  1993 Chen Kaige       Leslie~ Mandarin 1938287   9.6 Mainla~    20.9
+## 3     2 Witness for the Prosecution Drama / Crime / Mystery             116  1957 Billy Wilder     Tyrone~ English   456535   9.6 USA        20.5
+## 4     3 Forrest Gump                Drama / Romance                     142  1994 Robert Zemeckis  Tom Ha~ English  1962283   9.5 USA        20.9
+## 5     4 La vita è bella             Drama / Comedy / Romance / War      116  1997 Roberto Bernini  Robert~ Italian  1205797   9.6 Italy      20.9
+## 6     5 Schindler&#39;s List            Drama / History / War               195  1993 Steven Spielberg Liam N~ English  1005746   9.6 USA        20.9</code></pre>
+<pre><code>## [1] 0</code></pre>
+<pre><code>##       ...1           Name               Type              Duration          Year        Director            Actor             Language        
+##  Min.   :  0.0   Length:1664        Length:1664        Min.   :  1.0   Min.   :1916   Length:1664        Length:1664        Length:1664       
+##  1st Qu.:138.0   Class :character   Class :character   1st Qu.:101.0   1st Qu.:1987   Class :character   Class :character   Class :character  
+##  Median :277.0   Mode  :character   Mode  :character   Median :114.0   Median :2002   Mode  :character   Mode  :character   Mode  :character  
+##  Mean   :277.6                                         Mean   :118.7   Mean   :1996                                                           
+##  3rd Qu.:416.0                                         3rd Qu.:130.0   3rd Qu.:2012                                                           
+##  Max.   :588.0                                         Max.   :450.0   Max.   :2022                                                           
+##     Reviews             Rank         Country             Century     
+##  Min.   :   1048   Min.   :7.400   Length:1664        Min.   :20.10  
+##  1st Qu.:  13340   1st Qu.:8.200   Class :character   1st Qu.:20.80  
+##  Median :  42917   Median :8.400   Mode  :character   Median :21.00  
+##  Mean   : 157159   Mean   :8.461                      Mean   :20.91  
+##  3rd Qu.: 172482   3rd Qu.:8.700                      3rd Qu.:21.10  
+##  Max.   :2610384   Max.   :9.700                      Max.   :21.20</code></pre>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>From the above results, we find there exists no missing pattern in both datasets. This is mostly because we captured the data we need through web crapping from the websites pages by pages dynamically, from which the missing values were all removed inside the loops since they have no text values.</p>
 
+</div>
 </div>
             </section>
 
