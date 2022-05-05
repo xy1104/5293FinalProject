@@ -1,27 +1,39 @@
 # Missing values
 
-## Movie data from IMDB
+## movie data from IMDB
 ```{r}
 library(tidyverse)
 library(redav)
 library(ggplot2)
+```
+
+*Top five rows for a brief view on IMDB dataset*
+```{r}
 # imdb
 movie_IMDB = read_csv("movie_IMDB.csv")
 head(movie_IMDB)
-
+```
+*Check the sum of missing value*
+```{r}
 # check the sum of missing value
 sum(is.na(movie_IMDB))
-
+```
+*Provides summary statistics on the columns of the data frame, this will also give details on missing values for each column*
+```{r}
 # provides summary statistics on the columns of the data frame, this will also give details on missing values for each column
 summary(movie_IMDB)
+```
 
-# visualise the number of missings in cases using plot_missing from redav
+*visualize the number of missing intuitively and clearly using plot_missing from redav*
+```{r}
+# visualize the number of missing using plot_missing from redav
 # rows and columns sorted by number missing
 plot_missing(movie_IMDB, percent = FALSE)
 
 ```
 
-## Movie data from douban
+## Movie data from Douban
+*Top five rows for a brief view on IMDB dataset*
 ```{r}
 # douban movie
 movie_high= read_csv("movie_high.csv")
@@ -30,14 +42,21 @@ movie_low= read_csv("movie_low.csv")
 movie_douban = rbind(movie_high,movie_median)
 movie_douban = rbind(movie_douban,movie_low)
 head(movie_douban)
-
+```
+*Check the sum of missing value*
+```{r}
 # check the sum of missing value
 sum(is.na(movie_douban))
-
+```
+*Provides summary statistics on the columns of the data frame, this will also give details on missing values for each column*
+```{r}
 # provides summary statistics on the columns of the data frame, this will also give details on missing values for each column
 summary(movie_douban)
+```
 
-# visualise the number of missings in cases using plot_missing from redav
+*visualize the number of missing intuitively and clearly using plot_missing from redav*
+```{r}
+# visualise the number of missings using plot_missing from redav
 # rows and columns sorted by number missing
 plot_missing(movie_douban, percent = FALSE)
 ```
