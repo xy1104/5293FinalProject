@@ -1,6 +1,6 @@
 # Missing values
 
-#### movie data from IMDB
+## Movie data from IMDB
 ```{r}
 library(tidyverse)
 library(redav)
@@ -21,7 +21,7 @@ plot_missing(movie_IMDB, percent = FALSE)
 
 ```
 
-#### movie data from douban
+## Movie data from douban
 ```{r}
 # douban movie
 movie_high= read_csv("movie_high.csv")

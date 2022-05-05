@@ -1,7 +1,7 @@
 # Data sources
 
 ## Data source:
-we will retrieve data from websites IMDb (America)and douban (China). The data for this report comes from the film data resources.
+We will retrieve data from websites IMDb (America)and douban (China). The data for this report comes from the film data resources.
 Grab and visual analysis of any movie short reviews (hits) as well as their scores from the websites IMDb (America)and douban (China). The data will contain movie IDs, genre, popularity, runtime, vote and other informations. We will do the Data Cleaning first.
 
 ## Collecting Data
