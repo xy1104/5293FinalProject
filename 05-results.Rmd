@@ -188,10 +188,10 @@ movie_DB_GD %>%
   )
 ```
 
-From this Cleveland dot plot, we could observe that:
-1. Notice that there could exist miss-classification or over-classification due to the translation.
-2. The popular movie genres, like Drama, Comedy, Romance, Crime, and Action (top 5 genres in Douban, 5.1.2), would take the appropriate time length. This would be a reason why these genres would be popular for public.
-3. There does exist a relation between duration and genre. More documentary, the movies take more time, which is very intuition.
+From this Cleveland dot plot, we could observe that: \
+1. Notice that there could exist miss-classification or over-classification due to the translation. \
+2. The popular movie genres, like Drama, Comedy, Romance, Crime, and Action (top 5 genres in Douban, 5.1.2), would take the appropriate time length. This would be a reason why these genres would be popular for public. \
+3. There does exist a relation between duration and genre. More documentary, the movies take more time, which is very intuition. \
 
 
 From both websites, the plots have some similarities, such that war movies and historical movies, and they need to add a longer time to narrate the politics, economy, culture, social customs, historical background, etc.
@@ -241,8 +241,8 @@ movie_DB_G%>%
 ```
 
 From the above scatter plot with a linear line, we can deduce that: \
-1. As scores are in the range [8,9], the duration of these movies is around 100 mins-140 mins.
-2. For these movies whose rating is greater than 7, the duration is very vary. The highest rating has length around 150 min. However, the time exceed 250 min would have average score around 9 points.
+1. As scores are in the range [8,9], the duration of these movies is around 100 mins-140 mins.\
+2. For these movies whose rating is greater than 7, the duration is very vary. The highest rating has length around 150 min. However, the time exceed 250 min would have average score around 9 points.\
 
 Rich story lines and long stories may also be an easy way to affect the audience, with the properly duration.
 
